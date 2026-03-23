@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# UI (Node/Frontend)
+ui/node_modules/
+ui/dist/
+ui/dist-ssr/
+ui/*.local
+ui/.vscode/*
+!ui/.vscode/extensions.json
+ui/.idea
+ui/.DS_Store
+ui/*.suo
+ui/*.ntvs*
+ui/*.njsproj
+ui/*.sln
+ui/*.sw?
+
+# Data & Models
+models/
+
+# General
+.DS_Store
+.vscode/
+.idea/

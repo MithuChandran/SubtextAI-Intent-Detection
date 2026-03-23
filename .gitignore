@@ -1,0 +1,19 @@
+# Models (Hosted on Hugging Face Model Hub instead)
+models/
+intent30_text_emoji_weighted/
+intent30_text_only_baseline/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node / UI
+node_modules/
+ui/dist/
+ui/.env
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1107 @@
+source_id,split,text,emoji,label,intent_label,dissonance_label
+dev:2:0,dev,hey. don't distract jonah.,⚠️,Prevent,Prevent,Medium
+dev:2:1,dev,"go collect the clothes from the dressing rooms, then fold them, hang them, put them on the racks, and i'll come show you how to scrub down the bathrooms.",🗓️,Arrange,Arrange,Low
+dev:2:2,dev,lose the attitude. go.,📅,Arrange,Arrange,Low
+dev:2:4,dev,i feel like i barely did anything my first day.,😤,Complain,Complain,High
+dev:2:5,dev,she just has such an attitude since the divorce.,💡,Explain,Explain,Low
+dev:2:6,dev,that's why i'm making her work here.,📖,Explain,Explain,Low
+dev:2:8,dev,"and you're not worried that if you're too hard on her, adam gets to be the good guy?",😕,Doubt,Doubt,Medium
+dev:2:9,dev,what? no.,🙅,Oppose,Oppose,High
+dev:2:12,dev,and that was something you wanted?,👌,Confirm,Confirm,Low
+dev:2:13,dev,"although that might be because he doesn't send me long, pointless texts about book club.",💡,Explain,Explain,Low
+dev:2:14,dev,we just break their spirit so the world doesn't.,📖,Explain,Explain,Low
+dev:2:15,dev,huh.,✅,Acknowledge,Acknowledge,Low
+dev:2:16,dev,got it. i'll just find out on reddit.,🗺️,Plan,Plan,Low
+dev:33:0,dev,it's been brought to my attention that there has been some bullying in the store.,ℹ️,Inform,Inform,Low
+dev:33:1,dev,"i have spoken to the person responsible, but i would like to remind everybody that cloud 9 has a zero tolerance policy against bullying of anyone under any circumstance.",📝,Inform,Inform,Low
+dev:33:4,dev,"okay, can we just forget about hitler?",💡,Advise,Advise,Low
+dev:33:5,dev,"no, we can't ever forget about hitler.",👎,Oppose,Oppose,High
+dev:33:6,dev,"okay, bullying's not just beating people up.",💡,Explain,Explain,Low
+dev:33:7,dev,it's--it's any behavior that's hostile or intimidating.,👋,Introduce,Introduce,Low
+dev:33:12,dev,"okay, i meant other examples of bullying, not name-calling.",💡,Explain,Explain,Low
+dev:33:14,dev,how about being excluded socially?,✅,Confirm,Confirm,Low
+dev:33:15,dev,"sure, especially if they're purposely targeting an individual.",❗,Emphasize,Emphasize,Low
+dev:33:16,dev,"yes, that is bullying, sandra.",🤝,Agree,Agree,Low
+dev:34:0,dev,you really got this firing thing down.,🌟,Praise,Praise,Low
+dev:34:1,dev,i think he's gonna make a fine associate.,👏,Praise,Praise,Low
+dev:34:2,dev,"stop. ow, you're breaking my arm.",🛑,Prevent,Prevent,Medium
+dev:44:0,dev,that one's my favorite.,👋,Introduce,Introduce,Low
+dev:44:2,dev,thanks.,💛,Thank,Thank,Low
+dev:44:4,dev,"uh-huh, that's great. um...",🌟,Praise,Praise,Low
+dev:44:5,dev,how about a kitty cat?,🧠,Advise,Advise,Low
+dev:44:8,dev,i'm so sick of basic people.,🙄,Complain,Complain,High
+dev:44:9,dev,"not you, your mom.",📖,Explain,Explain,Low
+dev:44:10,dev,"no, my cousin is getting married in the philippines, and literally everyone i know is going except for me.",😮‍💨,Complain,Complain,High
+dev:44:11,dev,"aw, you should totally go.",🧠,Advise,Advise,Low
+dev:44:12,dev,"i can't exactly leave the country, remember?",😮‍💨,Complain,Complain,High
+dev:44:13,dev,"oh, right, because you're...",✅,Agree,Agree,Low
+dev:44:14,dev,do you know what  undocumented  means?,❓,Asking for opinions,Asking for opinions,Low
+dev:44:15,dev,because you're undocumented.,📖,Explain,Explain,Low
+dev:44:16,dev,this is so unfair.,🙄,Complain,Complain,High
+dev:66:0,dev,"come on, i don't know if it's a bulb or a stripped wire.",😮‍💨,Complain,Complain,High
+dev:66:2,dev,"my grandmother would kill me for saying this, make such a big deal out of christmas.",😏,Taunt,Taunt,High
+dev:66:3,dev,christmas is pretty disappointing and overhyped.,😤,Complain,Complain,High
+dev:66:5,dev,it's about looking back on the year we shared and celebrating it.,📖,Explain,Explain,Low
+dev:66:6,dev,"yeah, let's celebrate the year a tornado hit the store.",😏,Taunt,Taunt,High
+dev:66:7,dev,my entire apartment got destroyed.,🙄,Complain,Complain,High
+dev:66:8,dev,my boyfriend wound up in a coma.,😮‍💨,Complain,Complain,High
+dev:66:11,dev,"i feel like i can get wilder. oh, god.",😎,Flaunt,Flaunt,Medium
+dev:66:12,dev,"no. i mean, maybe.",👎,Oppose,Oppose,High
+dev:66:13,dev,"i don't know. i just mean, like...",💬,Explain,Explain,Low
+dev:66:14,dev,there's just no way you're doing any of that.,⛔,Oppose,Oppose,High
+dev:66:15,dev,"you guys can call me  craymie.  uh, no, thanks.",🤣,Joke,Joke,Low
+dev:68:1,dev,"it's so christmas, huh?",👏,Praise,Praise,Low
+dev:68:2,dev,but i'm actually trying to limit my carbs right now.,⚠️,Prevent,Prevent,Medium
+dev:68:3,dev,so just-just try it.,🍽️,Invite,Invite,Low
+dev:87:0,dev,"hey, um, i might need a ride home later today.",🚨,Ask for help,Ask for help,Low
+dev:87:1,dev,do you happen to know where kelly lives?,🥺,Ask for help,Ask for help,Low
+dev:87:4,dev,"okay, yeah, great.",✅,Acknowledge,Acknowledge,Low
+dev:87:6,dev,"you know, it hasn't actually been that long.",💡,Explain,Explain,Low
+dev:87:7,dev,"jonah, relax. it's fine.",🫐,Comfort,Comfort,Low
+dev:87:8,dev,i think it's great. it's great.,🏆,Praise,Praise,Low
+dev:87:11,dev,"i just mean, like,  ah, i can't peel this orange.  it's not exactly a ted talk.",😏,Taunt,Taunt,High
+dev:87:12,dev,i like her videos.,🏆,Praise,Praise,Low
+dev:87:13,dev,you're just jealous.,😑,Criticize,Criticize,High
+dev:87:14,dev,"uh, someone's flattering himself.",🙄,Taunt,Taunt,High
+dev:87:15,dev,"no, i meant jealous that everybody loves her videos.",💡,Explain,Explain,Low
+dev:87:16,dev,"yeah, i know that's what you meant.",✅,Acknowledge,Acknowledge,Low
+dev:87:18,dev,"oh, she filmed herself microwaving ramen and she got 100 people to view it.",😏,Taunt,Taunt,High
+dev:87:19,dev,fine. then do it.,✅,Acknowledge,Acknowledge,Low
+dev:87:20,dev,"okay, well then, you're on, and i hope you like dead rats.",😏,Taunt,Taunt,High
+dev:87:21,dev,me winning bets.,💸,Flaunt,Flaunt,Medium
+dev:92:0,dev,hello. glenn sturgis speaking.,✨,Greet,Greet,Low
+dev:92:1,dev,"well, hello, mr. nestle.",👋,Greet,Greet,Low
+dev:92:2,dev,trace this call.,📅,Arrange,Arrange,Low
+dev:92:3,dev,"yeah, i don't have that technology.",👎,Oppose,Oppose,High
+dev:92:4,dev,"okay, well, thank you for calling to tell us.",💛,Thank,Thank,Low
+dev:92:5,dev,are you tracing this call?,✅,Confirm,Confirm,Low
+dev:92:6,dev,his name's mateo.,📛,Introduce,Introduce,Low
+dev:92:7,dev,and i think he's a real dummy!,🤨,Criticize,Criticize,High
+dev:92:8,dev,a class a stinker!,🤨,Criticize,Criticize,High
+dev:92:11,dev,"mr. sturgis, i need to get back to work.",📝,Inform,Inform,Low
+dev:92:12,dev,"uh, okay, then.",👌,Acknowledge,Acknowledge,Low
+dev:92:16,dev,lost the trace.,ℹ️,Inform,Inform,Low
+dev:105:0,dev,"oh, dina. you're three hours early.",✨,Greet,Greet,Low
+dev:105:3,dev,"well, i mean, i'm yours. you're my number four.",📖,Explain,Explain,Low
+dev:105:5,dev,come on in.,🍽️,Invite,Invite,Low
+dev:105:7,dev,why don't you tackle the walls?,🧠,Advise,Advise,Low
+dev:105:9,dev,there's no smell. it smells like a regular house.,👎,Oppose,Oppose,High
+dev:105:14,dev,"yeah, no, i'm not wearing sweats to my party.",⛔,Oppose,Oppose,High
+dev:105:15,dev,"okay, why don't you go change?",☝️,Advise,Advise,Low
+dev:105:16,dev,and i will do a quick vibrator sweep.,📋,Plan,Plan,Low
+dev:132:0,dev,"i can't shower in the mornings because cliff, in the adjoining trailer, only takes baths.",😮‍💨,Complain,Complain,High
+dev:132:2,dev,"oh, i-i thought you said something.",💡,Explain,Explain,Low
+dev:132:3,dev,i didn't say anything.,🙅,Oppose,Oppose,High
+dev:145:0,dev,no talking during  game of thrones.  no cooking fish.,🚨,Warn,Warn,Medium
+dev:145:1,dev,and leave me out of your coffee-making process.,🚨,Warn,Warn,Medium
+dev:145:3,dev,"i do not like fragrant soaps, on wednesday, my black friends come over, so do not be around.",⚠️,Warn,Warn,Medium
+dev:165:0,dev,you should go with this one.,☝️,Advise,Advise,Low
+dev:165:1,dev,it's 4k.,📛,Introduce,Introduce,Low
+dev:165:2,dev,"oh, um, 4k televisions have 8.3 megapixels.",🤝,Introduce,Introduce,Low
+dev:165:3,dev,"wow. okay, i'll take it.",🤝,Agree,Agree,Low
+dev:165:4,dev,it has all of the channels.,👋,Introduce,Introduce,Low
+dev:167:0,dev,"okay, as soon as we hit $80,000, drop the balloons, hit the music, get a candid picture of me celebrating with everybody to send to corporate.",🗓️,Arrange,Arrange,Low
+dev:167:1,dev,music and balloons with no dancers?,✅,Confirm,Confirm,Low
+dev:167:2,dev,"jeff. uh, new hat?",😊,Greet,Greet,Low
+dev:167:3,dev,yeah. i splurged.,💎,Flaunt,Flaunt,Medium
+dev:167:5,dev,"well, but earlier you said it would be better.",😕,Doubt,Doubt,Medium
+dev:167:6,dev,that sounds amazing.,👏,Praise,Praise,Low
+dev:167:7,dev,right.,👌,Acknowledge,Acknowledge,Low
+dev:167:8,dev,is there any possibility that it could maybe get worse?,🤔,Doubt,Doubt,Medium
+dev:167:9,dev,"you know what, there's a lot of liars out there, okay?",⚠️,Warn,Warn,Medium
+dev:167:11,dev,and don't believe everything you hear.,🚨,Warn,Warn,Medium
+dev:167:12,dev,that's why it's a paradox.,💬,Explain,Explain,Low
+dev:167:13,dev,believe me. it's gonna be great.,💛,Comfort,Comfort,Low
+dev:167:14,dev,trust me.,🏃,Leave,Leave,Low
+dev:167:15,dev,"man, i can't wait for it to be great.",👏,Praise,Praise,Low
+dev:176:0,dev,i can't let you buy these.  why?,⚠️,Prevent,Prevent,Medium
+dev:176:1,dev,"it's been recalled, sorry.",😔,Apologise,Apologise,Low
+dev:176:2,dev,"all right, now it's buzzing at me like it's mad at me.",🙄,Complain,Complain,High
+dev:187:0,dev,mermaid treasure for the treasure hunt.,🤝,Introduce,Introduce,Low
+dev:187:1,dev,"like, human garbage would be treasure to them.",📖,Explain,Explain,Low
+dev:187:4,dev,they didn't go extinct.,🙅,Oppose,Oppose,High
+dev:187:5,dev,i don't think so.,🙅,Oppose,Oppose,High
+dev:187:7,dev,"no, i believe in evolution.",👎,Oppose,Oppose,High
+dev:187:8,dev,i'm just saying it's make believe--it's like unicorns.,💥,Emphasize,Emphasize,Low
+dev:187:9,dev,we don't know that there were never unicorns.,⛔,Oppose,Oppose,High
+dev:187:10,dev,i read that we discover like 50 new species of frogs each year.,👋,Introduce,Introduce,Low
+dev:187:15,dev,"no, you don't.",⛔,Oppose,Oppose,High
+dev:187:16,dev,"yeah, i do.",🙅,Oppose,Oppose,High
+dev:187:17,dev,i used to think kangaroos were real.,📝,Inform,Inform,Low
+dev:202:0,dev,we're not sleeping together.,⛔,Oppose,Oppose,High
+dev:202:1,dev,that was just a negotiation tactic with glenn.,💬,Explain,Explain,Low
+dev:202:2,dev,"oh, right.",🤝,Acknowledge,Acknowledge,Low
+dev:202:3,dev,of course. smart.,🌟,Praise,Praise,Low
+dev:202:4,dev,"dina, i'd like you to meet my new surrogate.",📛,Introduce,Introduce,Low
+dev:202:5,dev,she's ready to rock.,ℹ️,Inform,Inform,Low
+dev:202:6,dev,"isn't that right, sandra?",🤝,Confirm,Confirm,Low
+dev:202:7,dev,"yeah, i'm really excited.",🤝,Agree,Agree,Low
+dev:202:8,dev,"and i have no problem signing all the paperwork, so let's do it.",📢,Inform,Inform,Low
+dev:202:9,dev,you are gonna leave your baby at the mercy of a person whose judgment is so bad she moved from hawaii to st. louis?,🤡,Taunt,Taunt,High
+dev:202:10,dev,"yes, i am.",👍,Agree,Agree,Low
+dev:202:12,dev,"that was just foreplay, all right?",📛,Introduce,Introduce,Low
+dev:202:13,dev,we're about to get this thing going!,📢,Inform,Inform,Low
+dev:202:14,dev,"sandra, lift your shirt.",🗓️,Arrange,Arrange,Low
+dev:202:15,dev,"marcus, take off your shirt!",📅,Arrange,Arrange,Low
+dev:202:17,dev,"you both know what you're doing, so stop pretending!",🛑,Prevent,Prevent,Medium
+dev:202:19,dev,of course i don't want to use sandra.,🤝,Agree,Agree,Low
+dev:202:20,dev,who would want to use sandra?,😤,Complain,Complain,High
+dev:202:21,dev,fine with me.,👍,Agree,Agree,Low
+dev:202:22,dev,all right.,✅,Acknowledge,Acknowledge,Low
+dev:209:0,dev,"so, word on the street is you are horny and looking for love.",🤝,Confirm,Confirm,Low
+dev:209:2,dev,"shh, shh, look, here's what we're gonna do.",☝️,Advise,Advise,Low
+dev:209:4,dev,i will quit right now. no.,📢,Inform,Inform,Low
+dev:216:0,dev,attention cloud 9 shoppers.,📝,Inform,Inform,Low
+dev:216:1,dev,roma tomatoes are now $2.99 a pound.,ℹ️,Inform,Inform,Low
+dev:216:2,dev,that's for sure.,👌,Acknowledge,Acknowledge,Low
+dev:238:0,dev,"hey, sandra.",👋,Greet,Greet,Low
+dev:238:1,dev,no one cares. you're not special.,😑,Criticize,Criticize,High
+dev:238:2,dev,this is ridiculous.,🙄,Complain,Complain,High
+dev:244:1,dev,this is just a witch's broom. why would they recall this?,🤔,Doubt,Doubt,Medium
+dev:244:2,dev,"oh, i remember this. here.",🤝,Introduce,Introduce,Low
+dev:244:3,dev,"oh, oh, i see it, got it, good recall.",👌,Acknowledge,Acknowledge,Low
+dev:244:4,dev,"that's very funny, but i can't--i need your help.",🚨,Ask for help,Ask for help,Low
+dev:244:5,dev,stop!,⚠️,Prevent,Prevent,Medium
+dev:244:9,dev,that's enough of that.,🛑,Prevent,Prevent,Medium
+dev:244:10,dev,we actually drank these in the parking lot at the end of my first day here.,🤝,Introduce,Introduce,Low
+dev:244:11,dev,"oh, yeah, i remember that. god, that was a long time ago.",✅,Agree,Agree,Low
+dev:244:13,dev,"i just thought you were like, naive and useless..",🤔,Criticize,Criticize,High
+dev:244:14,dev,"oh, okay, wow. i can take that.",✅,Agree,Agree,Low
+dev:244:15,dev,uh-huh.,👌,Acknowledge,Acknowledge,Low
+dev:244:18,dev,ah.,👌,Acknowledge,Acknowledge,Low
+dev:281:0,dev,"okay, so, i'm the one who's been stealing the shopping carts, uh, but they're not for me.",ℹ️,Inform,Inform,Low
+dev:281:4,dev,i've been smoking weed in the stock room on wednesdays and fridays.,📢,Inform,Inform,Low
+dev:281:5,dev,right under our noses. how awful.,😮‍💨,Complain,Complain,High
+dev:281:6,dev,"and on mondays and thursdays, i just drink.",ℹ️,Inform,Inform,Low
+dev:281:8,dev,i stole a pack of sour cherry bubblicious.,ℹ️,Inform,Inform,Low
+dev:281:12,dev,nice.,🌟,Praise,Praise,Low
+dev:281:17,dev,what is happening in this store?,🙄,Complain,Complain,High
+dev:281:18,dev,"now, you just keep that same face right there...",📅,Arrange,Arrange,Low
+dev:281:19,dev,that is going on my wall right next to the picture of me with the guy who played balki.,📋,Plan,Plan,Low
+dev:288:0,dev,thank you all very much for this going away party.,💛,Thank,Thank,Low
+dev:288:1,dev,"i'm sorry, did you bring champagne for one person?",🤝,Confirm,Confirm,Low
+dev:288:2,dev,"in a way, this is a celebration of us reuniting.",📝,Inform,Inform,Low
+dev:288:5,dev,"frankly, i think this is a mismatch.",🤔,Criticize,Criticize,High
+dev:288:7,dev,"hey, why don't we all go around and tell our favorite jeff story?",🧠,Advise,Advise,Low
+dev:288:10,dev,"i'm going to need that back, actually.",📋,Plan,Plan,Low
+dev:288:11,dev,"even though we never actually dated, i spent several months telling people we did.",😜,Joke,Joke,Low
+dev:288:16,dev,"whoo, what a trip down memory lane, huh?",🏆,Praise,Praise,Low
+dev:288:22,dev,"so uh, hope you're ready for some competition.",🤣,Joke,Joke,Low
+dev:288:24,dev,i'll clean your clock with arm and hammer.,🤣,Joke,Joke,Low
+dev:290:2,dev,"sorry, dealing with some false advertising there.",🥺,Apologise,Apologise,Low
+dev:290:5,dev,"garrett, i'm sorry, i can't deal with this right now.",🙏,Apologise,Apologise,Low
+dev:290:7,dev,sorry. hmm.,🥺,Apologise,Apologise,Low
+dev:290:8,dev,"uh, well, you know, jeff offered me a job at target for a dollar more an hour.",ℹ️,Inform,Inform,Low
+dev:290:9,dev,but you don't have to worry about it.,🥹,Comfort,Comfort,Low
+dev:290:10,dev,because i told him that you would probably match it.,💡,Explain,Explain,Low
+dev:290:11,dev,that bald little weasel!,🤔,Criticize,Criticize,High
+dev:290:14,dev,"oh, hi jeff, it's glenn sturgis from cloud 9.",👋,Introduce,Introduce,Low
+dev:290:15,dev,"we need to talk face to face, at your earliest convenience.",📩,Invite,Invite,Low
+dev:293:0,dev,"thank you for coming in, jeff.",🙏,Thank,Thank,Low
+dev:293:4,dev,"but if you start trying to pooch my people, then we are going to have a problem.",🚨,Warn,Warn,Medium
+dev:293:5,dev,did you mean  poach?,✅,Confirm,Confirm,Low
+dev:293:7,dev,because you're not my boss anymore.,📖,Explain,Explain,Low
+dev:293:8,dev,"you're just another schmo, like me, down here in the dirt with the rest of us.",😏,Taunt,Taunt,High
+dev:293:9,dev,"you don't like it, do you?",✅,Confirm,Confirm,Low
+dev:293:12,dev,"stop spraying me with the bottle, i'm not lying!",🤨,Criticize,Criticize,High
+dev:293:14,dev,one more time.,🛑,Warn,Warn,Medium
+dev:293:15,dev,spray me one more time.,🚨,Warn,Warn,Medium
+dev:293:16,dev,you want to poach? let's poach.,⚠️,Warn,Warn,Medium
+dev:293:17,dev,"what, no, i don't want to poach.",🙅,Oppose,Oppose,High
+dev:296:1,dev,glenn asked you to do a display?,👌,Confirm,Confirm,Low
+dev:296:3,dev,"yeah, yeah, yeah, that's probably it.",👌,Acknowledge,Acknowledge,Low
+dev:299:2,dev,"well, you can tell me on your first day, then.",🎉,Invite,Invite,Low
+dev:299:3,dev,how would you like to work at the cloud 9 on ozark highlands?,🎉,Invite,Invite,Low
+dev:299:5,dev,isn't that the store where they found a foot?,👌,Confirm,Confirm,Low
+dev:299:12,dev,"no, i'm going to stay here, because--",🤷,Refuse,Refuse,Low
+dev:299:13,dev,"hey, excuse me, miss.",👋,Greet,Greet,Low
+dev:299:14,dev,"hi, glenn.",👋,Greet,Greet,Low
+dev:299:15,dev,"sup, cheyenne.",👋,Greet,Greet,Low
+dev:299:17,dev,"if you needed a raise, why didn't you come see me?",💡,Advise,Advise,Low
+dev:299:18,dev,"i mean, i have a discretionary fund.",📖,Explain,Explain,Low
+dev:299:22,dev,"nope, not one. i checked.",🙅,Oppose,Oppose,High
+dev:321:0,dev,this red area here represents all the money the store spends on utilities.,📛,Introduce,Introduce,Low
+dev:321:1,dev,"amy, that is a big slice of pie.",👏,Praise,Praise,Low
+dev:321:3,dev,"i mean, i couldn't finish that.",📖,Explain,Explain,Low
+dev:321:4,dev,"but when the store shifts over to led and motion sensors, then something happens to that slice of pie.",🤝,Introduce,Introduce,Low
+dev:321:5,dev,next slide. mm.,📅,Arrange,Arrange,Low
+dev:321:6,dev,that slice gets a lot smaller.,🤝,Introduce,Introduce,Low
+dev:321:8,dev,"i'm sorry, was that the donkey from  shrek?",✅,Confirm,Confirm,Low
+dev:321:11,dev,"that, i have to admit, is very impressive.",👏,Praise,Praise,Low
+dev:321:12,dev,"oh, i just--i'm sorry. i can't justify keeping her.",🙏,Apologise,Apologise,Low
+dev:321:14,dev,"very impressive, though, and very good work.",🏆,Praise,Praise,Low
+dev:321:15,dev,i got my eye on you guys.,🚪,Leave,Leave,Low
+dev:328:0,dev,"you know, if you buy just one more scarf, you get a free other scarf.",👋,Introduce,Introduce,Low
+dev:328:1,dev,um...,✅,Acknowledge,Acknowledge,Low
+dev:335:0,dev,"hey, feel like getting some lunch?",🎉,Invite,Invite,Low
+dev:335:1,dev,"oh, no, i'm not really hungry.",🚫,Refuse,Refuse,Low
+dev:335:2,dev,people aren't buying anything anymore.,🙄,Complain,Complain,High
+dev:335:3,dev,"earlier i was selling a lot, but now people are returning things.",🙄,Complain,Complain,High
+dev:335:6,dev,i just can't help but kind of feel like a failure as a woman.,😮‍💨,Complain,Complain,High
+dev:335:7,dev,"you know, my lady parts are all dried up.",😤,Complain,Complain,High
+dev:335:8,dev,my hair won't hold a perm.,🙄,Complain,Complain,High
+dev:335:9,dev,when is it jerusha's turn?,🙄,Complain,Complain,High
+dev:335:10,dev,"oh, come on.",🫐,Comfort,Comfort,Low
+dev:335:11,dev,it'll be fine. sales will pick up.,💛,Comfort,Comfort,Low
+dev:335:12,dev,"i mean, people love your scarves.",💛,Comfort,Comfort,Low
+dev:335:14,dev,"no, the--the same.",👎,Oppose,Oppose,High
+dev:335:15,dev,"look, it'll get better. i promise.",🥹,Comfort,Comfort,Low
+dev:358:0,dev,"so, i just managed to get us a reservation tonight at the italian place with the irish name that you love.",ℹ️,Inform,Inform,Low
+dev:358:2,dev,"it wasn't easy, by the way. they don't have a host that takes reservations, so i had to track down the owner at a spin class.",💡,Explain,Explain,Low
+dev:369:0,dev,"it has a mouth! oh, great.",👏,Praise,Praise,Low
+dev:369:1,dev,nobody does a fail video quite like a russian.,🙄,Taunt,Taunt,High
+dev:369:2,dev,"dina, take a look. it's perfect.",🏆,Praise,Praise,Low
+dev:369:3,dev,okay.,✅,Acknowledge,Acknowledge,Low
+dev:376:1,dev,"oh, you've got to be kidding me.",🙄,Complain,Complain,High
+dev:386:0,dev,"oh, hey, amy. i need your advice.",🚨,Ask for help,Ask for help,Low
+dev:386:1,dev,"yeah, right now's not the best time--",🙅,Refuse,Refuse,Low
+dev:386:2,dev,"yeah, i want to surprise jerusha with some baby stuff at the party that can work for a boy or girl.",🗺️,Plan,Plan,Low
+dev:399:0,dev,i might do it again sometime.,📋,Plan,Plan,Low
+dev:399:2,dev,excuse me.,🚨,Ask for help,Ask for help,Low
+dev:399:3,dev,where can i find the dog food?,🙋,Ask for help,Ask for help,Low
+dev:401:0,dev,you can't just not talk to me.,🤔,Criticize,Criticize,High
+dev:401:1,dev,i'm not not talking to you.,👎,Oppose,Oppose,High
+dev:401:2,dev,i just don't want to talk about yesterday.,📖,Explain,Explain,Low
+dev:401:5,dev,"uh, okay.",✅,Acknowledge,Acknowledge,Low
+dev:401:6,dev,i got two minutes until my break. go.,📝,Inform,Inform,Low
+dev:401:10,dev,"hi, adam.",✨,Greet,Greet,Low
+dev:401:11,dev,"hey, adam. uh, congratulations.",😊,Greet,Greet,Low
+dev:401:12,dev,"thanks, man.",🙏,Thank,Thank,Low
+dev:401:13,dev,congratulations on what?,😕,Doubt,Doubt,Medium
+dev:401:14,dev,uh. so what are you doing here?,🛡️,Care,Care,Low
+dev:401:15,dev,you left a message saying we needed to talk in person.,📖,Explain,Explain,Low
+dev:401:16,dev,"i meant, like, after work.",📖,Explain,Explain,Low
+dev:401:17,dev,you said it was urgent. i needed batteries anyways.,💬,Explain,Explain,Low
+dev:401:18,dev,so i thought since you get a discount.,💡,Explain,Explain,Low
+dev:401:19,dev,"well, i can't really use my discount on friends, so--",🚫,Refuse,Refuse,Low
+dev:401:21,dev,"yo, amy. i left that baby stuff by your locker.",📝,Inform,Inform,Low
+dev:401:22,dev,that guy's got great timing.,🏆,Praise,Praise,Low
+dev:401:23,dev,"no, don't worry. it's--it's yours.",💛,Comfort,Comfort,Low
+dev:401:24,dev,"okay, good. what?",🤨,Doubt,Doubt,Medium
+dev:401:25,dev,yep. surprise.,🤝,Agree,Agree,Low
+dev:401:26,dev,i'm sorry. how did this even--,😕,Doubt,Doubt,Medium
+dev:401:30,dev,"this is--this is alex, our beverage rep.",🤝,Introduce,Introduce,Low
+dev:401:31,dev,"or i mean, and other things, but we just haven't really discussed labels.",💬,Explain,Explain,Low
+dev:401:32,dev,"no, no, no, no. you're fine where you are.",⚠️,Prevent,Prevent,Medium
+dev:401:34,dev,"no, this is my ex-husband.",👋,Introduce,Introduce,Low
+dev:401:35,dev,and we're having a baby together.,📢,Inform,Inform,Low
+dev:427:0,dev,"hi, i am interested in your decision-making process for new products.",📢,Inform,Inform,Low
+dev:427:3,dev,"i am the founder and ceo of boob cheese, cheese from humans.",👋,Introduce,Introduce,Low
+dev:432:0,dev,so are we okay?,🧡,Care,Care,Low
+dev:432:2,dev,"uh, why don't we just start over?",💡,Advise,Advise,Low
+dev:440:0,dev,look what i found over in menswear.,ℹ️,Inform,Inform,Low
+dev:440:1,dev,a good old pair of american blue jeans pants.,👋,Introduce,Introduce,Low
+dev:440:3,dev,you guys are way too into brunch.,🤡,Taunt,Taunt,High
+dev:440:5,dev,what are you-what are you talking about?,🛡️,Care,Care,Low
+dev:440:9,dev,"are you--mateo, you're an american citizen, right?",✅,Confirm,Confirm,Low
+dev:440:10,dev,"oh, just 'cause i'm asian, i can't be a citizen?",😕,Doubt,Doubt,Medium
+dev:440:11,dev,"no, no, i'm-i'm sorry.",🥺,Apologise,Apologise,Low
+dev:440:12,dev,"it's just that i've read about so many situations where parents bring their kids into the country illegally, and then, you know, they don't even tell them that they're undocumented.",💡,Explain,Explain,Low
+dev:440:14,dev,the...green card store?,🤨,Doubt,Doubt,Medium
+dev:440:15,dev,"yeah, they sell green cards and knockoff handbags and bootleg  spider-man  dvds.",📛,Introduce,Introduce,Low
+dev:453:0,dev,excuse me.,👋,Greet,Greet,Low
+dev:453:1,dev,"hi, i'm jeff sutton. i'm the district manager.",📛,Introduce,Introduce,Low
+dev:453:2,dev,could i see some id?,🤝,Confirm,Confirm,Low
+dev:453:3,dev,you photograph terribly. never model.,🙄,Taunt,Taunt,High
+dev:453:5,dev,"dina fox, assistant manager.",👋,Introduce,Introduce,Low
+dev:453:9,dev,"okay, i'm gonna have to let corporate know about that.",📢,Inform,Inform,Low
+dev:453:11,dev,"no, thank you.",🚫,Prevent,Prevent,Medium
+dev:453:12,dev,no push-ups are necessary today for this.,🛑,Prevent,Prevent,Medium
+dev:453:13,dev,maybe just run outside and grab whoever's in charge and ask them to come in for a meeting?,☝️,Advise,Advise,Low
+dev:453:14,dev,of course.,✅,Agree,Agree,Low
+dev:453:15,dev,"i mean, that's what an assistant manager does, right?",✅,Confirm,Confirm,Low
+dev:453:17,dev,"oh, hi.",✨,Greet,Greet,Low
+dev:454:0,dev,i'm here to talk to the heat.,ℹ️,Inform,Inform,Low
+dev:454:1,dev,district manager jeff sutton wants a meeting.,ℹ️,Inform,Inform,Low
+dev:454:2,dev,"okay, yeah. we'll talk.",👍,Agree,Agree,Low
+dev:454:3,dev,"all right, break room, ten minutes.",📝,Inform,Inform,Low
+dev:454:4,dev,if you're not there by then...,🚨,Warn,Warn,Medium
+dev:454:7,dev,"why not try to get more than glenn's job back, right?",💡,Advise,Advise,Low
+dev:454:9,dev,we're not on strike.,⛔,Oppose,Oppose,High
+dev:454:11,dev,"why not ask for things like-like, uh, better health insurance?",☝️,Advise,Advise,Low
+dev:454:12,dev,"and we don't get paid for overtime, even when we work overtime.",😤,Complain,Complain,High
+dev:454:14,dev,we need to get glenn's job back.,📢,Inform,Inform,Low
+dev:462:0,dev,"hey, how's the rat coming?",🫒,Care,Care,Low
+dev:462:1,dev,i just gotta hook it up to the valve.,🗺️,Plan,Plan,Low
+dev:462:2,dev,"because the news just got here, and i really want us to look professional.",📖,Explain,Explain,Low
+dev:462:3,dev,"i'm gonna have you wait in your car, okay?",🗓️,Arrange,Arrange,Low
+dev:471:0,dev,you stuck it out as long as you could.,🫐,Comfort,Comfort,Low
+dev:471:1,dev,you're one of the good ones.,🏆,Praise,Praise,Low
+dev:471:2,dev,"yeah, it was tough, but principles.",🔥,Emphasize,Emphasize,Low
+dev:476:0,dev,it's just so nice to hear that you actually wanna listen to our concerns.,💛,Thank,Thank,Low
+dev:476:1,dev,i'd just like to take a walk around.,🏃,Leave,Leave,Low
+dev:476:2,dev,observe how things work. we'll meet later and discuss ways that we can all improve.,🚪,Leave,Leave,Low
+dev:476:3,dev,"oh, sorry, did you just say,  we can all  improve?",🤝,Confirm,Confirm,Low
+dev:476:4,dev,"sure, but... everything is a two-way street.",🤝,Agree,Agree,Low
+dev:476:6,dev,"you need both, you know?",☝️,Advise,Advise,Low
+dev:476:8,dev,"yeah, so here's what i'd like to do.",✅,Agree,Agree,Low
+dev:476:11,dev,how about they stop limiting our hours or docking our pay for bathroom breaks?,😤,Complain,Complain,High
+dev:476:12,dev,we are not the ones who need to improve here.,⛔,Oppose,Oppose,High
+dev:476:16,dev,let's do that today.,🗓️,Arrange,Arrange,Low
+dev:476:17,dev,"okay, well, let's just be on our game, okay?",☝️,Advise,Advise,Low
+dev:476:18,dev,"okay, you got it.",👍,Agree,Agree,Low
+dev:476:19,dev,"attention cloud 9 shoppers, beef products from cloud 9 ranch are now 80% off, but maybe ask yourself why we would do that.",📢,Inform,Inform,Low
+dev:480:0,dev,"okay, we need to keep the line moving.",ℹ️,Inform,Inform,Low
+dev:480:2,dev,"uh, you can just say  hangry  now.",😂,Joke,Joke,Low
+dev:480:3,dev,it's a new word. my friend's cousin made it up.,🤝,Introduce,Introduce,Low
+dev:480:4,dev,"i'll take rolls, veggies, and condiments.",🗺️,Plan,Plan,Low
+dev:480:6,dev,"definitely. i'm a quick study, so--",😎,Flaunt,Flaunt,Medium
+dev:480:7,dev,"well, maybe i should do-  marcus, that looks really bad.",🧡,Care,Care,Low
+dev:480:11,dev,you don't know?,🤔,Doubt,Doubt,Medium
+dev:480:12,dev,why don't you check?,🧠,Advise,Advise,Low
+dev:480:13,dev,"we just need to put it in a cold, air-tight container, we'll get it to the hospital, they're reattach it.",🗺️,Plan,Plan,Low
+dev:480:14,dev,mm-hmm.,👌,Acknowledge,Acknowledge,Low
+dev:484:0,dev,"everyone's gonna wanna see photos of the baby, so...",💬,Explain,Explain,Low
+dev:484:1,dev,"okay, quick drive to the hospital.",🗓️,Arrange,Arrange,Low
+dev:493:2,dev,why do you care if people like you?,😕,Doubt,Doubt,Medium
+dev:493:3,dev,"don't try to flip this, okay?",🚫,Prevent,Prevent,Medium
+dev:494:0,dev,i am willing to take that chance.,📢,Inform,Inform,Low
+dev:494:1,dev,do you think i'm a memorable person?,💭,Asking for opinions,Asking for opinions,Low
+dev:494:2,dev,can you please stop asking questions and just go find the thumb?,🥺,Ask for help,Ask for help,Low
+dev:508:1,dev,okay. i got it.,🤝,Acknowledge,Acknowledge,Low
+dev:508:2,dev,i'll clean it up.,📋,Plan,Plan,Low
+dev:508:4,dev,"oh, hey, babe, what's up?",🫒,Care,Care,Low
+dev:516:0,dev,"okay, everybody calm down.",💛,Comfort,Comfort,Low
+dev:516:1,dev,it's just an open carry protest.,📝,Inform,Inform,Low
+dev:516:2,dev,gun owners are just exercising their second amendment rights.,📢,Inform,Inform,Low
+dev:516:4,dev,they are equally as dangerous.,🚨,Warn,Warn,Medium
+dev:516:6,dev,"no, he doesn't get to win.",🤷,Refuse,Refuse,Low
+dev:516:9,dev,"oh, my god, just bang already.",🙄,Complain,Complain,High
+dev:516:11,dev,gross.,😤,Complain,Complain,High
+dev:516:12,dev,"we're all feeling emotional, but we're gonna get through this safely together.",🫐,Comfort,Comfort,Low
+dev:516:13,dev,and then we can go home to our loved ones.,💛,Comfort,Comfort,Low
+dev:516:15,dev,they got the same brain-to-body ratio as humans.,📢,Inform,Inform,Low
+dev:525:0,dev,that's my baby sleeping.,📛,Introduce,Introduce,Low
+dev:525:1,dev,sleeping.,🤝,Introduce,Introduce,Low
+dev:525:3,dev,"oh. oh, my gosh, this next one's kind of funny.",👏,Praise,Praise,Low
+dev:525:4,dev,"especially you, garrett, since your brand is telling it like it is.",🔥,Emphasize,Emphasize,Low
+dev:525:5,dev,"oh, thank you for noticing.",🙏,Thank,Thank,Low
+dev:525:7,dev,no.,⛔,Oppose,Oppose,High
+dev:525:8,dev,i am so sorry.,😔,Apologise,Apologise,Low
+dev:525:9,dev,why do you think he's into you?,😕,Doubt,Doubt,Medium
+dev:525:10,dev,"ooh, jeff is slutty.",🤡,Taunt,Taunt,High
+dev:525:13,dev,"no, that wasn't it.",🙅,Oppose,Oppose,High
+dev:539:1,dev,i gotta stop by the hotel first.,📅,Plan,Plan,Low
+dev:539:3,dev,"so that's-and after that, though, i was gonna hit the new italian place.",📋,Plan,Plan,Low
+dev:539:5,dev,"no, i was just wondering if you wanted to get dinner.",🍽️,Invite,Invite,Low
+dev:539:6,dev,"no, i mean, like, take you out to dinner to the italian place that i just mentioned.",💡,Explain,Explain,Low
+dev:539:7,dev,you're asking me out on a date?,🤝,Confirm,Confirm,Low
+dev:539:8,dev,uh-huh.,🤝,Acknowledge,Acknowledge,Low
+dev:539:13,dev,"sure, why not?",👍,Agree,Agree,Low
+dev:539:14,dev,great.,🏆,Praise,Praise,Low
+dev:539:15,dev,"oh, my god, i cannot wait to tell garrett that i was right about this.",💎,Flaunt,Flaunt,Medium
+dev:556:0,dev,"oh, that's okay.",🫐,Comfort,Comfort,Low
+dev:556:2,dev,"sure, i'll miss you.",🏃,Leave,Leave,Low
+dev:556:3,dev,thanks.,🙏,Thank,Thank,Low
+dev:556:4,dev,you cannot go out with that guy.,📝,Inform,Inform,Low
+dev:556:5,dev,and because he was your teacher.,📖,Explain,Explain,Low
+dev:556:6,dev,do you really need another reason?,😕,Doubt,Doubt,Medium
+dev:556:8,dev,"no, it's terrible.",🙅,Oppose,Oppose,High
+dev:556:10,dev,"i'm probably just a little intimidated by his talent, and his looks, and, you know, his face.",💬,Explain,Explain,Low
+dev:556:11,dev,he's the whole package.,🌟,Praise,Praise,Low
+dev:556:12,dev,"oh, that's really nice of you to say.",🌟,Praise,Praise,Low
+dev:556:14,dev,"i'm sorry, what?",🫒,Care,Care,Low
+dev:556:15,dev,bo doesn't like me?,🤔,Doubt,Doubt,Medium
+dev:556:16,dev,"yeah, he says you're a poser.",🤝,Agree,Agree,Low
+dev:556:18,dev,he really called me a poser?,👌,Confirm,Confirm,Low
+dev:556:19,dev,"yeah, a big one.",✅,Agree,Agree,Low
+dev:569:0,dev,"well, it's halloween, so everything's kind of out of the ordinary.",💡,Explain,Explain,Low
+dev:569:1,dev,it's janet.,💡,Explain,Explain,Low
+dev:576:0,dev,i have to be home in an hour to trick-or-treat with emma.,📋,Plan,Plan,Low
+dev:576:1,dev,don't tell dina.,ℹ️,Inform,Inform,Low
+dev:576:3,dev,smart.,👏,Praise,Praise,Low
+dev:588:0,dev,hey. i'm just reminding everyone to vote.,📝,Inform,Inform,Low
+dev:588:1,dev,we want a 100% employee turnout.,📝,Inform,Inform,Low
+dev:588:2,dev,a lot of people died so you could vote.,📢,Inform,Inform,Low
+dev:588:3,dev,"also, a lot of horses died.",📝,Inform,Inform,Low
+dev:588:5,dev,"oh, i'm not 18 yet.",ℹ️,Inform,Inform,Low
+dev:588:6,dev,"you know, it's funny. i can drink, but i can't vote.",📢,Inform,Inform,Low
+dev:588:7,dev,"well, i'll be definitely getting my vote on.",📢,Inform,Inform,Low
+dev:588:9,dev,"okay, good.",🤝,Acknowledge,Acknowledge,Low
+dev:588:10,dev,"also, voting time is unpaid.",📝,Inform,Inform,Low
+dev:588:11,dev,nobody paid those horses to die.,👋,Leave,Leave,Low
+dev:588:12,dev,"cheyenne, can you keep a secret?",🙋,Ask for help,Ask for help,Low
+dev:588:14,dev,"okay.   a few months ago, i found out that i'm actually undocumented.",📢,Inform,Inform,Low
+dev:588:15,dev,okay.,👌,Acknowledge,Acknowledge,Low
+dev:588:17,dev,it means that i'm an illegal alien.,💬,Explain,Explain,Low
+dev:588:18,dev,"no, i'm-i'm human, who happens to live in the country illegally.",💬,Explain,Explain,Low
+dev:588:19,dev,oh. that's your secret?,🙄,Taunt,Taunt,High
+dev:588:21,dev,wait. you know about that?,🧡,Care,Care,Low
+dev:588:22,dev,"yeah, but don't worry.",🥹,Comfort,Comfort,Low
+dev:588:23,dev,"i only told my baby, and she's not gonna tell anybody.",💛,Comfort,Comfort,Low
+dev:588:25,dev,"oh, you can't just get one of those  i voted  stickers and say that you voted?",🧠,Advise,Advise,Low
+dev:588:26,dev,oh. yeah. right.,🤝,Agree,Agree,Low
+dev:588:27,dev,you are so much smarter than what i tell people.,🌟,Praise,Praise,Low
+dev:588:28,dev,"aww, thank you.",🙏,Thank,Thank,Low
+dev:588:29,dev,"so, do you love jeff?",🧡,Care,Care,Low
+dev:588:30,dev,shut up. i don't know. maybe.,👋,Leave,Leave,Low
+dev:590:0,dev,it's totally slanted.,👋,Introduce,Introduce,Low
+dev:590:1,dev,"they're just pushing the pro-business, anti-worker candidates.",👋,Introduce,Introduce,Low
+dev:590:2,dev,what? a corporation doing something unethical?,😕,Doubt,Doubt,Medium
+dev:590:3,dev,to protect its interests?,🤔,Doubt,Doubt,Medium
+dev:590:7,dev,"hey, marcus?",😊,Greet,Greet,Low
+dev:590:8,dev,"he's pro-freedom and anti-bad guys, and those are two things i can get behind.",💬,Explain,Explain,Low
+dev:590:9,dev,"hey, are we still on for drinks tonight?",🍽️,Invite,Invite,Low
+dev:590:10,dev,"well, we'll figure it out later.",👋,Leave,Leave,Low
+dev:590:12,dev,"no, never mind. it's stupid.",👎,Oppose,Oppose,High
+dev:590:13,dev,"no, i'm gonna say it.",👎,Oppose,Oppose,High
+dev:590:14,dev,we should make our own pamphlet with the truth.,🧠,Advise,Advise,Low
+dev:590:15,dev,ooh.,👌,Acknowledge,Acknowledge,Low
+dev:590:16,dev,a rogue pamphlet?,🤔,Doubt,Doubt,Medium
+dev:590:17,dev,"you're crazy, lady.",🙅,Oppose,Oppose,High
+dev:590:18,dev,"i think that's a great idea, and i have layout experience.",👏,Praise,Praise,Low
+dev:590:20,dev,everyone's busy.,🙄,Complain,Complain,High
+dev:599:2,dev,surprise!,👋,Greet,Greet,Low
+dev:599:3,dev,"oh, hey. hi.",😊,Greet,Greet,Low
+dev:599:4,dev,you said you'd help me pick out some towels.,📖,Explain,Explain,Low
+dev:599:5,dev,"oh, hi. i'm naomi.",✨,Greet,Greet,Low
+dev:599:6,dev,"oh, naomi, this is amy. she's my boss.",🤝,Introduce,Introduce,Low
+dev:599:7,dev,it's nice to meet you.,✨,Greet,Greet,Low
+dev:599:8,dev,you too. as well.,😊,Greet,Greet,Low
+dev:599:9,dev,yeah.,🤝,Acknowledge,Acknowledge,Low
+dev:599:10,dev,naomi works the cheese booth at the farmers market by my house.,👋,Introduce,Introduce,Low
+dev:599:11,dev,"yes, the cheese booth, not the soap booth.",⛔,Oppose,Oppose,High
+dev:599:14,dev,so do you have time now?,📩,Invite,Invite,Low
+dev:599:15,dev,yeah. of course that's cool.,👍,Agree,Agree,Low
+dev:599:16,dev,"wow, a new apartment. a new man.",🏆,Praise,Praise,Low
+dev:599:18,dev,yeah. thanks.,🙏,Thank,Thank,Low
+dev:599:19,dev,okay. all right.,🏃,Leave,Leave,Low
+dev:600:1,dev,rats gave birth in the nacho cheese.,📢,Inform,Inform,Low
+dev:600:2,dev,thank you.,💛,Thank,Thank,Low
+dev:605:1,dev,i thought we should talk about all the stuff that went on today.,💡,Advise,Advise,Low
+dev:605:2,dev,"yeah. actually, i was thinking the same thing.",🤝,Agree,Agree,Low
+dev:612:0,dev,i want you to stop parking in it.,🤔,Criticize,Criticize,High
+dev:612:1,dev,"excuse me. all right, thank you.",🙏,Thank,Thank,Low
+dev:612:2,dev,"okay, everyone. good morning!",😊,Greet,Greet,Low
+dev:612:3,dev,"let's settle down. um, 'tis the season.",📝,Inform,Inform,Low
+dev:612:4,dev,and i'd like to give a permanent welcome to all our new temporary workers in the light blue vests.,📝,Inform,Inform,Low
+dev:612:5,dev,"now, i haven't put all the faces to the names yet, but i do know that you are reggie and--and we now have a black todd.",📝,Inform,Inform,Low
+dev:612:6,dev,"uh, you'll be white todd?",👌,Confirm,Confirm,Low
+dev:612:7,dev,"and, uh, oh, and this sweetheart here is opal, who, at 90 years old, i think is the oldest employee we've ever had.",👋,Introduce,Introduce,Low
+dev:612:8,dev,"oh, and lastly, let's give a big cloud 9 welcome to amy's better half, adam dubanowski.",🤝,Introduce,Introduce,Low
+dev:612:10,dev,"he means amy, not me. i'm not gay.",💡,Explain,Explain,Low
+dev:612:11,dev,"anyway, if you have any questions about amy, come see me.",ℹ️,Inform,Inform,Low
+dev:612:12,dev,i've got all the dirt.,🤣,Joke,Joke,Low
+dev:612:13,dev,"oh, right. sorry, bean.",🙏,Apologise,Apologise,Low
+dev:612:14,dev,"all right, uh, moving on. tornado safety--",ℹ️,Inform,Inform,Low
+dev:612:15,dev,is it because you fart a lot?,😂,Joke,Joke,Low
+dev:612:16,dev,like this gentleman sitting next to me?,😏,Taunt,Taunt,High
+dev:612:17,dev,"it's 'cause i'm small, okay?",💡,Explain,Explain,Low
+dev:612:20,dev,"okay, well, any more questions?",🫒,Care,Care,Low
+dev:615:0,dev,it just kind of makes it hard for me to be the boss.,🙄,Complain,Complain,High
+dev:615:1,dev,"yeah, sure. no problem.",✅,Agree,Agree,Low
+dev:615:2,dev,i really appreciate it.,💛,Thank,Thank,Low
+dev:658:1,dev,my stuffing is not what made us sick.,⛔,Oppose,Oppose,High
+dev:658:2,dev,"eating the flesh off of a bird's bones, you savage.",🤔,Criticize,Criticize,High
+dev:658:3,dev,why are you so weird?,🤔,Doubt,Doubt,Medium
+dev:658:4,dev,why is everyone being so mean to each other?,😮‍💨,Complain,Complain,High
+dev:658:5,dev,this is what black friday wants!,📢,Inform,Inform,Low
+dev:658:6,dev,that is a family recipe with a secret ingredient.,📛,Introduce,Introduce,Low
+dev:658:7,dev,but this is not what black friday is gonna get!,🙅,Oppose,Oppose,High
+dev:658:8,dev,"oh, cinnamon? boring.",🙄,Taunt,Taunt,High
+dev:658:9,dev,"i have a terrible headache, mateo.",🙄,Complain,Complain,High
+dev:658:10,dev,can you please barf quieter?,🚨,Ask for help,Ask for help,Low
+dev:658:11,dev,"okay, i called corporate to ask for help, and turns out they're closed today 'cause it's a holiday.",📝,Inform,Inform,Low
+dev:658:12,dev,okay.,👍,Agree,Agree,Low
+dev:658:13,dev,"yeah, even if everyone in here felt great, we still don't have enough people to cover the floor.",ℹ️,Inform,Inform,Low
+dev:658:14,dev,so we just abandon the store?,😕,Doubt,Doubt,Medium
+dev:658:16,dev,"wait, we're just gonna leave?",🤔,Doubt,Doubt,Medium
+dev:658:19,dev,"yo, i don't like working here.",📝,Inform,Inform,Low
+dev:658:20,dev,okay.,🤝,Acknowledge,Acknowledge,Low
+dev:658:21,dev,but it's my job.,❗,Emphasize,Emphasize,Low
+dev:658:22,dev,"i do the bare minimum, but i don't do less than that.",ℹ️,Inform,Inform,Low
+dev:681:0,dev,this is the best day of my life.,🏆,Praise,Praise,Low
+dev:681:1,dev,you just had a baby.,🤣,Joke,Joke,Low
+dev:692:0,dev,what?,😕,Doubt,Doubt,Medium
+dev:692:1,dev,i really hope he dies.,🙄,Complain,Complain,High
+dev:700:0,dev,what about the back? would you mind checking the back?,✅,Confirm,Confirm,Low
+dev:700:1,dev,"i'm sorry, there's nothing left in the back.",🥺,Apologise,Apologise,Low
+dev:700:2,dev,"oh, thanks anyway.",💛,Thank,Thank,Low
+dev:724:0,dev,"um, to be clear, i don't think i can win you.",💬,Explain,Explain,Low
+dev:724:1,dev,"i mean--and i wouldn't want to, even if i could.",📖,Explain,Explain,Low
+dev:724:2,dev,i'm a little bit drunk.,ℹ️,Inform,Inform,Low
+dev:724:3,dev,we don't talk like that here.,👎,Oppose,Oppose,High
+dev:728:2,dev,so what do we do next? do we--do we call the cops?,❓,Asking for opinions,Asking for opinions,Low
+dev:728:3,dev,do we bust her ourselves?,✅,Confirm,Confirm,Low
+dev:728:4,dev,"easy, cagney.",💛,Comfort,Comfort,Low
+dev:728:11,dev,you?,🙄,Taunt,Taunt,High
+dev:728:12,dev,"okay, yeah, you're way underqualified.",🤡,Taunt,Taunt,High
+dev:728:13,dev,what do you need to be qualified?,🤔,Asking for opinions,Asking for opinions,Low
+dev:728:14,dev,you need to watch a video.,💡,Advise,Advise,Low
+dev:757:0,dev,some things were said that i'm sure both parties regret.,📝,Inform,Inform,Low
+dev:757:1,dev,she told me to go to hell. i'm catholic.,🤔,Criticize,Criticize,High
+dev:757:2,dev,what's wrong with that? you have a nice smile.,🤨,Doubt,Doubt,Medium
+dev:757:3,dev,"but you don't tell me when to smile, marcus.",🤔,Criticize,Criticize,High
+dev:757:4,dev,fine. i'm sorry if you felt offended.,😔,Apologise,Apologise,Low
+dev:757:5,dev,i just forgot how sensitive women can be.,🤡,Taunt,Taunt,High
+dev:757:6,dev,"marcus, no.",⚠️,Prevent,Prevent,Medium
+dev:757:8,dev,"well, how's this for sensitive, marcus?",🤔,Asking for opinions,Asking for opinions,Low
+dev:757:9,dev,i am writing you up.,🗺️,Plan,Plan,Low
+dev:757:10,dev,"yeah, 'cause you were being like an uptight teacher.",🤡,Taunt,Taunt,High
+dev:757:12,dev,"more like i'm your superior at a job you used to have, marcus.",ℹ️,Inform,Inform,Low
+dev:757:13,dev,you're fired.,📢,Inform,Inform,Low
+dev:757:14,dev,"no, no, no, no, no, no. no!",👎,Oppose,Oppose,High
+dev:757:15,dev,"and it's not  nothing,  all right?",🥹,Comfort,Comfort,Low
+dev:757:16,dev,"marcus, you're fired.",ℹ️,Inform,Inform,Low
+dev:768:1,dev,"that must be a real kick in the shins, huh?",🤝,Confirm,Confirm,Low
+dev:768:3,dev,"i've seen, like, seven, but i'm not sure it counts, 'cause it was all at once.",📢,Inform,Inform,Low
+dev:768:4,dev,"oh, i'm sorry, is that offensive?",😔,Apologise,Apologise,Low
+dev:768:5,dev,do we say doctor now?,❓,Asking for opinions,Asking for opinions,Low
+dev:768:6,dev,only to doctors.,📢,Inform,Inform,Low
+dev:768:7,dev,"hey, where should i put these cups?",🤔,Asking for opinions,Asking for opinions,Low
+dev:768:8,dev,put them over there with the rest of them.,📅,Arrange,Arrange,Low
+dev:768:9,dev,i set up a little juice station at the entrance-sort of a healthy treat to get people in the mood.,👋,Introduce,Introduce,Low
+dev:768:10,dev,"you know, uh, juice actually isn't that healthy.",📢,Inform,Inform,Low
+dev:768:11,dev,it's like the healthiest stuff on the planet.,📝,Inform,Inform,Low
+dev:768:12,dev,fruit juice is loaded with sugar.,ℹ️,Inform,Inform,Low
+dev:768:13,dev,"i guess jonah's right, and i'm something else.",👍,Agree,Agree,Low
+dev:768:14,dev,did you guys see  babe 2: pig in the city?,💭,Asking for opinions,Asking for opinions,Low
+dev:768:15,dev,i seem to have wound up with two copies at my house.,📝,Inform,Inform,Low
+dev:779:0,dev,"we don't seem to have any training videos about not discussing abortion at work, because we just thought it was so obvious, but you guys managed to surprise us, so good job.",📝,Inform,Inform,Low
+dev:779:1,dev,just the woman who's pregnant with your bi-racial child.,📢,Inform,Inform,Low
+dev:779:4,dev,"wait, so you didn't knock her up?",✅,Confirm,Confirm,Low
+dev:779:5,dev,"well, i am. i'm gay.",📝,Inform,Inform,Low
+dev:779:7,dev,i made it up.   i haven't been dating anyone.,ℹ️,Inform,Inform,Low
+dev:779:9,dev,i'm the one who's been dating jeff.,📝,Inform,Inform,Low
+dev:779:11,dev,me and jeff.   does anybody have any questions?,🤔,Asking for opinions,Asking for opinions,Low
+dev:779:12,dev,can we please keep this in this room?,🙋,Ask for help,Ask for help,Low
+dev:779:13,dev,i'm not supposed to be dating anybody from one of the stores.,ℹ️,Inform,Inform,Low
+dev:779:14,dev,"but casual sex is okay, right?",✅,Confirm,Confirm,Low
+dev:779:15,dev,"uh, that is correct.",🤝,Agree,Agree,Low
+dev:779:17,dev,"i'm sorry, it just-we haven't told anybody.",🙏,Apologise,Apologise,Low
+dev:779:19,dev,what has happened to this store?,🙄,Complain,Complain,High
+dev:779:23,dev,"sandra, i'm really sorry.",🥺,Apologise,Apologise,Low
+dev:779:24,dev,no more lies. no more credit card debt from buying myself flowers.,📝,Inform,Inform,Low
+dev:785:0,dev,what? me?,🤝,Confirm,Confirm,Low
+dev:785:1,dev,huh?   you--are you sure?,👌,Confirm,Confirm,Low
+dev:785:2,dev,"yeah, you're such a good guy.",🌟,Praise,Praise,Low
+dev:797:0,dev,"excuse me, do you have anymore bug bombs in back?",🚨,Ask for help,Ask for help,Low
+dev:808:1,dev,"okay, thanks for your time.",👍,Thank,Thank,Low
+dev:808:3,dev,my apologies. what's your plan?,🤔,Asking for opinions,Asking for opinions,Low
+dev:808:4,dev,it's just a privilege to watch your mind at work.,🙄,Taunt,Taunt,High
+dev:816:1,dev,thank you again.,👍,Thank,Thank,Low
+dev:816:2,dev,penny?,😊,Greet,Greet,Low
+dev:816:4,dev,what's he talking about?,😕,Doubt,Doubt,Medium
+dev:818:0,dev,morning.,✨,Greet,Greet,Low
+dev:818:1,dev,i have to say i slept splendidly.,💸,Flaunt,Flaunt,Medium
+dev:818:4,dev,a well-known folk cure for insomnia is to break into your neighbor's apartment and clean.,🙄,Taunt,Taunt,High
+dev:818:5,dev,sarcasm?,🤨,Doubt,Doubt,Medium
+dev:818:6,dev,you think?,💭,Asking for opinions,Asking for opinions,Low
+dev:818:7,dev,"granted, my methods may have been somewhat unorthodox but the end result will be a measurable enhancement to penny's quality of life.",💡,Explain,Explain,Low
+dev:818:8,dev,"you've convinced me, maybe we should sneak in and shampoo her carpet.",🙄,Taunt,Taunt,High
+dev:818:9,dev,"for god's sake, sheldon do i have to hold up a sarcasm sign every time i open my mouth?",🤔,Doubt,Doubt,Medium
+dev:818:10,dev,"no, i do not have a sarcasm sign.",👎,Oppose,Oppose,High
+dev:818:11,dev,you want some cereal?,❓,Asking for opinions,Asking for opinions,Low
+dev:818:13,dev,"hello, honey puffs.",😊,Greet,Greet,Low
+dev:818:15,dev,how did she know it was us?,🤨,Doubt,Doubt,Medium
+dev:818:17,dev,you came into my apartment while i was sleeping?,🤔,Doubt,Doubt,Medium
+dev:818:18,dev,"yes, but only to clean.",💬,Explain,Explain,Low
+dev:818:19,dev,"i'm very, very sorry.",🙏,Apologise,Apologise,Low
+dev:818:20,dev,"yes, we discussed it at length last night.",👍,Agree,Agree,Low
+dev:818:22,dev,but it could be sleep apnea. you might wanna see an otorhinolaryngologist.,☝️,Advise,Advise,Low
+dev:818:24,dev,and what kind of doctor removes shoes from asses?,😕,Doubt,Doubt,Medium
+dev:818:27,dev,"penny, penny, hold on.",⚠️,Prevent,Prevent,Medium
+dev:818:30,dev,you are going to march yourself over there right now and apologize.,⚠️,Warn,Warn,Medium
+dev:819:1,dev,i'm truly sorry for what happened last night.,🥺,Apologise,Apologise,Low
+dev:819:2,dev,"i hope that it won't color your opinion of leonard who is not only a wonderful guy, but also, i hear, a gentle and thorough lover.",💬,Explain,Explain,Low
+dev:830:0,dev,no.,🙅,Oppose,Oppose,High
+dev:830:3,dev,we both have people in our lives who wanna nip intestinal polyps in the bud.,💬,Explain,Explain,Low
+dev:830:4,dev,"so, what's new in the world of physics?",❓,Asking for opinions,Asking for opinions,Low
+dev:830:6,dev,really? nothing?,😕,Doubt,Doubt,Medium
+dev:830:8,dev,what's new at the cheesecake factory?,🫒,Care,Care,Low
+dev:830:10,dev,"oh, we do have a chocolate key lime that's moving pretty well.",📝,Inform,Inform,Low
+dev:830:11,dev,good.,🤝,Acknowledge,Acknowledge,Low
+dev:830:12,dev,"uh, what about your, uh, hallway friend?",🫒,Care,Care,Low
+dev:830:14,dev,and this thing with doug would just be rebound sex.,💡,Explain,Explain,Low
+dev:830:16,dev,it's just-it's my pattern.,💡,Explain,Explain,Low
+dev:830:17,dev,"i'm not sure that i do. um.... is that one 36-hour experience or is that 36 hours spread out over say, one glorious summer?",🤔,Doubt,Doubt,Medium
+dev:830:18,dev,no. it's usually over a weekend.,⛔,Oppose,Oppose,High
+dev:830:19,dev,"and trust me, you do not feel good after it.",📝,Inform,Inform,Low
+dev:830:20,dev,"well, chafing, right?",🤝,Confirm,Confirm,Low
+dev:830:22,dev,"of course, yeah. emotional chafing.",👍,Agree,Agree,Low
+dev:830:23,dev,"hey, do you wanna see something cool?",💭,Asking for opinions,Asking for opinions,Low
+dev:830:24,dev,i can make this olive go into this glass without touching it.,👋,Introduce,Introduce,Low
+dev:830:26,dev,"actually, it's centripetal force, which is an inward force generated by the glass acting on the olive. ooh.",📖,Explain,Explain,Low
+dev:830:27,dev,excuse me.,🙏,Apologise,Apologise,Low
+dev:840:0,dev,"sheldon, your mom made dinner.",📢,Inform,Inform,Low
+dev:840:7,dev,that is a lovely story.,🏆,Praise,Praise,Low
+dev:840:9,dev,so everybody grab a plate and a pretty placemat that shelly wove.,🗓️,Arrange,Arrange,Low
+dev:840:10,dev,has shelly ever freaked out like this before?,✅,Confirm,Confirm,Low
+dev:840:17,dev,it pissed our dog off to no end.,😜,Joke,Joke,Low
+dev:840:18,dev,"you know, you two make a cute couple.",🏆,Praise,Praise,Low
+dev:840:19,dev,"i-no, no. no, we're not a couple. we're singles.",🙅,Oppose,Oppose,High
+dev:840:20,dev,two singles. like those individually wrapped slices of cheese that.... or friends.,🤣,Joke,Joke,Low
+dev:840:21,dev,"okay. all right, everybody, it's time to eat.",⏰,Arrange,Arrange,Low
+dev:840:25,dev,"oh, my god, this is the best cobbler i've ever had.",🏆,Praise,Praise,Low
+dev:840:27,dev,this is ridiculous.,🙄,Complain,Complain,High
+dev:840:28,dev,"you don't hunt, do you?",🤝,Confirm,Confirm,Low
+dev:844:0,dev,"hey, how did it go?",🧡,Care,Care,Low
+dev:851:0,dev,"the problem, maureen, is you have boxes for eight different types of  pacific islander,  but only three for what this relationship is.",💬,Explain,Explain,Low
+dev:851:1,dev,it doesn't matter. just check the box and let's move on with our lives.,🥹,Comfort,Comfort,Low
+dev:851:2,dev,"maureen, we're gonna need to speak to your supervisor.",📝,Inform,Inform,Low
+dev:859:0,dev,"oh, hello, frenchfryguy81.",✨,Greet,Greet,Low
+dev:859:1,dev,are you busy spewing hateful things about good people from the comfort of your own...,🤨,Doubt,Doubt,Medium
+dev:859:2,dev,i need you to restart the  quantum leap  video.,🚨,Ask for help,Ask for help,Low
+dev:867:0,dev,okay.,🤝,Acknowledge,Acknowledge,Low
+dev:867:3,dev,"hey, bobbie sue-bobbie sue?",👋,Greet,Greet,Low
+dev:874:0,dev,"okay, let's give a warm first-day welcome to our newest employee, bo thompson...",📝,Inform,Inform,Low
+dev:874:1,dev,why does his middle finger look so weird?,🤔,Doubt,Doubt,Medium
+dev:874:2,dev,"bo, maybe you should change.",💡,Advise,Advise,Low
+dev:874:3,dev,where am i supposed to find another shirt?,❓,Asking for opinions,Asking for opinions,Low
+dev:874:5,dev,"no, it wasn't.",👎,Oppose,Oppose,High
+dev:874:8,dev,"that's not true at all. in fact, just this morning, kristen said she respects how much i don't kiss up.",👎,Oppose,Oppose,High
+dev:874:9,dev,where did you see kristen this morning?,😕,Doubt,Doubt,Medium
+dev:874:10,dev,hm?,✅,Acknowledge,Acknowledge,Low
+dev:874:11,dev,"we, uh, met for breakfast.",💡,Explain,Explain,Low
+dev:874:13,dev,that's what happened.,👍,Agree,Agree,Low
+dev:874:14,dev,"and what restaurant is open at, like, 4:00 in the morning?",😕,Doubt,Doubt,Medium
+dev:879:2,dev,"sorry, we don't have hot dogs.",🙏,Apologise,Apologise,Low
+dev:879:4,dev,we only really serve mexican food.,💡,Explain,Explain,Low
+dev:879:7,dev,you got it.,🌟,Praise,Praise,Low
+dev:879:10,dev,yeah.,✅,Acknowledge,Acknowledge,Low
+dev:879:12,dev,exactly.,✅,Agree,Agree,Low
+dev:879:13,dev,where were you born?,🫒,Care,Care,Low
+dev:879:16,dev,do jewish people like snow?,❓,Asking for opinions,Asking for opinions,Low
+dev:879:20,dev,"uh, what's the biggest dog you've ever seen, and why?",💭,Asking for opinions,Asking for opinions,Low
+dev:884:0,dev,"oh, he's totally packing, right?",🤝,Confirm,Confirm,Low
+dev:884:1,dev,"oh, no, no, reggie can't hold an actual weapon.",⛔,Oppose,Oppose,High
+dev:895:1,dev,an alternate and less likely interpretation is that you could manufacture one.,😂,Joke,Joke,Low
+dev:895:3,dev,how so?,🧡,Care,Care,Low
+dev:895:4,dev,"well, what do you think?",💭,Asking for opinions,Asking for opinions,Low
+dev:911:0,dev,"hello, penny. hello, kurt.",👋,Greet,Greet,Low
+dev:911:1,dev,"oh, hey, guys. you having a good time?",👋,Greet,Greet,Low
+dev:911:2,dev,"what? you're a zebra, right?",✅,Confirm,Confirm,Low
+dev:911:4,dev,"and what are you supposed to be, an elf?",🤝,Confirm,Confirm,Low
+dev:911:5,dev,"no, i'm a hobbit.",👎,Oppose,Oppose,High
+dev:911:7,dev,"because he's neither tall nor immortal, and none of us could be the flash.",💬,Explain,Explain,Low
+dev:911:9,dev,i'm not. no offense.,🙅,Oppose,Oppose,High
+dev:911:12,dev,you can't compete with me on an intellectual level and so you're driven to animalistic puffery.,🤡,Taunt,Taunt,High
+dev:911:13,dev,you calling me a puffy animal?,😕,Doubt,Doubt,Medium
+dev:911:15,dev,you're in trouble.,🛑,Warn,Warn,Medium
+dev:911:16,dev,"you know, you use a lot of big words for such a little dwarf.",🤡,Taunt,Taunt,High
+dev:911:20,dev,a hobbit.,🔥,Emphasize,Emphasize,Low
+dev:911:21,dev,"okay, now you're starting to make me mad.",🚨,Warn,Warn,Medium
+dev:911:22,dev,yeah? how about i make a point out of your pointy little head?,⚠️,Warn,Warn,Medium
+dev:911:23,dev,there's not going to be a confrontation.,🫐,Comfort,Comfort,Low
+dev:911:24,dev,"in fact, i doubt if he can even spell confrontation.",🙄,Taunt,Taunt,High
+dev:911:26,dev,"i don't care, i'm finishing it. put him down.",🤨,Criticize,Criticize,High
+dev:911:27,dev,fine.,👍,Agree,Agree,Low
+dev:911:28,dev,you're one lucky little leprechaun.,🤡,Taunt,Taunt,High
+dev:916:0,dev,ugh. i cannot believe christy let howard into my apartment.,😮‍💨,Complain,Complain,High
+dev:916:2,dev,"sure, cut the foreigner in half. there's a billion more where he came from.",😂,Joke,Joke,Low
+dev:916:5,dev,this is a complex battle simulation with a steep learning curve.,👋,Introduce,Introduce,Low
+dev:916:7,dev,mine.,🙄,Complain,Complain,High
+dev:916:8,dev,"okay, i got this. lock and load, boys.",🍽️,Invite,Invite,Low
+dev:916:10,dev,"okay, it's not good sportsmanship to shoot somebody who's just re-spawned.",🤨,Criticize,Criticize,High
+dev:916:12,dev,"raj, raj, she's got me cornered. cover me.",🙋,Ask for help,Ask for help,Low
+dev:916:13,dev,"penny, you are on fire.",🌟,Praise,Praise,Low
+dev:916:14,dev,"yeah, and so is sheldon.",🙏,Thank,Thank,Low
+dev:916:16,dev,"wait, sheldon, come back. you forgot something.",🛑,Prevent,Prevent,Medium
+dev:916:17,dev,what?,😕,Doubt,Doubt,Medium
+dev:916:20,dev,"gosh. he's kind of a sore loser, isn't he?",👌,Confirm,Confirm,Low
+dev:916:22,dev,"penny, we make such a good team.",🏆,Praise,Praise,Low
+dev:916:23,dev,maybe we could enter a couple of  halo  tournaments sometime.,🎉,Invite,Invite,Low
+dev:916:27,dev,what do you suppose she meant by that?,😕,Doubt,Doubt,Medium
+dev:916:29,dev,"well, she could have said goodbye.",😮‍💨,Complain,Complain,High
+dev:916:31,dev,what's wrong?,🛡️,Care,Care,Low
+dev:916:32,dev,"well, um, howard and christy are kind of hooking up in my bedroom.",🙄,Complain,Complain,High
+dev:916:33,dev,do you mind if i stay here tonight?,🤔,Asking for opinions,Asking for opinions,Low
+dev:916:34,dev,"no. yeah, take the couch, or my bed. i just got new pillows.",✅,Agree,Agree,Low
+dev:916:39,dev,"frankly, if i could afford the rent, i'd ask you to leave.",🛑,Warn,Warn,Medium
+dev:916:41,dev,are you suggesting that if we let penny stay we might succumb to cannibalism?,😕,Doubt,Doubt,Medium
+dev:916:43,dev,it's the fallacy of extending someone's argument to ridiculous proportions and then criticizing the result. and i don't appreciate it.,😤,Complain,Complain,High
+dev:916:44,dev,i'll get you a blanket and a pillow.,🚪,Leave,Leave,Low
+dev:916:45,dev,"okay, since i'm obviously being ignored here, let's go over the morning schedule.",📋,Plan,Plan,Low
+dev:916:46,dev,i use the bathroom from 7 to 7:20.,📋,Plan,Plan,Low
+dev:916:47,dev,plan your ablutions and bodily functions accordingly.,🗺️,Plan,Plan,Low
+dev:916:48,dev,how am i supposed to plan my bodily functions?,🧡,Care,Care,Low
+dev:916:49,dev,i suggest no liquids after 11p.m.,🧠,Advise,Advise,Low
+dev:916:54,dev,it serves the ancient imperative of protecting oneself against marauders.,💡,Explain,Explain,Low
+dev:916:55,dev,anything else i should know?,🧡,Care,Care,Low
+dev:916:56,dev,"yes. if you use my toothbrush, i'll jump out that window.",🚨,Warn,Warn,Medium
+dev:916:57,dev,please don't come to my funeral. have a good night.,👋,Leave,Leave,Low
+dev:916:59,dev,thanks.,🙏,Thank,Thank,Low
+dev:920:0,dev,we can't order chinese food without wolowitz?,😕,Doubt,Doubt,Medium
+dev:920:1,dev,do you see the problem?,💭,Asking for opinions,Asking for opinions,Low
+dev:920:5,dev,fine. what do you wanna eliminate?,❓,Asking for opinions,Asking for opinions,Low
+dev:920:8,dev,"hi, fellas.",😊,Greet,Greet,Low
+dev:920:9,dev,oh. where's your annoying little friend who thinks he speaks mandarin?,🛡️,Care,Care,Low
+dev:920:10,dev,"can we get an order of dumplings, but with three instead of four?",✅,Confirm,Confirm,Low
+dev:920:11,dev,no substitutions.,⛔,Oppose,Oppose,High
+dev:920:12,dev,this isn't a substitution. it's a reduction.,💡,Explain,Explain,Low
+dev:920:16,dev,"if we have extra, we'll just take the leftovers home.",📅,Plan,Plan,Low
+dev:920:20,dev,can we please make a decision?,✅,Confirm,Confirm,Low
+dev:920:21,dev,"not only are there children starving in india, there's an indian starving right here.",😤,Complain,Complain,High
+dev:920:22,dev,there's an idea. why don't we go out for indian food?,💡,Advise,Advise,Low
+dev:920:24,dev,you're nice boys.,👏,Praise,Praise,Low
+dev:920:29,dev,what about the won tons?,🤔,Asking for opinions,Asking for opinions,Low
+dev:922:1,dev,"for god's sakes, sheldon, you are driving me crazy.",😮‍💨,Complain,Complain,High
+dev:922:2,dev,i'm pretty sure my anger is with you.,🔥,Emphasize,Emphasize,Low
+dev:922:3,dev,what is happening to us? we're falling apart.,😮‍💨,Complain,Complain,High
+dev:923:0,dev,"now, raj, jump in the tank.",📅,Arrange,Arrange,Low
+dev:923:2,dev,there's a sniper. use your rocket launcher.,⏰,Arrange,Arrange,Low
+dev:923:3,dev,all i've got is a needler and i'm all out of ammo!,🙄,Complain,Complain,High
+dev:923:4,dev,"sorry, go.",🥺,Apologise,Apologise,Low
+dev:928:0,dev,drinks do not work that way.,⛔,Oppose,Oppose,High
+dev:946:0,dev,"okay, ground rules: no sponge baths and definitely no enemas.",📢,Inform,Inform,Low
+dev:946:1,dev,agreed.,✅,Agree,Agree,Low
+dev:955:0,dev,"mm. this is really delicious, isn't it?",👏,Praise,Praise,Low
+dev:955:1,dev,"still can't talk to me unless you're drunk, huh?",✅,Confirm,Confirm,Low
+dev:955:2,dev,"oh, sweetie, you are so damaged.",🥹,Comfort,Comfort,Low
+dev:955:4,dev,how about a hug for howie?,☝️,Advise,Advise,Low
+dev:955:6,dev,something you'd like to share?,🛡️,Care,Care,Low
+dev:955:7,dev,a tale of woe perhaps?,😜,Joke,Joke,Low
+dev:955:11,dev,antonio salieri?,✅,Confirm,Confirm,Low
+dev:955:12,dev,"oh, god, now even you're smarter than me.",😮‍💨,Complain,Complain,High
+dev:955:14,dev,"just eat, sheldon. you'll feel better.",🫐,Comfort,Comfort,Low
+dev:955:15,dev,why waste food?,😕,Doubt,Doubt,Medium
+dev:955:17,dev,i'm confused. did sheldon stop giving milk?,😕,Doubt,Doubt,Medium
+dev:955:18,dev,"you knew that someday, someone would come along who's younger and smarter.",💛,Comfort,Comfort,Low
+dev:955:20,dev,so you got a little competition. i really don't see what the big deal is.,💛,Comfort,Comfort,Low
+dev:955:21,dev,of course you don't. you've never excelled at anything.,🙄,Taunt,Taunt,High
+dev:955:22,dev,"i don't understand, exactly how did he get any friends in the first place?",😤,Complain,Complain,High
+dev:955:24,dev,"what are you gonna do, just give up?",❓,Asking for opinions,Asking for opinions,Low
+dev:970:4,dev,why would they be looking for test subjects here?,🤨,Doubt,Doubt,Medium
+dev:970:7,dev,sheldon's office?,🤔,Doubt,Doubt,Medium
+dev:970:8,dev,is she lost?,🤨,Doubt,Doubt,Medium
+dev:970:11,dev,hello.,👋,Greet,Greet,Low
+dev:970:12,dev,"oh, hey, buddy.",✨,Greet,Greet,Low
+dev:970:13,dev,buddy?,🤔,Doubt,Doubt,Medium
+dev:970:14,dev,sorry i'm late. i'm working on a project that may take me up on the next space shuttle.,🥺,Apologise,Apologise,Low
+dev:970:18,dev,"missy, this is leonard and rajesh, and you've already met howard.",🤝,Introduce,Introduce,Low
+dev:970:19,dev,yeah.,✅,Acknowledge,Acknowledge,Low
+dev:970:20,dev,so how do you two know each other?,😕,Doubt,Doubt,Medium
+dev:970:21,dev,"oh, he once spent nine months with my legs wrapped around his head.",😜,Joke,Joke,Low
+dev:970:22,dev,excuse me?,🤔,Doubt,Doubt,Medium
+dev:970:23,dev,she's my twin sister.,💡,Explain,Explain,Low
+dev:970:26,dev,how exactly would one measure a sense of humor?,🤨,Doubt,Doubt,Medium
+dev:970:28,dev,"i'm sorry, what was your name again?",😔,Apologise,Apologise,Low
+dev:970:30,dev,"so, missy, what brings you all the way from texas?",🧡,Care,Care,Low
+dev:970:34,dev,and i had to drop off some papers for shelly to sign for my dad's estate.,🗺️,Plan,Plan,Low
+dev:970:35,dev,"the papers could've been mailed. mom sent you here to spy on me, didn't she?",🤝,Confirm,Confirm,Low
+dev:970:40,dev,"if the wedding's not till tomorrow, why don't you stay with us tonight?",🍽️,Invite,Invite,Low
+dev:970:41,dev,"oh, i don't think so. shelly doesn't like company.",🙅,Oppose,Oppose,High
+dev:970:43,dev,they were not friends. they were imaginary colleagues.,💬,Explain,Explain,Low
+dev:970:44,dev,"look, you're here, and we have plenty of room.",🎉,Invite,Invite,Low
+dev:970:47,dev,and don't ever call me shelly.,👎,Oppose,Oppose,High
+dev:970:49,dev,"i'll walk you to your car. you're in structure 3, level c, right?",🏃,Leave,Leave,Low
+dev:970:50,dev,what just happened?,🤔,Doubt,Doubt,Medium
+dev:986:0,dev,"no, no.",🙅,Oppose,Oppose,High
+dev:986:1,dev,of course not.,👎,Oppose,Oppose,High
+dev:986:2,dev,i'm sorry. what were the choices again?,🙏,Apologise,Apologise,Low
+dev:986:4,dev,"i mean, not you smart.",📖,Explain,Explain,Low
+dev:986:5,dev,"you know, and then he just goes and has to humiliate me by writing about me on his blog so the entire world can read it.",🙄,Complain,Complain,High
+dev:986:7,dev,not that i need to know the details of your sex life.,📖,Explain,Explain,Low
+dev:986:8,dev,i just thought.... never mind.,💡,Explain,Explain,Low
+dev:986:10,dev,"might as well read it, everybody else has. go ahead.",💡,Advise,Advise,Low
+dev:986:11,dev,"oh, god, i just feel so betrayed and embarrassed.",😤,Complain,Complain,High
+dev:986:12,dev,i just wanna crawl into a hole and die.,😤,Complain,Complain,High
+dev:986:13,dev,"okay, well, you know, this isn't that bad.",🫐,Comfort,Comfort,Low
+dev:986:14,dev,it just paints the picture of a very affectionate woman who's open to expressing her affection in nontraditional locales.,🥹,Comfort,Comfort,Low
+dev:986:18,dev,doesn't that violate the health code or...?,🤨,Doubt,Doubt,Medium
+dev:986:19,dev,"ah, okay.",✅,Acknowledge,Acknowledge,Low
+dev:986:20,dev,really? do you think i overreacted?,✅,Confirm,Confirm,Low
+dev:986:21,dev,"no, that would be under-reacting.",⛔,Oppose,Oppose,High
+dev:986:23,dev,"yes, you're right.",✅,Agree,Agree,Low
+dev:986:25,dev,what is there to explain? it's all right here.,😕,Doubt,Doubt,Medium
+dev:986:26,dev,it's betrayal.,🤔,Criticize,Criticize,High
+dev:986:27,dev,"no, you were right the first time.",👎,Oppose,Oppose,High
+dev:986:29,dev,i'm pretty sure i never said that.,🙅,Oppose,Oppose,High
+dev:986:30,dev,"no, you did better than that. you helped me see it on my own.",🏆,Praise,Praise,Low
+dev:990:0,dev,"okay, so here's the thing.",📝,Inform,Inform,Low
+dev:990:1,dev,i guess you're aware that leonard asked me out.,ℹ️,Inform,Inform,Low
+dev:990:3,dev,"oh, that's nice.",👏,Praise,Praise,Low
+dev:990:5,dev,"you see, i don't spend much time here, and so i've never chosen a place to sit.",💬,Explain,Explain,Low
+dev:990:7,dev,there are a number of options and.... i'm really not familiar enough with the cushion densities air-flow patterns and dispersion of sunlight to make an informed choice.,💡,Explain,Explain,Low
+dev:990:8,dev,"why don't you pick at random, if you don't like it, sit somewhere else next time?",🧠,Advise,Advise,Low
+dev:990:9,dev,"no, no, that's crazy.",🙅,Refuse,Refuse,Low
+dev:990:10,dev,you go ahead and talk while i figure it out.,📢,Inform,Inform,Low
+dev:990:11,dev,okay.,👌,Acknowledge,Acknowledge,Low
+dev:990:12,dev,"well, i suppose so.",🤝,Agree,Agree,Low
+dev:990:13,dev,leonard isn't the kind of guy anyone usually goes out with.,ℹ️,Inform,Inform,Low
+dev:990:14,dev,would you be open to rotating the couch clockwise 30 degrees?,❓,Asking for opinions,Asking for opinions,Low
+dev:990:15,dev,"no. what i'm saying is, leonard might be different in a good way.",💬,Explain,Explain,Low
+dev:990:19,dev,"but on the other hand if things don't go well with leonard, i risk losing a really good friend.",📖,Explain,Explain,Low
+dev:990:20,dev,"i mean, he's not looking for a fling.",💡,Explain,Explain,Low
+dev:990:21,dev,i would not say that.,⛔,Oppose,Oppose,High
+dev:990:22,dev,"no one would say that. a light-year is a unit of distance, not time.",💡,Explain,Explain,Low
+dev:990:23,dev,thank you for the clarification.,👍,Thank,Thank,Low
+dev:990:26,dev,right. thanks.,🙏,Thank,Thank,Low
+dev:990:28,dev,"do you have anything to say that has anything to do with, you know, what i'm talking about?",💭,Asking for opinions,Asking for opinions,Low
+dev:990:30,dev,we might consider schrödinger's cat.,🧠,Advise,Advise,Low
+dev:990:31,dev,"no, that's mrs. grossinger.",⛔,Oppose,Oppose,High
+dev:990:33,dev,"sorry, you diverted me.",🥺,Apologise,Apologise,Low
+dev:990:34,dev,"anyway, in 1935, erwin schrödinger, in an attempt to explain the copenhagen interpretation of quantum physics, he proposed an experiment.",🤝,Introduce,Introduce,Low
+dev:990:35,dev,a cat is placed in a box with a sealed vial of poison that will break open at a random time.,👋,Introduce,Introduce,Low
+dev:990:36,dev,"now, since no one knows when or if the poison has been released until the box is opened, the cat can be thought of as both alive and dead.",🤝,Introduce,Introduce,Low
+dev:990:37,dev,"i'm sorry, i don't get the point.",😔,Apologise,Apologise,Low
+dev:990:39,dev,"just like schrödinger's cat, your potential relationship with leonard right now can be thought of as both good and bad.",💬,Explain,Explain,Low
+dev:990:40,dev,"no, no, no.",🙅,Oppose,Oppose,High
+dev:1023:0,dev,good morning.,👋,Greet,Greet,Low
+dev:1023:2,dev,really? why?,😕,Doubt,Doubt,Medium
+dev:1023:5,dev,yep.,🤝,Acknowledge,Acknowledge,Low
+dev:1081:1,dev,"ross, i feel terrible.",😮‍💨,Complain,Complain,High
+dev:1081:3,dev,"you, uh, want me to help you with that?",👌,Confirm,Confirm,Low
+dev:1081:5,dev,"no, i know ross. but what's it short for?",💬,Explain,Explain,Low
+dev:1081:9,dev,oh.,✅,Acknowledge,Acknowledge,Low
+dev:1081:10,dev,it's pretty.,🌟,Praise,Praise,Low
+dev:1081:13,dev,"actually, i'm a paleon... dinosaurs is fine.",🔥,Emphasize,Emphasize,Low
+dev:1081:14,dev,the drawing is not.,🙅,Oppose,Oppose,High
+dev:1081:15,dev,"all right. uh, who do you want as your emergency contact?",❓,Asking for opinions,Asking for opinions,Low
+dev:1081:18,dev,i don't think that we are.,⛔,Oppose,Oppose,High
+dev:1081:21,dev,"come on, ross, that didn't mean anything.",💛,Comfort,Comfort,Low
+dev:1090:0,dev,"hi. um, my name's rachel green. i have an appointment for emma.",👋,Greet,Greet,Low
+dev:1090:1,dev,dr. gettleman is finishing up with a patient. he'll be out shortly.,📝,Inform,Inform,Low
+dev:1090:2,dev,"okay, thank you.",🙏,Thank,Thank,Low
+dev:1090:3,dev,"thanks, doctor.",💛,Thank,Thank,Low
+dev:1112:0,dev,hello.,✨,Greet,Greet,Low
+dev:1112:3,dev,"oh, and the people are so nice.",🏆,Praise,Praise,Low
+dev:1112:4,dev,"chandler, you will love him.",📢,Inform,Inform,Low
+dev:1112:5,dev,he is without a doubt the funniest guy i have ever met.,👏,Praise,Praise,Low
+dev:1126:2,dev,oh. thank you.,👍,Thank,Thank,Low
+dev:1126:5,dev,"mom, dad, this is phoebe.",👋,Introduce,Introduce,Low
+dev:1126:6,dev,"phoebe, these are my parents, theodore and bitsy.",📛,Introduce,Introduce,Low
+dev:1126:7,dev,your home is lovely.,👏,Praise,Praise,Low
+dev:1126:8,dev,thank you. i'll give you a tour later. it's actually three floors.,📛,Introduce,Introduce,Low
+dev:1126:10,dev,oh. why don't you come meet our friends?,🍽️,Invite,Invite,Low
+dev:1126:12,dev,"i'm sure they will, but you don't have to do this.",🫐,Comfort,Comfort,Low
+dev:1126:13,dev,"phoebe, these are our friends tom and sue engel.",🤝,Introduce,Introduce,Low
+dev:1126:15,dev,"well, all right. um, originally, i'm from upstate but, um, then my mom killed herself, and my stepdad went to prison.",📛,Introduce,Introduce,Low
+dev:1126:16,dev,"so i moved to the city where, um, i lived in a burned-out buick lesabre for a while.",📛,Introduce,Introduce,Low
+dev:1126:18,dev,"and, um, anyway, now i'm a, um, freelance massage therapist um, which isn't always steady money, but at least i don't pay taxes.",👋,Introduce,Introduce,Low
+dev:1126:19,dev,though maybe just a little less  pimp spit.    okay.,🧠,Advise,Advise,Low
+dev:1126:22,dev,yes. i'm sorry. i've never met a boyfriend's parents before.,🥺,Apologise,Apologise,Low
+dev:1126:23,dev,"but, i mean, you have met humans before, right?",✅,Confirm,Confirm,Low
+dev:1126:24,dev,why don't you go talk to my mom?,☝️,Advise,Advise,Low
+dev:1126:26,dev,"oh, bitsy? um, uh, listen, i wanted to thank you again for having me here tonight.",💛,Thank,Thank,Low
+dev:1126:28,dev,"also, um, i just want you to know what a wonderful man your son is.",🏆,Praise,Praise,Low
+dev:1126:29,dev,"especially to you, because he's very respectful of women.",🏆,Praise,Praise,Low
+dev:1126:30,dev,"no, don't get me wrong. no, not in like a sissy way.",📖,Explain,Explain,Low
+dev:1126:33,dev,awesome.,👏,Praise,Praise,Low
+dev:1132:0,dev,"hey, you guys. this is my sister amy.",🤝,Introduce,Introduce,Low
+dev:1132:1,dev,"this is chandler, joey, phoebe, and you know mon.",🤝,Introduce,Introduce,Low
+dev:1132:3,dev,yeah.,🤝,Acknowledge,Acknowledge,Low
+dev:1132:7,dev,"thank you, amy.",🙏,Thank,Thank,Low
+dev:1132:11,dev,that's a great movie!,🌟,Praise,Praise,Low
+dev:1132:12,dev,but i was thinking about changing her name.,📅,Plan,Plan,Low
+dev:1132:17,dev,why does she keep making that noise?,❓,Asking for opinions,Asking for opinions,Low
+dev:1132:20,dev,i don't believe this. hold on a second. you guys die and i don't get your baby?,🤨,Doubt,Doubt,Medium
+dev:1132:21,dev,"amy, see, we're a lot closer to monica and chandler.",📖,Explain,Explain,Low
+dev:1132:22,dev,"we see them every day. and truthfully, you don't seem connected to the baby.",💡,Explain,Explain,Low
+dev:1132:27,dev,seriously?,🤔,Doubt,Doubt,Medium
+dev:1132:28,dev,"everyone, we're using our fancy china and it's very expensive, so please be careful.",📝,Inform,Inform,Low
+dev:1143:0,dev,"hey, buddy.",😊,Greet,Greet,Low
+dev:1143:1,dev,"uh, hi.",👋,Greet,Greet,Low
+dev:1147:0,dev,here's your ticket.,📝,Inform,Inform,Low
+dev:1147:1,dev,"thanks. hey, listen i'm never gonna lie to you again, okay?",🙏,Thank,Thank,Low
+dev:1147:2,dev,"thanks, man.",💛,Thank,Thank,Low
+dev:1168:0,dev,"now that i'm back, why don't you just fill me in on what you've been up to?",🤔,Asking for opinions,Asking for opinions,Low
+dev:1168:1,dev,"well, i've changed your screen saver from that picture of *nsync.",📢,Inform,Inform,Low
+dev:1168:3,dev,"oh, no. i see what you're doing here, all right?",🙅,Oppose,Oppose,High
+dev:1168:4,dev,"oh, god. you've totally messed with the back support on my chair.",😮‍💨,Complain,Complain,High
+dev:1168:5,dev,"all right, fill me in.",📢,Inform,Inform,Low
+dev:1181:0,dev,"oh, hi.",👋,Greet,Greet,Low
+dev:1181:1,dev,i still can't believe you invited gavin.,😤,Complain,Complain,High
+dev:1181:3,dev,maybe he keeps bothering you so much because he likes you.,💡,Explain,Explain,Low
+dev:1181:9,dev,"hey, rach. so can i sing  happy birthday  to you now?",✅,Confirm,Confirm,Low
+dev:1181:10,dev,see you later.,🚪,Leave,Leave,Low
+dev:1181:11,dev,"hey, rach. somebody got you shoes.",ℹ️,Inform,Inform,Low
+dev:1181:14,dev,"oh, you brought rats to my birthday party?",😕,Doubt,Doubt,Medium
+dev:1181:18,dev,are you comparing my daughter to a rat?,🤨,Doubt,Doubt,Medium
+dev:1181:19,dev,no. seven rats.,⛔,Oppose,Oppose,High
+dev:1181:20,dev,"well, i'm sorry, rachel, but i'm not like you. okay?",😔,Apologise,Apologise,Low
+dev:1182:1,dev,"right behind you, big guy.",📢,Inform,Inform,Low
+dev:1187:2,dev,"no, i totally disagree. i think it's fine for a guy to do something like that.",⛔,Oppose,Oppose,High
+dev:1187:4,dev,"before i forget, are you coming to mike's piano bar tonight?",🍽️,Invite,Invite,Low
+dev:1187:8,dev,nope. nope. it's not working on me.,👎,Oppose,Oppose,High
+dev:1187:9,dev,"wow, i must be growing up.",💸,Flaunt,Flaunt,Medium
+dev:1187:10,dev,"okay, fine. just please come and support mike. you don't have to sing.",🚨,Ask for help,Ask for help,Low
+dev:1187:11,dev,"hi, you guys. listen, i really need your help.",🙋,Ask for help,Ask for help,Low
+dev:1187:16,dev,"oh, yeah.",👌,Acknowledge,Acknowledge,Low
+dev:1187:21,dev,sounds like you need to think about what you want and talk to gavin.,🧠,Advise,Advise,Low
+dev:1187:22,dev,"wow! five months maternity leave, you're back for four days kiss a co-worker and call in sick. they are lucky to have you.",🤡,Taunt,Taunt,High
+dev:1197:2,dev,wait a minute. you haven't even told her you are a doctor yet?,🤝,Confirm,Confirm,Low
+dev:1197:3,dev,"actually, about an hour and a half.",🔥,Emphasize,Emphasize,Low
+dev:1197:5,dev,you feel that too? oh!,👌,Confirm,Confirm,Low
+dev:1197:6,dev,i don't know. are we just kissing guys on balconies?,🙄,Taunt,Taunt,High
+dev:1197:8,dev,score.,👏,Praise,Praise,Low
+dev:1197:11,dev,because you've been out there in bars and on balconies for over a month now. and you don't even have the courtesy to tell me.,🤔,Criticize,Criticize,High
+dev:1197:12,dev,from the guy in the bar? why didn't i get that message?,🤔,Doubt,Doubt,Medium
+dev:1197:13,dev,because i folded it up and put it in my pants pocket.,📖,Explain,Explain,Low
+dev:1197:17,dev,who do you think you are? who are you to decide what messages i should or should not get?!,🤨,Criticize,Criticize,High
+dev:1197:18,dev,i actually came in here hoping to have a mature conversation about us.,💡,Explain,Explain,Low
+dev:1197:20,dev,"that's not the point, okay? the point is you are the one who moved on and didn't tell anyone.",🤔,Criticize,Criticize,High
+dev:1197:21,dev,"oh, god, ross, this is just so messed up.",😮‍💨,Complain,Complain,High
+dev:1197:23,dev,"so, what do you wanna do?",🤔,Asking for opinions,Asking for opinions,Low
+dev:1229:0,dev,because i told everyone he slept with dinosaurs.,📖,Explain,Explain,Low
+dev:1229:2,dev,hello?,✨,Greet,Greet,Low
+dev:1229:8,dev,i'm so gonna get back at ross.,🗺️,Plan,Plan,Low
+dev:1229:10,dev,i'm dead?,😕,Doubt,Doubt,Medium
+dev:1229:12,dev,posting that i died? that really isn't funny.,😑,Criticize,Criticize,High
+dev:1229:14,dev,"oh, please. hit by a blimp?",🤨,Doubt,Doubt,Medium
+dev:1229:16,dev,unbelievable. my classmates are gonna think i'm dead.,😤,Complain,Complain,High
+dev:1229:18,dev,you're messing with people's feelings here.,🤨,Criticize,Criticize,High
+dev:1229:19,dev,you wanna talk about people's feelings?,🤔,Doubt,Doubt,Medium
+dev:1229:20,dev,you should have heard how hurt professor stern was when i told him i wouldn't be able to go with him to key west!,😮‍💨,Complain,Complain,High
+dev:1229:21,dev,you've really crossed a line here. but that's okay.,🤨,Criticize,Criticize,High
+dev:1239:2,dev,you assume because i was heavy that's the only way i could win something?,🤨,Doubt,Doubt,Medium
+dev:1239:4,dev,they're towing a car.,ℹ️,Inform,Inform,Low
+dev:1239:6,dev,"ross, you don't have emma! rachel, you don't have emma!",ℹ️,Inform,Inform,Low
+dev:1239:10,dev,"well, there's two spots left, right?",🤝,Confirm,Confirm,Low
+dev:1239:15,dev,i thought we could use some extra luck so i brought a wishbone home from work.,ℹ️,Inform,Inform,Low
+dev:1239:16,dev,"a psychic and a wishbone? guys, give someone else a chance.",🤡,Taunt,Taunt,High
+dev:1239:19,dev,i don't want that turkey smell all over my hands.,🚫,Refuse,Refuse,Low
+dev:1239:22,dev,"but you're wishing for what we think, aren't you?",✅,Confirm,Confirm,Low
+dev:1239:27,dev,that thing gets hot!,😮‍💨,Complain,Complain,High
+dev:1239:28,dev,how are you gonna feel if we actually do win?,💭,Asking for opinions,Asking for opinions,Low
+dev:1239:29,dev,why would i eat my own arm?,🤨,Doubt,Doubt,Medium
+dev:1239:33,dev,"but just the fact that you want me to have fun with you guys, that's so sweet.",👏,Praise,Praise,Low
+dev:1239:35,dev,"so now that you're in, what are you gonna do if we win?",🤔,Asking for opinions,Asking for opinions,Low
+dev:1239:38,dev,you won't let me buy the knicks? i can't believe you're taking this away.,🤨,Doubt,Doubt,Medium
+dev:1239:40,dev,"oh, i've gotten into the habit of calling rachel  mommy  when we're around emma.",💡,Explain,Explain,Low
+dev:1239:44,dev,"i, uh-i was just talking about rachel.",💬,Explain,Explain,Low
+dev:1239:47,dev,what? susan got it? how?,😕,Doubt,Doubt,Medium
+dev:1239:51,dev,we divide them into six groups of 40.,⏰,Arrange,Arrange,Low
+dev:1239:52,dev,the remaining 10 can be read by whoever finishes first.,📢,Inform,Inform,Low
+dev:1239:54,dev,"heh. uh, no, you didn't. you must be mistaken.",⛔,Oppose,Oppose,High
+dev:1239:55,dev,"okay, fine. i bought 20 extra tickets for me and chandler.",🤝,Acknowledge,Acknowledge,Low
+dev:1239:58,dev,i was with you the whole time. when did you even get those?,🤨,Doubt,Doubt,Medium
+dev:1239:61,dev,how are you gonna feel when you win and lose your friends?,💭,Asking for opinions,Asking for opinions,Low
+dev:1239:62,dev,"chandler, would you just tell her what she did was wrong?",👌,Confirm,Confirm,Low
+dev:1239:63,dev,fine. don't be my friends. i'll buy new friends.,😏,Taunt,Taunt,High
+dev:1239:64,dev,i want my tickets too! and i'm buying the knicks!,📅,Plan,Plan,Low
+dev:1239:66,dev,cool. then i want mine too! and if i win i'm gonna put it all into a very low-yield bond!,📋,Plan,Plan,Low
+dev:1239:67,dev,"no. no, we should divide them up and i should get extra because we used my car!",⚠️,Prevent,Prevent,Medium
+dev:1239:68,dev,"just give them to me, and i'll split them up!",⏰,Arrange,Arrange,Low
+dev:1239:69,dev,"god, i can't take it anymore! i'm putting an end to this!",😮‍💨,Complain,Complain,High
+dev:1241:0,dev,"what a beautiful night to be running around the street, looking for tickets.",🤣,Joke,Joke,Low
+dev:1241:1,dev,and the wind sure made it fun.,😜,Joke,Joke,Low
+dev:1241:3,dev,weird your psychic didn't mention anything about the scary pigeon.,🤡,Taunt,Taunt,High
+dev:1241:5,dev,so excuse me for being a little skittish.,🙏,Apologise,Apologise,Low
+dev:1241:6,dev,there's two messages. this could be from work.,📝,Inform,Inform,Low
+dev:1241:8,dev,"gosh, i'm so sorry, honey.",🙏,Apologise,Apologise,Low
+dev:1241:9,dev,it is so unfair. it's like that time they promoted saundra over me at work.,🙄,Complain,Complain,High
+dev:1241:10,dev,was she related to ralph lauren?,🤝,Confirm,Confirm,Low
+dev:1241:11,dev,"no, she was just much better at her job than me.",💡,Explain,Explain,Low
+dev:1241:12,dev,"you guys, the drawing's about to start.",ℹ️,Inform,Inform,Low
+dev:1241:13,dev,"honey, you're being really strong about this.",🏆,Praise,Praise,Low
+dev:1241:19,dev,phoebe's totally ruined that for me.,😤,Complain,Complain,High
+dev:1241:20,dev,"hi, mom. put her back on.",👋,Greet,Greet,Low
+dev:1241:22,dev,come on!,📩,Invite,Invite,Low
+dev:1241:23,dev,"mom, please, i know you love your new lips, but i can barely understand you.",🙄,Complain,Complain,High
+dev:1241:24,dev,would you please just let me say good night to my daughter?,🤝,Confirm,Confirm,Low
+dev:1241:25,dev,"all right, check your numbers! make me rich.",ℹ️,Inform,Inform,Low
+dev:1241:26,dev,"you guys, you're not gonna believe this.",📢,Inform,Inform,Low
+dev:1241:30,dev,why aren't you more excited?,🤔,Doubt,Doubt,Medium
+dev:1241:31,dev,"rach, heh,  gleba  is not a word.",💡,Explain,Explain,Low
+dev:1241:34,dev,"here it is!  the fleshy, spore-bearing inner mass of a certain fungi.  heh.",👋,Introduce,Introduce,Low
+dev:1241:39,dev,no!,🙄,Complain,Complain,High
+dev:1241:40,dev,it's your boss.,📛,Introduce,Introduce,Low
+dev:1259:0,dev,"oh, hey, you guys, this is charlie.",👋,Introduce,Introduce,Low
+dev:1259:1,dev,"oh, okay. now, what do you think of renyard's new theory of species variegation in segmented arthropods?",🤔,Asking for opinions,Asking for opinions,Low
+dev:1259:3,dev,"oh, i'm sorry. i have to take this. excuse me.",🥺,Apologise,Apologise,Low
+dev:1259:4,dev,renyard's theory of species variegation?,😕,Doubt,Doubt,Medium
+dev:1259:5,dev,i saw the article on your coffee table. i memorized the title to freak you out.,💡,Explain,Explain,Low
+dev:1259:6,dev,so did you two have fun?,💭,Asking for opinions,Asking for opinions,Low
+dev:1259:7,dev,"oh, my god. she's great.",🌟,Praise,Praise,Low
+dev:1259:8,dev,"we have so much in common, and she's just cool, you know? and funny.",🏆,Praise,Praise,Low
+dev:1259:9,dev,hi!,😊,Greet,Greet,Low
+dev:1259:11,dev,newcastle disease is a secretion-borne virus that only affects chickens and other poultry.,💡,Explain,Explain,Low
+dev:1259:12,dev,"i'm sorry. rachel, this is charlie wheeler. she's a colleague.",👋,Introduce,Introduce,Low
+dev:1259:14,dev,you're not sick.,⛔,Oppose,Oppose,High
+dev:1259:16,dev,"okay, then why are you all dressed up?",😕,Doubt,Doubt,Medium
+dev:1259:17,dev,"when you're sick, you do whatever you can to make yourself feel better.",ℹ️,Inform,Inform,Low
+dev:1259:19,dev,"no, i heard you before. that is so not what this is.",👎,Oppose,Oppose,High
+dev:1259:20,dev,okay.,🤝,Acknowledge,Acknowledge,Low
+dev:1259:21,dev,what?!,🤨,Doubt,Doubt,Medium
+dev:1259:22,dev,"wait, joey's having a party, and he wasn't gonna invite us?",🤔,Doubt,Doubt,Medium
+dev:1259:23,dev,he does it every year. that's why he's sending you to the play.,📢,Inform,Inform,Low
+dev:1259:24,dev,that's why he sent us to that medieval restaurant and to that button factory.,📖,Explain,Explain,Low
+dev:1259:25,dev,and that horrible museum tour?,🤔,Doubt,Doubt,Medium
+dev:1259:27,dev,"hey, you guys, i'm turning in. have fun.",✨,Greet,Greet,Low
+dev:1259:29,dev,nice to meet you.,👋,Greet,Greet,Low
+dev:1263:0,dev,"ross, this is one of my costars, dirk. dirk, this is my good friend ross.",🤝,Introduce,Introduce,Low
+dev:1263:1,dev,i'm not an actor. i'm a professor of paleontology.,📛,Introduce,Introduce,Low
+dev:1263:2,dev,"hey, well, listen, i play a scientist on days.",🤝,Introduce,Introduce,Low
+dev:1263:3,dev,dirk was wondering about the woman you brought and if you two are together?,🤝,Confirm,Confirm,Low
+dev:1263:4,dev,"hey, i got a 690 on my sats.",😎,Flaunt,Flaunt,Medium
+dev:1263:7,dev,"don't worry, joe. i won't come next year!",🫐,Comfort,Comfort,Low
+dev:1263:9,dev,just some boys gave me their phone numbers.,📖,Explain,Explain,Low
+dev:1263:10,dev,i think i am.,🤝,Acknowledge,Acknowledge,Low
+dev:1263:15,dev,"it's just that, you know, they're not really good enough for you and you deserve the best.",💛,Comfort,Comfort,Low
+dev:1263:17,dev,who?,🤨,Doubt,Doubt,Medium
+dev:1263:19,dev,what?,😕,Doubt,Doubt,Medium
+dev:1263:20,dev,"yeah, because we live together. it's a joke! it's a joke.",🤣,Joke,Joke,Low
+dev:1267:0,dev,"hey, thank you so much for these tickets, chandler.",🙏,Thank,Thank,Low
+dev:1267:2,dev,you're so wonderful.,🏆,Praise,Praise,Low
+dev:1267:3,dev,i can't believe you guys bought that. enjoy your slow death.,🚪,Leave,Leave,Low
+dev:1285:1,dev,which is like the highest level of hotness.,🌟,Praise,Praise,Low
+dev:1285:2,dev,then don't go.,💡,Advise,Advise,Low
+dev:1285:4,dev,"all right, then you go to that party, and you pretend to be over mike.",🧠,Advise,Advise,Low
+dev:1285:6,dev,phoebe! hi.,😊,Greet,Greet,Low
+dev:1285:7,dev,wow! you look unbelievable.,🏆,Praise,Praise,Low
+dev:1285:8,dev,"oh, yeah, well... what are you doing here?",🧡,Care,Care,Low
+dev:1285:10,dev,"well, what happened?",😕,Doubt,Doubt,Medium
+dev:1285:12,dev,yeah.,✅,Acknowledge,Acknowledge,Low
+dev:1285:14,dev,well great that you're back. how are you?,🫒,Care,Care,Low
+dev:1285:19,dev,"well, this is probably a stupid question, seeing that you look like that but, um, do you have someplace that you need to be right now?",🧡,Care,Care,Low
+dev:1285:20,dev,"uh, do you smell beets?",✅,Confirm,Confirm,Low
+dev:1285:22,dev,"no, that's david.",👋,Introduce,Introduce,Low
+dev:1285:23,dev,there's a third guy?,😕,Doubt,Doubt,Medium
+dev:1294:0,dev,"everyone, i would like to make a toast to rachel and joey.",📋,Plan,Plan,Low
+dev:1294:5,dev,"oh, my god, are we supposed to answer?",💭,Asking for opinions,Asking for opinions,Low
+dev:1294:9,dev,"ross, you don't seem okay.",🧡,Care,Care,Low
+dev:1294:11,dev,"wait, ross. ross, i, um... i have to take off.",🏃,Leave,Leave,Low
+dev:1294:12,dev,i have an early class in the morning.,💬,Explain,Explain,Low
+dev:1294:13,dev,but this has been lovely.,🏆,Praise,Praise,Low
+dev:1294:16,dev,fine.,👋,Leave,Leave,Low
+dev:1294:18,dev,hey.,😊,Greet,Greet,Low
+dev:1294:20,dev,"you know what, ross, i think, uh, we're gonna take off too.",🏃,Leave,Leave,Low
+dev:1294:21,dev,"oh, oh. heh. of course. god, i'm so stupid.",🙄,Complain,Complain,High
+dev:1294:23,dev,"i mean, you probably just want to be alone.",💡,Explain,Explain,Low
+dev:1294:26,dev,i think i'm gonna stay here and make sure he's okay.,🗺️,Plan,Plan,Low
+dev:1294:28,dev,so you took off my pants and shoes?,👌,Confirm,Confirm,Low
+dev:1294:29,dev,"no. no, no.",⛔,Oppose,Oppose,High
+dev:1294:31,dev,"ahem. look, uh, ross about rachel and i. listen, you don't have to worry about that because nothing's gonna happen.",💛,Comfort,Comfort,Low
+dev:1294:32,dev,what do you mean?,🤨,Doubt,Doubt,Medium
+dev:1294:34,dev,"it's okay, ross. you know, i totally understand.",🫐,Comfort,Comfort,Low
+dev:1294:39,dev,has it been that long?,👌,Confirm,Confirm,Low
+dev:1294:41,dev,"this is crazy. i mean, six years and because of me, you guys aren't gonna be together?",😕,Doubt,Doubt,Medium
+dev:1294:42,dev,really what is this thing with you and rachel?,🫒,Care,Care,Low
+dev:1294:45,dev,and she feels the same way?,👌,Confirm,Confirm,Low
+dev:1294:46,dev,i think so.,🤝,Agree,Agree,Low
+dev:1294:47,dev,"well, then maybe it's time we all moved on.",🧠,Advise,Advise,Low
+dev:1294:48,dev,i will be.,📋,Plan,Plan,Low
+dev:1294:49,dev,"oh, my god, i'm still with charlie, aren't i?",✅,Confirm,Confirm,Low
+dev:1294:52,dev,you sure about this?,🤔,Doubt,Doubt,Medium
+dev:1305:0,dev,okay.,✅,Acknowledge,Acknowledge,Low
+dev:1305:1,dev,wait. there's two sets of nozzles. which one is it? which one is it?,🚨,Ask for help,Ask for help,Low
+dev:1306:0,dev,really?,🤝,Confirm,Confirm,Low
+dev:1306:2,dev,no. i just had to get a picture of this. i'll see you later.,🚪,Leave,Leave,Low
+dev:1312:0,dev,"now, another way to organize your stuffed animals is by size.",📝,Inform,Inform,Low
+dev:1312:1,dev,game?,🤝,Confirm,Confirm,Low
+dev:1312:2,dev,"emma, do you even know it's your birthday today? you're 1.",❓,Asking for opinions,Asking for opinions,Low
+dev:1312:3,dev,one year old. that's little.,📢,Inform,Inform,Low
+dev:1312:6,dev,did i teach her that? did i just impart wisdom?,👌,Confirm,Confirm,Low
+dev:1312:8,dev,me too.,✅,Agree,Agree,Low
+dev:1312:9,dev,i wasn't. let's get going.,🗺️,Plan,Plan,Low
+dev:1312:10,dev,"i just felt so bad missing this. so i just slipped him a little something, you know.",💬,Explain,Explain,Low
+dev:1312:13,dev,i've been here the whole time.,📢,Inform,Inform,Low
+dev:1312:15,dev,"i don't care that you left. i'm just glad that you're here. thanks, you guys.",🙏,Thank,Thank,Low
+dev:1312:17,dev,"oh, emma, that's right. you're that many.",🌟,Praise,Praise,Low
+dev:1312:18,dev,"oh, my god, our daughter's a genius.",👏,Praise,Praise,Low
+dev:1312:20,dev,thanks.,💛,Thank,Thank,Low
+dev:1320:0,dev,"so how's the, uh, baby-styling business going?",🫒,Care,Care,Low
+dev:1320:3,dev,"there's ross. hey, ross.",✨,Greet,Greet,Low
+dev:1320:4,dev,"hello, ross?",😊,Greet,Greet,Low
+dev:1329:0,dev,"look, i'm sorry i didn't give them your tape.",🥺,Apologise,Apologise,Low
+dev:1329:1,dev,"that's not the point, chandler. the point is that you lied.",💥,Emphasize,Emphasize,Low
+dev:1329:2,dev,i know. you're right.,👍,Agree,Agree,Low
+dev:1329:3,dev,"oh, what's it gonna take for you to forgive me?",❓,Asking for opinions,Asking for opinions,Low
+dev:1334:1,dev,what's going on?,😕,Doubt,Doubt,Medium
+dev:1334:3,dev,is he all right out there by himself?,🛡️,Care,Care,Low
+dev:1337:0,dev,hello?,👋,Greet,Greet,Low
+dev:1337:1,dev,"oh, hi.",👋,Greet,Greet,Low
+dev:1337:2,dev,"oh, my god, really? i can't wait to tell chandler.",🤝,Confirm,Confirm,Low
+dev:1337:4,dev,she gave us a great report and we're officially on the waiting list.,📝,Inform,Inform,Low
+dev:1337:5,dev,hello?,✨,Greet,Greet,Low

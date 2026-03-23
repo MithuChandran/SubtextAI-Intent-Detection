@@ -1,0 +1,2034 @@
+source_id,split,text,emoji,label,intent_label,dissonance_label
+test:9:1,test,not everyone can pull off a vest.,💎,Flaunt,Flaunt,Medium
+test:9:3,test,"uh, my break's almost over.",📝,Inform,Inform,Low
+test:9:4,test,"hey, actually, to use the employee bathroom?",✅,Confirm,Confirm,Low
+test:9:5,test,"i mean, we have porta-potties, but, uh, you know, kinda gross, so...",💬,Explain,Explain,Low
+test:9:6,test,"uh, yeah, yeah.",✅,Agree,Agree,Low
+test:9:7,test,of course. not a problem at all.,🤝,Agree,Agree,Low
+test:9:8,test,thanks.,🙏,Thank,Thank,Low
+test:9:9,test,you're the best.,🌟,Praise,Praise,Low
+test:9:10,test,it's happening!,💸,Flaunt,Flaunt,Medium
+test:9:11,test,uh-huh.,✅,Acknowledge,Acknowledge,Low
+test:9:13,test,"just that... you know, sometimes people flirt with people to get stuff.",💡,Explain,Explain,Low
+test:9:14,test,"yeah, well, that's not what's happening here, so...",👎,Oppose,Oppose,High
+test:9:15,test,"i'm sorry. you're right, i don't.",😔,Apologise,Apologise,Low
+test:15:0,test,thank you.,🙏,Thank,Thank,Low
+test:15:1,test,"oh, aren't you sweet?",🏆,Praise,Praise,Low
+test:15:3,test,wanna hear a secret?,👌,Confirm,Confirm,Low
+test:15:4,test,sure.,🤝,Agree,Agree,Low
+test:15:5,test,i'm sorry. i don't know who--,🙏,Apologise,Apologise,Low
+test:15:6,test,sandra's boyfriend.,📛,Introduce,Introduce,Low
+test:15:7,test,"well, my boyfriend that she stole from me.",😑,Criticize,Criticize,High
+test:15:13,test,you don't want to hear the rest?,✅,Confirm,Confirm,Low
+test:18:1,test,"yeah, sure, sure.",👌,Acknowledge,Acknowledge,Low
+test:18:2,test,"okay, well, first of all, you need to calm down.",🧠,Advise,Advise,Low
+test:18:5,test,"basically, dina and i decided together to break up.",📢,Inform,Inform,Low
+test:18:6,test,"oh, yes, sorry, continue.",🙏,Apologise,Apologise,Low
+test:18:8,test,"got it, okay, so...unh. let's unpack this.",💡,Advise,Advise,Low
+test:18:10,test,that's exactly what i just said.,🔥,Emphasize,Emphasize,Low
+test:18:11,test,"okay. that's a toughie. that is a tough, tough toughie.",🙄,Complain,Complain,High
+test:18:12,test,"okay, this isn't gonna work.",🏃,Leave,Leave,Low
+test:18:13,test,"wait, no, no, no, no! i can do better.",🛑,Prevent,Prevent,Medium
+test:23:0,test,i wanted to say good job today.,👏,Praise,Praise,Low
+test:23:1,test,"i mean, i'm not even totally sure what go-backs are.",💡,Explain,Explain,Low
+test:23:2,test,you did great.,👏,Praise,Praise,Low
+test:23:4,test,"yeah. just, tomorrow, 'cause that way, you'll get paid.",ℹ️,Inform,Inform,Low
+test:26:0,test,"we got robbed, home depot got robbed, that weird store that only makes copies got robbed.",😮‍💨,Complain,Complain,High
+test:26:1,test,i'm scared to even walk to my car alone at night.,🙄,Complain,Complain,High
+test:26:2,test,that is why everyone gets a rape whistle.,ℹ️,Inform,Inform,Low
+test:26:3,test,so everyone gets a rape kazoo.,📝,Inform,Inform,Low
+test:26:4,test,i also think we need parking lot buddies so that no one has to walk to their car alone at night.,☝️,Advise,Advise,Low
+test:26:5,test,i'll be paired with anyone but sarah.,📢,Inform,Inform,Low
+test:26:7,test,"wait, we're talking about picking boyfriends, right?",🤝,Confirm,Confirm,Low
+test:26:8,test,i'll take justine.,ℹ️,Inform,Inform,Low
+test:26:9,test,the robbers will probably kill her before they kill me.,📖,Explain,Explain,Low
+test:26:10,test,"since i don't drive, could you assign someone to walk me to the bus stop and wait with me?",🙋,Ask for help,Ask for help,Low
+test:26:12,test,"can i be paired with mateo, actually?",✅,Confirm,Confirm,Low
+test:26:13,test,"oh, you guys do a trivia night?",🤔,Doubt,Doubt,Medium
+test:26:14,test,that sounds fun.,🌟,Praise,Praise,Low
+test:26:16,test,garrett mocked you so hard for that.,🤡,Taunt,Taunt,High
+test:26:18,test,"so, like, almost everyone goes to this trivia night?",✅,Confirm,Confirm,Low
+test:26:19,test,i love trivia.,📝,Inform,Inform,Low
+test:26:20,test,sorry.,🥺,Apologise,Apologise,Low
+test:38:0,test,"nice to get off early, huh?",✨,Greet,Greet,Low
+test:38:2,test,what to do?,❓,Asking for opinions,Asking for opinions,Low
+test:38:3,test,seriously? you guys invited that girl?,🤨,Doubt,Doubt,Medium
+test:38:4,test,i am way smarter than that girl.,😎,Flaunt,Flaunt,Medium
+test:38:5,test,'cause we figured you weren't interested.,💬,Explain,Explain,Low
+test:38:8,test,"oh, like i would say no to trivia night.",😮‍💨,Complain,Complain,High
+test:38:9,test,i said no because i was married and i had emma to look after.,💬,Explain,Explain,Low
+test:38:10,test,"but now i'm separated and emma has her own thing, and i spend most of my nights by myself and i would really just like to have a social life again.",😤,Complain,Complain,High
+test:38:11,test,"okay, great. just come to trivia night.",🍽️,Invite,Invite,Low
+test:38:12,test,i will. thank you.,👍,Thank,Thank,Low
+test:38:13,test,"okay, we'll see you at 10.",🍽️,Invite,Invite,Low
+test:38:14,test,"bye! wait, uh, what--10:00 p.m.?",👌,Confirm,Confirm,Low
+test:38:16,test,i'm so tired.,😮‍💨,Complain,Complain,High
+test:40:0,test,"hey, parking lot buddy. ready to go wait at the bus stop with me?",👌,Confirm,Confirm,Low
+test:40:1,test,"yeah, i did say that. yeah.",✅,Agree,Agree,Low
+test:40:3,test,okay.,✅,Agree,Agree,Low
+test:41:0,test,who are you? beyoncé?,✅,Confirm,Confirm,Low
+test:41:1,test,selena.,👋,Introduce,Introduce,Low
+test:42:1,test,"wait, you mean creepy sal?",👌,Confirm,Confirm,Low
+test:42:2,test,the man is dead.,ℹ️,Inform,Inform,Low
+test:42:3,test,police said he's been dead for at least a year.,📢,Inform,Inform,Low
+test:42:4,test,are you crying?,👌,Confirm,Confirm,Low
+test:42:9,test,"apparently he was doing some work behind the drywall outside the women's washroom and then his foot got caught in a beam, and he starved to death.",📢,Inform,Inform,Low
+test:42:11,test,he drilled a hole into the women's washroom so...,ℹ️,Inform,Inform,Low
+test:42:12,test,why?,🤨,Doubt,Doubt,Medium
+test:42:14,test,why--why me?,🤔,Doubt,Doubt,Medium
+test:42:15,test,"'cause, you know...",💬,Explain,Explain,Low
+test:42:16,test,i'm sure there's a lot of churn going on in there.,😏,Taunt,Taunt,High
+test:42:17,test,"wait, so it's just going to sit in the store?",🤔,Doubt,Doubt,Medium
+test:42:18,test,uh...   i'm not working next to a dead body.,😏,Taunt,Taunt,High
+test:42:19,test,technically we've all been working next sal's dead body for the past year.,ℹ️,Inform,Inform,Low
+test:42:22,test,actually he still had both of his feet.,⛔,Oppose,Oppose,High
+test:43:0,test,what about maxine?,🛡️,Care,Care,Low
+test:43:1,test,"nah, i don't trust anybody who opens their eyes that wide.",⛔,Oppose,Oppose,High
+test:43:2,test,yeah. pass.,👍,Agree,Agree,Low
+test:43:3,test,no.,🙅,Oppose,Oppose,High
+test:43:4,test,"and even if i were, i wouldn't be using an app.",🙅,Oppose,Oppose,High
+test:43:6,test,"it actually gets to be kind of fun, you know.",📛,Introduce,Introduce,Low
+test:43:7,test,"you just swipe right for yes, left for no, see?",🤝,Introduce,Introduce,Low
+test:43:8,test,"oh, hello, jessicah...",😊,Greet,Greet,Low
+test:43:9,test,"come on, so this is just like where she's baking cupcakes in a rams jersey.",🤡,Taunt,Taunt,High
+test:43:12,test,a bowling action shot?,🤨,Doubt,Doubt,Medium
+test:43:13,test,"well, clearly she's just trying to show off her cleavage.",🤡,Taunt,Taunt,High
+test:43:14,test,"oh, gross.",🙄,Complain,Complain,High
+test:43:15,test,i need your help.,🚨,Ask for help,Ask for help,Low
+test:43:16,test,"okay, uh...",🤝,Agree,Agree,Low
+test:43:17,test,okay.,🏃,Leave,Leave,Low
+test:43:18,test,"wait, this one's just a picture of margot robbie.",👋,Introduce,Introduce,Low
+test:43:19,test,are they allowed to do that?,🤔,Doubt,Doubt,Medium
+test:46:1,test,is that kelly?,👌,Confirm,Confirm,Low
+test:46:2,test,"hey, girl. go get it.",💡,Advise,Advise,Low
+test:46:3,test,"ugh, calm down.",🤡,Taunt,Taunt,High
+test:46:4,test,what?  match?  i didn't--how--how did that happen?,😤,Complain,Complain,High
+test:46:6,test,"no, i didn't.",👎,Oppose,Oppose,High
+test:46:7,test,"i swiped left, like this.",📛,Introduce,Introduce,Low
+test:46:10,test,"it's like eating a birthday candle, only in a good way.",😂,Joke,Joke,Low
+test:46:11,test,"garrett, what do i do?",🙋,Ask for help,Ask for help,Low
+test:46:13,test,"tell her you stole jonah's phone, and you were stalking her on it.",🧠,Advise,Advise,Low
+test:46:14,test,"okay, that's not gonna happen.",⛔,Oppose,Oppose,High
+test:46:15,test,"i was thinking more like, i could sneak up like a ninja, take her phone, cancel the notification, and then slip it in without her noticing.",🗺️,Plan,Plan,Low
+test:46:18,test,"i could call him up, have him hack into kelly's phone, and melt her motherboard.",📋,Plan,Plan,Low
+test:46:19,test,"yes, call the guy.",✅,Agree,Agree,Low
+test:46:20,test,i'm messing with you.,🤣,Joke,Joke,Low
+test:47:0,test,kelly.,👋,Greet,Greet,Low
+test:47:1,test,"hey, girl.",👋,Greet,Greet,Low
+test:47:2,test,"um, i--i meant to ask you earlier...",💬,Explain,Explain,Low
+test:47:4,test,could i borrow your phone?,🥺,Ask for help,Ask for help,Low
+test:47:5,test,"yeah, mine is soaked.",📖,Explain,Explain,Low
+test:47:6,test,"not in the toilet, in a...",💡,Explain,Explain,Low
+test:47:8,test,"thanks. oh, it's--",👍,Thank,Thank,Low
+test:47:10,test,why are you being so weird about your code?,🤨,Doubt,Doubt,Medium
+test:47:11,test,thanks.,🙏,Thank,Thank,Low
+test:47:14,test,"thanks, you're a lifesaver.",🙏,Thank,Thank,Low
+test:54:0,test,what do you think?,💭,Asking for opinions,Asking for opinions,Low
+test:54:1,test,"you're a genius.   well i mean, not literally, but you know.",👏,Praise,Praise,Low
+test:54:2,test,well done!,👏,Praise,Praise,Low
+test:63:0,test,"well, yep, you guys--you got me.",👍,Agree,Agree,Low
+test:63:1,test,"yeah, you know honestly, you really committed.",🌟,Praise,Praise,Low
+test:63:2,test,i'm impressed. i was almost scared.,🏆,Praise,Praise,Low
+test:63:3,test,thanks.,🙏,Thank,Thank,Low
+test:63:4,test,i watch a lot of lifetime movies.,💬,Explain,Explain,Low
+test:63:5,test,"well, i'm gonna go wash all this blood off...",🚪,Leave,Leave,Low
+test:63:7,test,i just wanted you to know that i was really not trying to make fun of you.,📖,Explain,Explain,Low
+test:63:8,test,it was an accident.,📖,Explain,Explain,Low
+test:63:9,test,it's okay. i mean...,🥹,Comfort,Comfort,Low
+test:63:10,test,"i know, right?",👍,Agree,Agree,Low
+test:63:11,test,"i just, like, couldn't stop.",📖,Explain,Explain,Low
+test:63:13,test,"well, thank you for being cool about it.",👍,Thank,Thank,Low
+test:63:14,test,"yeah. i mean, if anything, i should thank you.",🙏,Thank,Thank,Low
+test:63:16,test,"oh, good.",👏,Praise,Praise,Low
+test:64:0,test,sorry about the questioning.,🙏,Apologise,Apologise,Low
+test:64:1,test,"just had to make sure you were real coroners, and not just here for hummus or something.",📖,Explain,Explain,Low
+test:64:2,test,"sure, yeah.",👍,Agree,Agree,Low
+test:64:3,test,and you didn't touch the body?,🤝,Confirm,Confirm,Low
+test:64:4,test,absolutely not.,⛔,Oppose,Oppose,High
+test:71:1,test,"like, before i was married, when i was in high school, i was...   wild.",📛,Introduce,Introduce,Low
+test:71:3,test,"okay, well, we're not in stupid angola, marcus.",⛔,Oppose,Oppose,High
+test:71:5,test,but nice try.,👏,Praise,Praise,Low
+test:71:7,test,"no, i did do that.",🙅,Oppose,Oppose,High
+test:71:10,test,call him. okay. i will.,📅,Arrange,Arrange,Low
+test:71:17,test,ha ha. chickened out.,😏,Taunt,Taunt,High
+test:71:18,test,couldn't even ask about the car.,🙄,Taunt,Taunt,High
+test:76:1,test,this coffee is... terrible.,😮‍💨,Complain,Complain,High
+test:76:2,test,"awful. yeah, tastes like piss.",😤,Complain,Complain,High
+test:76:4,test,"yeah, kind of. yeah.",👍,Agree,Agree,Low
+test:76:5,test,"um, i told my coworkers that i stole a car in 10th grade, and they didn't believe me.",📖,Explain,Explain,Low
+test:76:6,test,so i just need adam to verify that.,🙋,Ask for help,Ask for help,Low
+test:76:7,test,she did. 10th grade.,🤝,Agree,Agree,Low
+test:76:8,test,"uh, sure. yes.",✅,Agree,Agree,Low
+test:76:10,test,but me and bridge have been seeing each other.,ℹ️,Inform,Inform,Low
+test:76:13,test,"okay, guys, it's fine. look, adam's moving on.",💛,Comfort,Comfort,Low
+test:76:14,test,so we're both killing it. we should go.,🏃,Leave,Leave,Low
+test:76:15,test,we have to wait for the scooter to charge.,⚠️,Prevent,Prevent,Medium
+test:76:17,test,"you wouldn't happen to have a scale we could use, would you?",✅,Confirm,Confirm,Low
+test:78:0,test,"i was diluting it to make more, okay?",📖,Explain,Explain,Low
+test:78:3,test,they have a pool table and one of those video poker machines...,📛,Introduce,Introduce,Low
+test:78:5,test,"oh, well, that sounds festive.",🏆,Praise,Praise,Low
+test:94:0,test,just a woman going insane.,🤔,Criticize,Criticize,High
+test:94:1,test,don't even think about it.,👎,Oppose,Oppose,High
+test:100:0,test,"i know i never explicitly said not to post videos of rat infestations in the kitchen, but i thought i didn't need to.",📢,Inform,Inform,Low
+test:100:1,test,i should have watched the video before i posted it.,🥺,Apologise,Apologise,Low
+test:100:2,test,"oh, my god. thank you so much.",💛,Thank,Thank,Low
+test:100:3,test,"okay, i'm gonna start compiling a list of all the things we should not be posting about, starting with farting in cups and rat infestations.",📢,Inform,Inform,Low
+test:100:4,test,"again, didn't know the rats were there.",🔥,Emphasize,Emphasize,Low
+test:100:7,test,that's something that we shouldn't post online.,💬,Explain,Explain,Low
+test:100:8,test,i was just trying to prove that i could make a video that could get a bunch of views.,💬,Explain,Explain,Low
+test:100:9,test,does this have something to do with jonah dating kelly?,👌,Confirm,Confirm,Low
+test:100:12,test,we were gonna keep that a secret.,📖,Explain,Explain,Low
+test:100:13,test,"well, then maybe you shouldn't have posted about it on the internet.",💡,Advise,Advise,Low
+test:100:14,test,are we calling it a relationship?,👌,Confirm,Confirm,Low
+test:108:0,test,"oh, it's okay. it's fine. it's great, actually.",💛,Comfort,Comfort,Low
+test:108:1,test,"you know, sometimes when you aren't happy, it's better to be divorced than to stay in the marriage.",🥹,Comfort,Comfort,Low
+test:108:2,test,"well, thank you. thanks.",💛,Thank,Thank,Low
+test:108:3,test,i am going to put that where people put things like this.,📅,Plan,Plan,Low
+test:118:0,test,"i mean, we can't leave. they're denying us food.",😤,Complain,Complain,High
+test:118:1,test,not allowed to watch the golden globes.,😮‍💨,Complain,Complain,High
+test:118:2,test,emma's not coming! she never was.,👎,Oppose,Oppose,High
+test:118:3,test,we're on our own.,📝,Inform,Inform,Low
+test:120:2,test,"yeah, nice and tight.",👏,Praise,Praise,Low
+test:120:3,test,so dig in. garrett?,📩,Invite,Invite,Low
+test:120:4,test,"uh, what, me? wow, thank you.",🙏,Thank,Thank,Low
+test:120:6,test,"ugh, always do that.",😤,Complain,Complain,High
+test:120:9,test,"but when i see meat that looks that delicious, i have to make an exception.",🌟,Praise,Praise,Low
+test:120:10,test,"no, dina, you don't have to eat that.",🚫,Prevent,Prevent,Medium
+test:120:11,test,i'm going to eat a bird now.,📅,Plan,Plan,Low
+test:120:12,test,i'm going to eat a bird now.,🗺️,Plan,Plan,Low
+test:120:13,test,"i'm gonna-wow, but is it worth it for that taste!",🌟,Praise,Praise,Low
+test:124:0,test,sorry. i almost fell.,😔,Apologise,Apologise,Low
+test:124:1,test,does that mean that allah is the one true god?,📝,Inform,Inform,Low
+test:126:0,test,scary. were you in it at the time?,🫒,Care,Care,Low
+test:126:1,test,"oh, right. blonde moment.",✅,Agree,Agree,Low
+test:126:2,test,"yeah, so anyway, everything i own is gone, and now i'm--i'm living in a fema trailer.",🙄,Complain,Complain,High
+test:126:3,test,"so in a way, you're officially trailer trash now?",🤡,Taunt,Taunt,High
+test:126:4,test,ha. admits it.,😏,Taunt,Taunt,High
+test:126:5,test,oh. why don't you move into garrett's apartment?,💡,Advise,Advise,Low
+test:126:6,test,no! no.,👎,Oppose,Oppose,High
+test:126:7,test,jonah doesn't want to live with a roommate. he's an adult.,📖,Explain,Explain,Low
+test:126:8,test,"yeah, no. i--i mean, i--i would, i would love that, but i would never-i would never impose.",💡,Explain,Explain,Low
+test:126:9,test,"but i mean, it wouldn't be a problem. i could do it.",💡,Explain,Explain,Low
+test:126:10,test,it's just that it's... really cramped.,😮‍💨,Complain,Complain,High
+test:126:11,test,"sure, sure, yeah.",✅,Agree,Agree,Low
+test:126:14,test,excuse me. gotta go.,🚪,Leave,Leave,Low
+test:127:0,test,"so, uh, how are things at home?",🫒,Care,Care,Low
+test:127:1,test,emma. how's--how's emma?,🧡,Care,Care,Low
+test:127:2,test,"oh, wow. uh, that's exciting. teenager.",👏,Praise,Praise,Low
+test:127:4,test,do we have to?,🤔,Doubt,Doubt,Medium
+test:127:5,test,"oh, yeah, no, i mean, i'd rather not, if you don't need to.",📖,Explain,Explain,Low
+test:127:6,test,no! i don't. i don't need to.,👎,Oppose,Oppose,High
+test:127:10,test,"hey, what's going on, buddy?",🧡,Care,Care,Low
+test:127:11,test,classic marcus.,😜,Joke,Joke,Low
+test:127:13,test,"hey, listen, i've been thinking we should kick mateo out of the friend group.",💡,Advise,Advise,Low
+test:138:0,test,how come no one ever told me that i sounded like that?,😤,Complain,Complain,High
+test:138:2,test,but that's not how i sound on the inside!,😮‍💨,Complain,Complain,High
+test:138:4,test,not what you hear. what i hear.,🔥,Emphasize,Emphasize,Low
+test:138:5,test,"okay, i found a costume shop with two minion costumes.",📢,Inform,Inform,Low
+test:138:6,test,yeah. it's preposterous.,✅,Agree,Agree,Low
+test:138:8,test,"i wasn't listening. the point is, you two should go right now and pick them up.",📅,Arrange,Arrange,Low
+test:138:9,test,henry can't be around children.,📝,Inform,Inform,Low
+test:138:10,test,marcus is on his third dui.,ℹ️,Inform,Inform,Low
+test:138:11,test,elias is afraid of minions.,ℹ️,Inform,Inform,Low
+test:138:12,test,nobody knows where brett is!,🙄,Complain,Complain,High
+test:144:0,test,mateo. hey.,👋,Greet,Greet,Low
+test:144:1,test,how you been?,🧡,Care,Care,Low
+test:144:2,test,"good, thanks. yeah, i'm in a good place.",👍,Thank,Thank,Low
+test:144:5,test,"um, i just need to ask you something.",🚨,Ask for help,Ask for help,Low
+test:144:6,test,"did you get a voice mail, by chance?",🤝,Confirm,Confirm,Low
+test:144:7,test,"oh, sorry, one second. uh, ooh, i have to take this.",🥺,Apologise,Apologise,Low
+test:144:9,test,"we got back together. hey, sweetie.",📢,Inform,Inform,Low
+test:144:11,test,"and your toupee, it's garbage.",😏,Taunt,Taunt,High
+test:144:12,test,you look like a fry cook.,😏,Taunt,Taunt,High
+test:146:0,test,"thank you, sandra. that was...lovely.",💛,Thank,Thank,Low
+test:146:1,test,we're gathered here today to honor our dear friend and co-worker brett kobashigawa.,📝,Inform,Inform,Low
+test:146:2,test,he died doing what he loved most--collecting carts.,📝,Inform,Inform,Low
+test:146:3,test,we do not know he's dead!,❗,Emphasize,Emphasize,Low
+test:146:5,test,all we know is that brett was in the parking lot collecting carts when the tornado hit.,📝,Inform,Inform,Low
+test:146:7,test,brett wasn't killed by that tornado.,📢,Inform,Inform,Low
+test:146:8,test,"thank you, dina.",💛,Thank,Thank,Low
+test:146:9,test,"what usually happens is all the air is sucked from your lungs and then they fill up with blood, so, technically, he probably drowned on his own blood.",📖,Explain,Explain,Low
+test:146:10,test,why didn't we know about brett's death sooner?,🤔,Doubt,Doubt,Medium
+test:146:11,test,apparently someone was clocking in for him.,💡,Explain,Explain,Low
+test:146:12,test,"guys, this is one of the reasons that clock-in buddies is a bad idea.",💡,Explain,Explain,Low
+test:146:16,test,"because he's probably still alive, basking on some beach in the mediterranean.",📖,Explain,Explain,Low
+test:146:17,test,"yeah, just waiting for his foot stump to heal.",🙄,Taunt,Taunt,High
+test:146:19,test,"nope, no--that's not it.",⛔,Oppose,Oppose,High
+test:146:20,test,nope.,🙅,Oppose,Oppose,High
+test:149:1,test,"hey, dina. you okay?",🧡,Care,Care,Low
+test:149:2,test,i'm starting to think we should get everyone into the new storm shelter.,🗺️,Plan,Plan,Low
+test:149:3,test,"uh, i don't think that's necessary.",🙅,Oppose,Oppose,High
+test:149:4,test,"tell that to brett. oh, wait, you can't.",😏,Taunt,Taunt,High
+test:155:0,test,"hey, sandra, how's it going?",🛡️,Care,Care,Low
+test:155:1,test,i just found out jerry's feeding tube got infected and--,ℹ️,Inform,Inform,Low
+test:155:3,test,"so let me ask you a question, but don't tell garrett.",🥺,Ask for help,Ask for help,Low
+test:155:5,test,"hey, what's up, guys?",😊,Greet,Greet,Low
+test:155:7,test,hey! what's going on?,✨,Greet,Greet,Low
+test:155:9,test,nothing?,👌,Confirm,Confirm,Low
+test:155:10,test,so you guys are just in the hallway staring at each other saying nothing?,🤝,Confirm,Confirm,Low
+test:155:11,test,"well, not nothing. i mean, we were--",💬,Explain,Explain,Low
+test:155:12,test,"jonah's going to a barbecue, and he asked if it'd be interesting to put burrata on a burger instead of provolone.",💡,Explain,Explain,Low
+test:155:16,test,mm.,🏃,Leave,Leave,Low
+test:155:17,test,"wow, you are an incredible liar.",🏆,Praise,Praise,Low
+test:155:18,test,thank you.,💛,Thank,Thank,Low
+test:156:0,test,good burn! that was fun.,👏,Praise,Praise,Low
+test:156:2,test,"i don't know if this is a workman's comp type of thing, but she needs to talk to someone.",☝️,Advise,Advise,Low
+test:156:4,test,ohh! okay.,✅,Agree,Agree,Low
+test:162:0,test,a few last bits of housekeeping--,ℹ️,Inform,Inform,Low
+test:162:1,test,the softball team will once again not be happening.,📢,Inform,Inform,Low
+test:162:2,test,"and lastly, uh-we found out that jerusha has an abnormally shaped uterus which will prevent her from getting pregnant.",ℹ️,Inform,Inform,Low
+test:162:3,test,"so if any of you know any women who might like to carry our baby, you know, let me know.",ℹ️,Inform,Inform,Low
+test:162:4,test,"okay then, well, jeff, the floor is yours.",🗓️,Arrange,Arrange,Low
+test:162:5,test,"yeah, thank you.",👍,Thank,Thank,Low
+test:162:6,test,thank you for that warm reception.,👍,Thank,Thank,Low
+test:162:8,test,it's about something big.,📢,Inform,Inform,Low
+test:162:9,test,"no. hi, mateo.",✨,Greet,Greet,Low
+test:162:10,test,"um, sales are up this quarter.",ℹ️,Inform,Inform,Low
+test:162:11,test,"we are within $80,000 of reclassification.",📝,Inform,Inform,Low
+test:162:12,test,"if we can make that by the end of the day, we will go from being a triple-a store to a...",📝,Inform,Inform,Low
+test:162:13,test,reclassified as a...,📢,Inform,Inform,Low
+test:162:14,test,"quadruple-a, guys. we're gonna be a quad-a store.",📝,Inform,Inform,Low
+test:162:15,test,we're gonna be a high volume store.,📢,Inform,Inform,Low
+test:162:17,test,"kinda like a duck's. wait, i'll--i'll draw it.",🏃,Leave,Leave,Low
+test:162:18,test,so this would be one more a then?,✅,Confirm,Confirm,Low
+test:162:19,test,"believe me, you guys are gonna love this.",📢,Inform,Inform,Low
+test:162:20,test,like we're famous or something?,👌,Confirm,Confirm,Low
+test:162:21,test,"uh, a point of clarification, jeff, would it have the soda too?",👌,Confirm,Confirm,Low
+test:163:0,test,give me the marker 'cause someone just made a thousand dollar sale.,💎,Flaunt,Flaunt,Medium
+test:163:9,test,"oh, boo-hoo, poor jonah.",😏,Taunt,Taunt,High
+test:163:11,test,what a tragedy.,🙄,Taunt,Taunt,High
+test:163:12,test,"actually, it was his friend's condo.",❗,Emphasize,Emphasize,Low
+test:163:15,test,we could go over there at lunch.,🧠,Advise,Advise,Low
+test:163:16,test,"check it out, maybe. just to be safe.",🧠,Advise,Advise,Low
+test:163:17,test,"i mean, it's not the worst idea.",🏆,Praise,Praise,Low
+test:163:18,test,"hey, keep your eye on the prize, okay?",🧠,Advise,Advise,Low
+test:173:0,test,we cannot become a quad-a.,📢,Inform,Inform,Low
+test:173:2,test,everyone there is exhausted all the time.,📝,Inform,Inform,Low
+test:173:3,test,they are open 24 hours.,ℹ️,Inform,Inform,Low
+test:173:5,test,"no, guys, we've come too far. we are this close to quad-a.",📢,Inform,Inform,Low
+test:173:6,test,we need to slow down sales.,ℹ️,Inform,Inform,Low
+test:173:10,test,"all right, you heard amy, guys, let's cross that finish line and become quad-a.",📝,Inform,Inform,Low
+test:173:11,test,"marcus, were you even listening?",🤨,Doubt,Doubt,Medium
+test:173:12,test,"sorry, i got a text earlier.",🙏,Apologise,Apologise,Low
+test:179:3,test,"cheyenne, do you really wanna do this?",👌,Confirm,Confirm,Low
+test:179:4,test,mm-hmm.,✅,Acknowledge,Acknowledge,Low
+test:179:6,test,the deal's off.,ℹ️,Inform,Inform,Low
+test:179:9,test,"because i don't want my baby carried by a huge stinker, like you.",🤔,Criticize,Criticize,High
+test:179:10,test,"oh, wait, you're being nice.",👏,Praise,Praise,Low
+test:179:11,test,"no, i'm not being nice. i'm being mean.",👎,Oppose,Oppose,High
+test:179:12,test,and--now i don't want a big stinky baby from a big stinker like you.,🤔,Criticize,Criticize,High
+test:179:13,test,you're stinking up the place.,🤔,Criticize,Criticize,High
+test:182:0,test,just wanted to let you know we didn't make the target.,📢,Inform,Inform,Low
+test:182:1,test,no quad-a.,📝,Inform,Inform,Low
+test:182:2,test,"oh, okay.",🤝,Acknowledge,Acknowledge,Low
+test:182:3,test,i was so close to having a baby.,😮‍💨,Complain,Complain,High
+test:182:4,test,but-you wanna be my surrogate?,🚨,Ask for help,Ask for help,Low
+test:182:6,test,just for someone to squirt out your kid?,🤨,Doubt,Doubt,Medium
+test:182:11,test,okay. okay.,✅,Acknowledge,Acknowledge,Low
+test:182:12,test,this is cool.,🌟,Praise,Praise,Low
+test:189:0,test,"whoa, oreo really upped its game while i was in prison.",👏,Praise,Praise,Low
+test:189:1,test,"oh, amy, this is my mom.",📛,Introduce,Introduce,Low
+test:189:2,test,"oh, my gosh! hi!",✨,Greet,Greet,Low
+test:189:3,test,you're the famous amy.,🌟,Praise,Praise,Low
+test:189:5,test,i'm so sorry about the divorce and how your life is going.,💛,Comfort,Comfort,Low
+test:189:6,test,"oh, um, thank you.",💛,Thank,Thank,Low
+test:189:7,test,"uh, so what brings you to the store?",🫒,Care,Care,Low
+test:189:8,test,"oh, she was just bringing me this shirt that she got me that i forgot to put on this morning.",📖,Explain,Explain,Low
+test:189:9,test,my mom thought we should go back to green day.,💡,Explain,Explain,Low
+test:189:10,test,"well, i mean, it is a two-year-old's birthday party, and chey really liked the idea-i know you've been kind of a mother figure for cheyenne while i've been away, but...",📖,Explain,Explain,Low
+test:189:11,test,"yes, sure.",🤝,Agree,Agree,Low
+test:189:12,test,"yeah, sorry.",😔,Apologise,Apologise,Low
+test:189:13,test,bye.,👋,Leave,Leave,Low
+test:194:0,test,"two chupacabra sightings, same exact description.",ℹ️,Inform,Inform,Low
+test:194:2,test,i'm putting it in real.,🗺️,Plan,Plan,Low
+test:194:4,test,it's the third time you've made that joke.,😑,Criticize,Criticize,High
+test:196:1,test,"i don't care, no, i just-i just think it's interesting, you know, i mean, i don't believe in angels, but if she wants to believe in angels, then i respect that, you know?",💬,Explain,Explain,Low
+test:196:3,test,"because i'm about to order a 22-foot sub, and i'd prefer to keep it intact, so one end has to start in your room.",📖,Explain,Explain,Low
+test:213:0,test,attention cloud 9 shoppers.,📢,Inform,Inform,Low
+test:213:1,test,sushi is on sale at the deli.,📝,Inform,Inform,Low
+test:213:2,test,"mmm, discount sushi from a big box store.",📝,Inform,Inform,Low
+test:213:4,test,"you know what, that sounded harsher than what i meant it to.",📢,Inform,Inform,Low
+test:213:5,test,"if you like the sushi, just get the sushi.",ℹ️,Inform,Inform,Low
+test:213:6,test,"yeah, i just, i'm trying to do it like garrett, but i'm a little better, i think, feeding off someone, you know, riffing in the moment.",📖,Explain,Explain,Low
+test:213:7,test,"yes, or hoda.",✅,Acknowledge,Acknowledge,Low
+test:213:8,test,"okay, all right...",🤝,Acknowledge,Acknowledge,Low
+test:213:9,test,then let's riff.,🧠,Advise,Advise,Low
+test:213:10,test,yeah.,✅,Acknowledge,Acknowledge,Low
+test:213:11,test,maybe we need to rehearse a little bit.,💡,Advise,Advise,Low
+test:213:12,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:214:0,test,i'm getting paid to sit around and play video games all day.,💸,Flaunt,Flaunt,Medium
+test:214:1,test,"i teach water aerobics to seniors after work, and they yell at me if i'm late.",😤,Complain,Complain,High
+test:214:2,test,it can get racist.,😮‍💨,Complain,Complain,High
+test:214:3,test,"they don't know what i am, so it's kind of all over the place.",😮‍💨,Complain,Complain,High
+test:214:4,test,"kinda busy, i say you just do you.",💡,Advise,Advise,Low
+test:215:0,test,okay i wanna make sure you're ready.,🤝,Confirm,Confirm,Low
+test:215:2,test,you just have some major dings.,💛,Comfort,Comfort,Low
+test:215:3,test,"you're over 30, you're divorced, you have a kid.",😏,Taunt,Taunt,High
+test:215:4,test,"cheyenne has a baby, does that give her a ding?",🤔,Doubt,Doubt,Medium
+test:215:5,test,"no, because i have a baby the way that chrissy teigen has a baby.",📖,Explain,Explain,Low
+test:215:9,test,this whole system of rating people is gross.,😤,Complain,Complain,High
+test:215:12,test,"no, sarah's a seven, brett's an eight, tate's a ten because he has a good job and abs.",💡,Explain,Explain,Low
+test:215:13,test,"that's correct, i'm the complete package.",😎,Flaunt,Flaunt,Medium
+test:215:15,test,"i'm sorry, that was not-no, i think you're beautiful.",😔,Apologise,Apologise,Low
+test:215:16,test,you're just a little bit higher than justine.,🙄,Taunt,Taunt,High
+test:217:0,test,"oh, yeah.",🤝,Acknowledge,Acknowledge,Low
+test:217:2,test,"oh yeah, yeah.",🤝,Acknowledge,Acknowledge,Low
+test:217:3,test,"yeah, anyway, um, if you really wanna get up, i guess it's okay, you have to promise to take it easy.",☝️,Advise,Advise,Low
+test:217:4,test,a hummingbird flew by and i wanna see if he comes back.,🗺️,Plan,Plan,Low
+test:217:5,test,take all the time you need.,💛,Comfort,Comfort,Low
+test:217:7,test,yeah.,🤝,Acknowledge,Acknowledge,Low
+test:217:8,test,"i mean, i could use a snack-just some baby carrots.",🥺,Ask for help,Ask for help,Low
+test:217:9,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:217:11,test,"and if you could stack them in a bowl-preferably glass so i can see the layers-that'd be great, thanks.",⏰,Arrange,Arrange,Low
+test:217:12,test,i'll see what we have that wasn't part of the listeria outbreak.,📋,Plan,Plan,Low
+test:218:0,test,"yeah, i don't say this very often, but that cloud 9 suit looks really great on you.",🌟,Praise,Praise,Low
+test:218:1,test,"oh, thanks.",🙏,Thank,Thank,Low
+test:218:2,test,yeah.,👌,Acknowledge,Acknowledge,Low
+test:218:3,test,would you go out on a date with someone like me?,👌,Confirm,Confirm,Low
+test:218:5,test,"oh, no, no, no, i'm not asking you out.",💡,Explain,Explain,Low
+test:218:8,test,why would she have died?,🤔,Doubt,Doubt,Medium
+test:218:10,test,"you were looking for a way out, i'm like a eight minimum, right?",👌,Confirm,Confirm,Low
+test:218:12,test,thank you.,🙏,Thank,Thank,Low
+test:218:13,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:222:2,test,"well, ah, that's, that's great.",🏆,Praise,Praise,Low
+test:222:4,test,"yeah, why don't you, uh, you know, get changed and we'll get to work, huh?",🗓️,Arrange,Arrange,Low
+test:222:5,test,"yeah, okay.",✅,Acknowledge,Acknowledge,Low
+test:222:9,test,"just got this feeling like a marble rolling around in my uterus, i mean, gosh, i wonder what that's about.",😤,Complain,Complain,High
+test:222:12,test,"no, no, no, no, you stay on that couch!",🛑,Prevent,Prevent,Medium
+test:222:13,test,that sweet little marble is the only thing that matters.,💥,Emphasize,Emphasize,Low
+test:222:14,test,you relax.,⏰,Arrange,Arrange,Low
+test:222:15,test,"hey, would you mind grabbing me some wet wipes and a bottle of febreze?",🥺,Ask for help,Ask for help,Low
+test:224:0,test,"protip--if you cup the mic, you get a nice voice-of-god effect.",🧠,Advise,Advise,Low
+test:224:1,test,"oh, why don't you go out to los angeles and give laura dern some acting tips?",🙄,Taunt,Taunt,High
+test:224:2,test,"okay, i gotta go feed dina's birds, so today's the same as yesterday.",📋,Plan,Plan,Low
+test:224:3,test,"garrett, you're am, jonah and kelly, you're on announcements.",🗓️,Arrange,Arrange,Low
+test:224:4,test,i gotta go google how to give insulin to a parrot.,📋,Plan,Plan,Low
+test:231:0,test,"sandra, we need this area clear.",🗓️,Arrange,Arrange,Low
+test:231:1,test,i told them and they told me that my butt's a fire hazard.,📢,Inform,Inform,Low
+test:231:2,test,okay?,👌,Confirm,Confirm,Low
+test:231:3,test,"attention, all soft boys. get off your butts, and move to the side, now!",ℹ️,Inform,Inform,Low
+test:231:4,test,the first person to step out of line is going to get my foot in their throat.,🛑,Warn,Warn,Medium
+test:231:5,test,use...less.,😏,Taunt,Taunt,High
+test:240:1,test,"oh, hi. i came back with friends.",👋,Greet,Greet,Low
+test:240:2,test,"say hi, say hi.",✨,Greet,Greet,Low
+test:246:2,test,"no, no, no, no, i know that. what about the baby?",🛡️,Care,Care,Low
+test:246:3,test,the implantation worked. i'm pregnant.,📢,Inform,Inform,Low
+test:246:4,test,"that's the most beautiful, magical thing anyone has ever said to me.",🏆,Praise,Praise,Low
+test:246:6,test,thank you.,👍,Thank,Thank,Low
+test:246:7,test,"no, i am sure i texted you.",📝,Inform,Inform,Low
+test:246:8,test,it was like a week ago.,📝,Inform,Inform,Low
+test:246:9,test,i see what happened. texted the wrong glen.,💬,Explain,Explain,Low
+test:246:10,test,"my assistant manager and i, we're going to have a baby.",ℹ️,Inform,Inform,Low
+test:247:1,test,"no, no, never mind.",🫐,Comfort,Comfort,Low
+test:247:4,test,"so, this is--this is cool.",👏,Praise,Praise,Low
+test:247:5,test,i'm so glad we're doing this.,🏆,Praise,Praise,Low
+test:247:6,test,"yeah, it's...it's very cool.",🌟,Praise,Praise,Low
+test:247:7,test,"no, it's not cool.",⛔,Oppose,Oppose,High
+test:247:8,test,i don't--i don't-i never said that.,👎,Oppose,Oppose,High
+test:247:9,test,you're not better than me!,🤔,Criticize,Criticize,High
+test:247:10,test,so enjoy losing another dice award to troy baker.,😑,Criticize,Criticize,High
+test:247:11,test,jerk.,😑,Criticize,Criticize,High
+test:247:12,test,taurus-driving loser.,🤨,Criticize,Criticize,High
+test:247:13,test,"i mean, the sad thing is, he is the cool one.",💬,Explain,Explain,Low
+test:261:0,test,it's just making this a lot more difficult.,🙄,Complain,Complain,High
+test:261:3,test,"no, i'm not losing my temper, sandra.",👎,Oppose,Oppose,High
+test:266:0,test,"oh, i'm not a lawyer.",⛔,Oppose,Oppose,High
+test:266:2,test,"okay, what about the time you said jonah looks great in shirts?",🤨,Doubt,Doubt,Medium
+test:266:3,test,"yeah, were you lying or telling the truth then?",🤨,Doubt,Doubt,Medium
+test:266:4,test,well...,✅,Acknowledge,Acknowledge,Low
+test:267:0,test,something's jammed in the box crusher.,📝,Inform,Inform,Low
+test:267:1,test,i was wondering if you could climb in and get it out.,🥺,Ask for help,Ask for help,Low
+test:267:2,test,it just--it feels like a box crusher could hurt someone really badly.,📖,Explain,Explain,Low
+test:267:4,test,"there's no need to worry about that, 'cause i got the button right here.",🫐,Comfort,Comfort,Low
+test:267:5,test,"yeah, okay.",👍,Agree,Agree,Low
+test:272:0,test,i thought it'd be helpful for us all to watch the surveillance footage of amy hanging the sign that fell on mateo so we can learn what not to do.,📝,Inform,Inform,Low
+test:272:1,test,"well, i do. so we are.",📢,Inform,Inform,Low
+test:272:2,test,i'm so sorry. i don't know what else to do.,🥺,Apologise,Apologise,Low
+test:272:3,test,"um, that's the wrong file.",ℹ️,Inform,Inform,Low
+test:272:4,test,that's from glenn's mullet phase.,😂,Joke,Joke,Low
+test:272:5,test,i can't stand this new system. i can't find anything.,😮‍💨,Complain,Complain,High
+test:273:0,test,because this job is incredibly boring.,💡,Explain,Explain,Low
+test:273:3,test,"yes, exactly. thank you, kelly.",👍,Thank,Thank,Low
+test:273:5,test,"amy frenched her man, and now they're gonna throw down.",😏,Taunt,Taunt,High
+test:282:0,test,"well, i just want you to know i have your back.",💛,Comfort,Comfort,Low
+test:282:1,test,that's really sweet.,👏,Praise,Praise,Low
+test:282:2,test,should we do something to amy's car?,🧠,Advise,Advise,Low
+test:287:0,test,hey.,😊,Greet,Greet,Low
+test:287:1,test,"look, uh, i was just flustered, you know, back there.",📖,Explain,Explain,Low
+test:287:5,test,"yeah, great, okay.",✅,Acknowledge,Acknowledge,Low
+test:292:0,test,"hey, jeff, the man in red! what are you doing here?",✨,Greet,Greet,Low
+test:292:4,test,"hey, you like chicken wings, right?",🤝,Confirm,Confirm,Low
+test:292:5,test,"i cannot do that now, but thank you for the invite.",🙏,Thank,Thank,Low
+test:294:7,test,excuse me.,🚪,Leave,Leave,Low
+test:294:8,test,she's coo-coo for liquids.,😜,Joke,Joke,Low
+test:294:9,test,"hi, hey, excuse me, uh, my name is amy.",✨,Greet,Greet,Low
+test:294:11,test,"yes, yeah, yeah, yeah. nodding would be great.",🤝,Agree,Agree,Low
+test:294:12,test,"wow, that's a very insightful point you're making about the uh, beverages.",🌟,Praise,Praise,Low
+test:298:0,test,"if jeff is going to pooch our people, well i say let's see how he likes it when we pooch his.",⚠️,Warn,Warn,Medium
+test:298:2,test,"man, never mind, sorry. forcing it.",💛,Comfort,Comfort,Low
+test:298:4,test,"wow, the red's so lively. it really pops.",🌟,Praise,Praise,Low
+test:301:1,test,"morning, everyone.",😊,Greet,Greet,Low
+test:301:2,test,"okay, uh, before the new district manager gets here, i just wanted to warn you her name is laurie neustadt.",📢,Inform,Inform,Low
+test:301:3,test,no. i mean...,⛔,Oppose,Oppose,High
+test:301:8,test,"i'm googling her, and apparently she's from denver.",👋,Introduce,Introduce,Low
+test:301:9,test,"denver, terrific. let's go with the denver thing.",🧠,Advise,Advise,Low
+test:301:10,test,or we could just treat her like she's a human being.,🧠,Advise,Advise,Low
+test:301:11,test,"yeah, but we've got the denver thing in case that doesn't work out.",🤝,Agree,Agree,Low
+test:301:12,test,"right, and why wouldn't that work?",🤔,Doubt,Doubt,Medium
+test:301:13,test,"okay, she's here. places, everyone!",📛,Introduce,Introduce,Low
+test:301:14,test,"whoa, whoa, wait, wait, wait, wait.",🛑,Prevent,Prevent,Medium
+test:301:15,test,now i'm ready.,ℹ️,Inform,Inform,Low
+test:301:16,test,"okay. um, hi.",✨,Greet,Greet,Low
+test:301:17,test,i am laurie neustadt.,👋,Introduce,Introduce,Low
+test:301:18,test,i'm taking over for jeff.,📢,Inform,Inform,Low
+test:301:19,test,"i'm gonna be here all day walking around, getting to know the store, trying to figure out ways we can make things a little more efficient.",📢,Inform,Inform,Low
+test:301:20,test,"so, um, busy day. let's, uh, get back out there.",🗓️,Arrange,Arrange,Low
+test:301:21,test,let's get back out there.,📅,Arrange,Arrange,Low
+test:317:0,test,"great, let's take it. that would put us over $8,000.",👏,Praise,Praise,Low
+test:317:1,test,"if we don't find enough budget cuts to cover her salary, laurie is gonna fire myrtle.",🚨,Warn,Warn,Medium
+test:317:3,test,it's because she's a bitch.,😮‍💨,Complain,Complain,High
+test:317:4,test,"yeah, well, that's because the vending machine didn't have any takis.",💡,Explain,Explain,Low
+test:317:5,test,yes!,👌,Acknowledge,Acknowledge,Low
+test:317:6,test,red pill brothers.,🤣,Joke,Joke,Low
+test:317:7,test,"no, i just mean if we had true equality, you could call out women for doing something terrible when they're doing something terrible.",💡,Explain,Explain,Low
+test:317:9,test,"no, bitch, the gays took that from you.",⛔,Oppose,Oppose,High
+test:317:11,test,"hey, if hitler was a woman, would you be defending hitler?",😕,Doubt,Doubt,Medium
+test:317:12,test,"no, obviously not.",🙅,Oppose,Oppose,High
+test:317:13,test,what if oprah hosted the holocaust?,🤨,Doubt,Doubt,Medium
+test:317:15,test,"i think we solved sexism, guys.",📝,Inform,Inform,Low
+test:322:0,test,this is cloud 9's way of supporting the local small business owners we're constantly putting out of business.,📝,Inform,Inform,Low
+test:322:1,test,just look at these beautiful needlepoints.,👋,Introduce,Introduce,Low
+test:322:2,test,this is certainly an exciting product.,👏,Praise,Praise,Low
+test:322:3,test,"no, no, it isn't.",🙅,Oppose,Oppose,High
+test:322:4,test,i appreciate the opportunity to sell my crafts in your lovely store.,👍,Thank,Thank,Low
+test:322:5,test,it's just so exciting to have such a beautiful stranger at our vendor fair.,🏆,Praise,Praise,Low
+test:322:6,test,"glenn, are you gonna tell your wife that you're flirting with one of the vendors?",🤨,Doubt,Doubt,Medium
+test:322:8,test,"oh, so you guys have an open marriage.",🤡,Taunt,Taunt,High
+test:322:9,test,"oh. oh, oh, god, no!",👎,Oppose,Oppose,High
+test:322:10,test,then why are you trying to get at the vendor lady?,😕,Doubt,Doubt,Medium
+test:322:11,test,"no, don't call her.",🚫,Prevent,Prevent,Medium
+test:322:13,test,don't answer that!,⚠️,Prevent,Prevent,Medium
+test:330:0,test,this is very impressive.,🏆,Praise,Praise,Low
+test:330:1,test,it came to me in a dream.,📛,Introduce,Introduce,Low
+test:330:2,test,a really boring dream.,👋,Introduce,Introduce,Low
+test:330:3,test,and it is taking forever.,📛,Introduce,Introduce,Low
+test:330:4,test,"well, you know, if you get hungry, i highly recommend the mini burritos.",☝️,Advise,Advise,Low
+test:330:6,test,"i don't know, there's something lame about a burnout white dude making money off mexican food.",😏,Taunt,Taunt,High
+test:330:8,test,burritos aren't from costa rica.,⛔,Oppose,Oppose,High
+test:330:9,test,"yeah, no, i know. obviously.",🤝,Agree,Agree,Low
+test:330:10,test,be careful.,🚨,Warn,Warn,Medium
+test:330:11,test,i'm gonna have to take away your latina card.,😂,Joke,Joke,Low
+test:330:13,test,i found this on the sidewalk and i felt really weird about throwing it away.,💬,Explain,Explain,Low
+test:331:5,test,"guys, i'm the latina one.",ℹ️,Inform,Inform,Low
+test:331:6,test,"i mean, you don't even like spicy food, so...",💡,Explain,Explain,Low
+test:331:8,test,i am not out of my element.,👎,Oppose,Oppose,High
+test:331:9,test,i'm--the element is in me.,💬,Explain,Explain,Low
+test:331:10,test,"okay, quick tip.",💡,Advise,Advise,Low
+test:331:11,test,just call him  papi  at the end of every sentence.,☝️,Advise,Advise,Low
+test:331:12,test,i've dated a lot of latin men.,💸,Flaunt,Flaunt,Medium
+test:334:0,test,"no, no, man. i don't care.",👎,Oppose,Oppose,High
+test:334:1,test,"right, that sounds like caring.",😏,Taunt,Taunt,High
+test:334:2,test,"no, no, no, no, dude. i don't care.",🙅,Oppose,Oppose,High
+test:334:3,test,mm!,🏃,Leave,Leave,Low
+test:340:0,test,lay na sol ya ra.  says it's hindi.,📛,Introduce,Introduce,Low
+test:340:1,test,"no, he's dominican.",⛔,Oppose,Oppose,High
+test:340:3,test,"he's a great, great guy.",🌟,Praise,Praise,Low
+test:340:4,test,why didn't you just tell him that you didn't understand what he was saying?,🤨,Doubt,Doubt,Medium
+test:340:5,test,because then he would just go on and on about taking my latina card from me.,📖,Explain,Explain,Low
+test:340:6,test,"like when you go to sharky's, you earn points.",😂,Joke,Joke,Low
+test:340:7,test,we should go on a double date together.,💡,Advise,Advise,Low
+test:340:8,test,"you and, um, the beverage guy and kelly and me.",💡,Advise,Advise,Low
+test:340:9,test,"guys, amy's in uncharted territory right now.",📝,Inform,Inform,Low
+test:340:10,test,she usually only dates white men.,📢,Inform,Inform,Low
+test:340:11,test,that's not true. i don't just date white men.,👎,Oppose,Oppose,High
+test:340:12,test,i'm gonna call kelly. i'm gonna text her.,🗺️,Plan,Plan,Low
+test:340:13,test,"i don't have a preference. and if i did, it probably wouldn't be white guys.",🙅,Oppose,Oppose,High
+test:340:15,test,she's in!,ℹ️,Inform,Inform,Low
+test:342:0,test,"hey, guys.",👋,Greet,Greet,Low
+test:342:1,test,"um, i just wanted to double check.",✅,Confirm,Confirm,Low
+test:342:2,test,"no one wanted to buy anything from jerusha, right?",🤝,Confirm,Confirm,Low
+test:342:3,test,"just asking as a pal, not your boss.",💬,Explain,Explain,Low
+test:342:5,test,"no, thank you. i don't really like them.",🚫,Refuse,Refuse,Low
+test:342:6,test,okay. cool.,👌,Acknowledge,Acknowledge,Low
+test:342:7,test,"you know, you would look really fetching in a bird scarf.",🧠,Advise,Advise,Low
+test:342:8,test,listen up!,📢,Inform,Inform,Low
+test:342:9,test,everybody here better get out there and start buying stuff from my wife!,⏰,Arrange,Arrange,Low
+test:342:10,test,i feel like you're pressuring us.,😑,Criticize,Criticize,High
+test:342:11,test,"you're goddamn right, i'm pressuring you.",🤝,Agree,Agree,Low
+test:342:12,test,"you buy stuff, or you're fired!",⚠️,Warn,Warn,Medium
+test:342:15,test,i had my medicine in that.,🙄,Complain,Complain,High
+test:342:16,test,i crush it up and hide it to trick myself.,💬,Explain,Explain,Low
+test:343:0,test,"so, i lager for three months at 35 degrees.",👋,Introduce,Introduce,Low
+test:343:2,test,thank you for just being honest with me.,💛,Thank,Thank,Low
+test:343:4,test,"now, how about i take you out sometime?",📩,Invite,Invite,Low
+test:345:0,test,the missouri lottery is the highest it's been in 20 years.,📝,Inform,Inform,Low
+test:345:2,test,i'd get a bunch of vintage jordans.,📋,Plan,Plan,Low
+test:345:4,test,"if i won, you would not see me here tomorrow.",🤣,Joke,Joke,Low
+test:345:5,test,that is for sure. i would be taking thursdays off from now on.,💸,Flaunt,Flaunt,Medium
+test:345:6,test,"i'd go to really expensive stores, hoping that white women would be rude to me, so i could come back with a bunch of bags and be like, a ha, big mistake.",😜,Joke,Joke,Low
+test:345:10,test,"i could probably make thursdays work, if they really needed me.",📝,Inform,Inform,Low
+test:345:12,test,i'd donate my winnings to my favorite charity.,📋,Plan,Plan,Low
+test:345:13,test,it's beautiful.,👏,Praise,Praise,Low
+test:346:0,test,"ooh, someone's all dressed up.",🌟,Praise,Praise,Low
+test:346:1,test,"oh, god, i hope it's not family court, is it?",👌,Confirm,Confirm,Low
+test:346:2,test,"no, i'm asking glenn for a raise.",📖,Explain,Explain,Low
+test:346:4,test,thanks.,🙏,Thank,Thank,Low
+test:346:5,test,fair enough.,👌,Acknowledge,Acknowledge,Low
+test:354:0,test,you just need to pick another number.,🧠,Advise,Advise,Low
+test:354:2,test,was 31 a mistake?,✅,Confirm,Confirm,Low
+test:354:3,test,"because if you pick 30, you're not gonna win.",💬,Explain,Explain,Low
+test:355:0,test,i don't have time for the preamble.,🙄,Complain,Complain,High
+test:355:1,test,a few of them left before buying lottery tickets.,📢,Inform,Inform,Low
+test:355:2,test,thank you for letting me know.,💛,Thank,Thank,Low
+test:355:3,test,this is helpful.,🏆,Praise,Praise,Low
+test:355:4,test,"also, elias has been stealing discontinued light bulbs.",📝,Inform,Inform,Low
+test:359:1,test,"sometimes, i pee in the shower.",🤣,Joke,Joke,Low
+test:359:2,test,i do it to wash my feet. urine is sterile.,📖,Explain,Explain,Low
+test:359:4,test,we could cut down on things like lotto tickets.,💡,Advise,Advise,Low
+test:359:5,test,"or buy more lotto tickets, depending on whether we win or not.",☝️,Advise,Advise,Low
+test:359:8,test,you could be on the lookout for loose coins.,☝️,Advise,Advise,Low
+test:359:9,test,"vending machines, couch cushions, the ground near parking meters, fountains.",☝️,Advise,Advise,Low
+test:359:11,test,"or, what if this company just gave us a little bit more money so we wouldn't have to scrounge for money like street urchins?",🧠,Advise,Advise,Low
+test:359:14,test,"okay, moving on. section three, social services.",📝,Inform,Inform,Low
+test:359:15,test,uncle sam has your food. now go get it!,🗓️,Arrange,Arrange,Low
+test:366:0,test,"laurie, i am so sorry.",🥺,Apologise,Apologise,Low
+test:366:1,test,"i was trying to pull up next to you, but those things really just don't turn well.",💡,Explain,Explain,Low
+test:366:2,test,"and i'm not saying this is what happened, but it is very possible that someone cut my break lines.",📖,Explain,Explain,Low
+test:366:4,test,i'm sorry for the wait.,😔,Apologise,Apologise,Low
+test:366:7,test,"no, no way, no, what are you doing?",⚠️,Prevent,Prevent,Medium
+test:366:9,test,"so i would love-no, actually, i think i deserve an extra buck 50 an hour.",🧠,Advise,Advise,Low
+test:366:10,test,"i'm sorry, are you actually asking me for a raise right now?",✅,Confirm,Confirm,Low
+test:366:11,test,that is what i'm doing.,💥,Emphasize,Emphasize,Low
+test:366:13,test,"no, no, no, not medically.",👎,Oppose,Oppose,High
+test:375:0,test,under no circumstances let me see what's inside that envelope.,🗓️,Arrange,Arrange,Low
+test:375:2,test,can i see what's in that envelope?,🚨,Ask for help,Ask for help,Low
+test:378:0,test,"the baby's in a sack anyway. i'm just suggesting we take out that sack, and stuff it into someone else.",☝️,Advise,Advise,Low
+test:378:4,test,i wake up empty and happy and everybody wins.,😮‍💨,Complain,Complain,High
+test:378:5,test,"all right, don't just say no, all right?",😮‍💨,Complain,Complain,High
+test:380:0,test,why would you tell jeff what i said?,😑,Criticize,Criticize,High
+test:380:1,test,"like, not psychic, but he's operating on a very high level.",👏,Praise,Praise,Low
+test:380:2,test,"well, now he feels even worse about himself.",😤,Complain,Complain,High
+test:380:4,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:387:1,test,"hey, hey, hey. let's get out of here.",💛,Comfort,Comfort,Low
+test:387:2,test,"okay, thank you.",💛,Thank,Thank,Low
+test:389:0,test,"so are we talking broken condom, or a pull and pray situation?",👌,Confirm,Confirm,Low
+test:389:1,test,"sure, sure.",✅,Acknowledge,Acknowledge,Low
+test:389:3,test,let's not talk about that either.,🚫,Prevent,Prevent,Medium
+test:389:4,test,"okay, all right.",👌,Acknowledge,Acknowledge,Low
+test:389:5,test,how about we just listen to the radio?,☝️,Advise,Advise,Low
+test:389:7,test,"look, we can ride in silence. that is fine by me.",💡,Advise,Advise,Low
+test:390:4,test,"you know, i was gonna take skydiving lessons.",📋,Plan,Plan,Low
+test:390:8,test,all of the stuff that i'd...,😮‍💨,Complain,Complain,High
+test:390:9,test,"who cares, doesn't matter anymore.",😮‍💨,Complain,Complain,High
+test:390:11,test,"and if there is stuff you want to do, do that stuff.",☝️,Advise,Advise,Low
+test:390:12,test,yeah.,🤝,Acknowledge,Acknowledge,Low
+test:390:14,test,"oh, it is awesome.",👏,Praise,Praise,Low
+test:393:0,test,"oh. so, the ceo may come to this store that we're in right now?",✅,Confirm,Confirm,Low
+test:393:1,test,that's... interesting.,🏆,Praise,Praise,Low
+test:393:2,test,"if he needs a place to stay, he can have my master bedroom.",🧠,Advise,Advise,Low
+test:393:3,test,we'll get you 100 photos.,📋,Plan,Plan,Low
+test:406:0,test,"look, i'm sorry if i reacted poorly yesterday.",😔,Apologise,Apologise,Low
+test:406:1,test,i'm sorry. i just--it's been a really rough day.,😔,Apologise,Apologise,Low
+test:406:2,test,and i don't know how much more i can take.,😤,Complain,Complain,High
+test:406:3,test,okay.,✅,Acknowledge,Acknowledge,Low
+test:406:5,test,"you waited to talk to me all day, and when i'm ready, it's just like,  nah.  it's what you want when you want it.",😤,Complain,Complain,High
+test:406:6,test,did the farmers market run out of your yogurt?,🙄,Taunt,Taunt,High
+test:406:7,test,"or--oh, your  new yorker  came late this month.",😏,Taunt,Taunt,High
+test:406:8,test,this is what i'm talking about!,💥,Emphasize,Emphasize,Low
+test:406:9,test,you love playing the martyr.,🤔,Criticize,Criticize,High
+test:406:10,test,"you get to just judge everybody else, but nobody gets to criticize you on your crap.",🤔,Criticize,Criticize,High
+test:406:11,test,are you really that pissed off that i kissed you?,🤔,Doubt,Doubt,Medium
+test:406:12,test,"no, i'm pissed off that i waited around for you for two years, and you waited until i was in a relationship and you were pregnant to kiss me.",😑,Criticize,Criticize,High
+test:406:14,test,"so could you, but we all know that's never gonna happen.",🙅,Oppose,Oppose,High
+test:406:15,test,"go to hell, jonah.",🚪,Leave,Leave,Low
+test:423:0,test,can't you just search some keywords?,🧠,Advise,Advise,Low
+test:423:3,test,"but, we should probably open it just to be safe.",💡,Advise,Advise,Low
+test:429:0,test,"i'm sorry, are you asking me to carry human cheese in our stores?",👌,Confirm,Confirm,Low
+test:429:1,test,oh! i hadn't really--,👎,Oppose,Oppose,High
+test:433:0,test,baby and toddler!,📝,Inform,Inform,Low
+test:433:1,test,pet food!,📢,Inform,Inform,Low
+test:433:2,test,"okay, i get-i get that cloud 9 is an olympic sponsor, but do all the stores do an actual olympic opening ceremony?",🤨,Doubt,Doubt,Medium
+test:433:3,test,"nope, just us.",🙅,Oppose,Oppose,High
+test:433:5,test,toys and sporting goods!,ℹ️,Inform,Inform,Low
+test:433:6,test,is the life jacket really necessary?,😕,Doubt,Doubt,Medium
+test:433:7,test,"and now, to light the cloud 9 olympic cauldron is store 1217's oldest living employee.",📛,Introduce,Introduce,Low
+test:433:8,test,myrtle. now.,ℹ️,Inform,Inform,Low
+test:433:9,test,i put it in my column in the newsletter.,📝,Inform,Inform,Low
+test:433:10,test,that's not the cauldron!,🚫,Prevent,Prevent,Medium
+test:433:11,test,"it's okay, it's just a little baby fire!",🥹,Comfort,Comfort,Low
+test:433:12,test,"all right, okay, i've got this!",💛,Comfort,Comfort,Low
+test:433:13,test,we have an elected store fire marshal who will lead us from the building safely.,📢,Inform,Inform,Low
+test:435:0,test,"hi. dina fawkes, assistant manager.",👋,Greet,Greet,Low
+test:435:1,test,"hi, i'm amy.",✨,Greet,Greet,Low
+test:435:2,test,"no offense, i'm just not impressed by celebrities, but i do have an olympics related question.",📖,Explain,Explain,Low
+test:435:3,test,"uh, i don't think i know how to answer that.",🤷,Refuse,Refuse,Low
+test:435:7,test,"i'm gonna name some olympians, and you tell me if you've...",📅,Arrange,Arrange,Low
+test:435:8,test,okay.,👋,Leave,Leave,Low
+test:435:9,test,"i'm sorry, i'm just--i'm not comfortable talking about that part of my life.",😔,Apologise,Apologise,Low
+test:435:10,test,"oh, no, no, no.",⛔,Oppose,Oppose,High
+test:435:11,test,"i'm not-i had your poster on my wall when i was a kid, and, um, i dressed my barbie like you, and my brother cut it in half, but it wasn't personal.",💬,Explain,Explain,Low
+test:435:12,test,it was--he was just-but he's fine now.,💬,Explain,Explain,Low
+test:435:13,test,"amy, right?",👌,Confirm,Confirm,Low
+test:435:14,test,you are the best in the world at being you.,🏆,Praise,Praise,Low
+test:435:15,test,your eyes are like lasers.,🏆,Praise,Praise,Low
+test:444:1,test,"and back when i took gymnastics, coach bev said i was her best trier in her tuesday-thursday class.",😎,Flaunt,Flaunt,Medium
+test:444:2,test,"i think what amy is trying to say is that, uh, a lot of olympic gymnasts train their whole lives, so writing it down a card might not be enough.",📖,Explain,Explain,Low
+test:444:3,test,really?,🤨,Doubt,Doubt,Medium
+test:444:4,test,"no, that is not what i was trying to say, jonah.",⛔,Oppose,Oppose,High
+test:444:5,test,i was trying to say tokyo 2020!,💡,Explain,Explain,Low
+test:445:0,test,i just picked up a multicultural buffet.,ℹ️,Inform,Inform,Low
+test:445:1,test,"anyway, there's, uh, no reason for anyone to feel excluded.",📢,Inform,Inform,Low
+test:445:2,test,"now, i think all countries are equal.",📢,Inform,Inform,Low
+test:445:3,test,"you know, whether you're of mexican descent like amy.",📝,Inform,Inform,Low
+test:445:5,test,"i don't speak spanish, sorry.",😔,Apologise,Apologise,Low
+test:445:7,test,wha-really?,🤨,Doubt,Doubt,Medium
+test:445:10,test,"o-okay, um.",🤝,Acknowledge,Acknowledge,Low
+test:445:13,test,"these burritos all have meat in them, so i can't eat any of these.",🏃,Leave,Leave,Low
+test:447:0,test,"all you have to do is write it on the card, believe in it, and your dreams will come true!",ℹ️,Inform,Inform,Low
+test:447:1,test,"oh, hey!",😊,Greet,Greet,Low
+test:447:2,test,are you guys doing that missy-dream-card thing where you write down your realistic dreams?,🛡️,Care,Care,Low
+test:447:3,test,"yeah, that's the point.",🔥,Emphasize,Emphasize,Low
+test:447:5,test,maybe more realistically-why don't you try to  nail  someone you actually know?,💡,Advise,Advise,Low
+test:447:6,test,like your wife?,💡,Advise,Advise,Low
+test:447:7,test,"oh, cool, that'd be awesome.",🏆,Praise,Praise,Low
+test:447:8,test,"no, it wouldn't.",👎,Oppose,Oppose,High
+test:447:9,test,"what i'm trying to say is you may not be able to  start the next google  or, uh,  be beyoncé,  or  try lobster--  no, carol, that is a good one.",💡,Explain,Explain,Low
+test:447:10,test,you could actually do that right now.,☝️,Advise,Advise,Low
+test:447:11,test,"okay, well, then, maybe don't try the lobster, but what i'm saying is you can't just do anything.",💬,Explain,Explain,Low
+test:447:13,test,"oh, my god, i'm so sorry, garrett.",🙏,Apologise,Apologise,Low
+test:447:14,test,that's just the first thing that came to mind.,📖,Explain,Explain,Low
+test:447:17,test,"cheyenne, what did you write?",🧡,Care,Care,Low
+test:447:19,test,"yeah, okay, i get it.",✅,Acknowledge,Acknowledge,Low
+test:447:21,test,"no, that is not what i'm saying.",👎,Oppose,Oppose,High
+test:447:22,test,"thanks, amy.",🙏,Thank,Thank,Low
+test:447:23,test,hey.,👋,Greet,Greet,Low
+test:451:2,test,you're suspended with pay.,📢,Inform,Inform,Low
+test:451:3,test,what you did back there was awesome.,🌟,Praise,Praise,Low
+test:451:4,test,so about that walkout?,🫒,Care,Care,Low
+test:451:5,test,"oh, and have a heavenly day.",ℹ️,Inform,Inform,Low
+test:456:0,test,so they wouldn't give glenn's job back?,✅,Confirm,Confirm,Low
+test:456:2,test,"sandra, you were saying you weren't getting paid for overtime?",✅,Confirm,Confirm,Low
+test:456:3,test,i didn't mean to complain.,📖,Explain,Explain,Low
+test:456:4,test,this is what change looks like.,📝,Inform,Inform,Low
+test:456:5,test,regular people like us demanding action.,ℹ️,Inform,Inform,Low
+test:456:6,test,corporate says we're in over our heads.,😑,Criticize,Criticize,High
+test:456:7,test,i think we're in under our heads.,ℹ️,Inform,Inform,Low
+test:456:8,test,"just go with it, guys.",🧠,Advise,Advise,Low
+test:456:10,test,tomorrow we're gonna come back with signs.,ℹ️,Inform,Inform,Low
+test:456:11,test,"we're gonna have one of those big, inflatable rats.",😂,Joke,Joke,Low
+test:456:12,test,"um, good energy, dougie.",👏,Praise,Praise,Low
+test:456:13,test,we'll see you tomorrow.,ℹ️,Inform,Inform,Low
+test:456:14,test,for our first day of strike!,📝,Inform,Inform,Low
+test:469:4,test,"okay, everybody, listen up, please.",📝,Inform,Inform,Low
+test:469:5,test,they just want things the way they were.,📝,Inform,Inform,Low
+test:469:6,test,dina is back as assistant manager.,📢,Inform,Inform,Low
+test:469:7,test,"and anybody who's willing to come in and sign the letter by the end of the day, we welcome you back.",📢,Inform,Inform,Low
+test:469:8,test,"glenn, that goes for you too.",📝,Inform,Inform,Low
+test:469:12,test,"no, no, hey, guys.",🚫,Prevent,Prevent,Medium
+test:486:0,test,"detergents. pod, liquid, powder.",🤝,Introduce,Introduce,Low
+test:486:1,test,"uh, high-efficiency, et cetera, et cetera.",👋,Introduce,Introduce,Low
+test:486:2,test,you're a lifesaver.,🌟,Praise,Praise,Low
+test:486:3,test,"oh, could you just repeat that over here?",🙋,Ask for help,Ask for help,Low
+test:486:4,test,"actually, i'm kinda in a hurry.",🤷,Refuse,Refuse,Low
+test:486:5,test,this is my son. you're hurting my arm!,🤔,Criticize,Criticize,High
+test:486:7,test,now tell him what you just said to me.,🗓️,Arrange,Arrange,Low
+test:486:8,test,you're hurting my arm.,🤔,Criticize,Criticize,High
+test:486:9,test,i mean before that. about being a lifesaver.,💡,Explain,Explain,Low
+test:486:10,test,"it's okay, owen. mama's here.",💛,Comfort,Comfort,Low
+test:486:11,test,the bad man didn't get me.,🥹,Comfort,Comfort,Low
+test:486:12,test,it's ma-tato.,📝,Inform,Inform,Low
+test:486:13,test,i mean... mateo.,💬,Explain,Explain,Low
+test:488:0,test,there's just nothing like looking into your baby's eyes.,👋,Introduce,Introduce,Low
+test:488:1,test,"amy, wanna see my baby?",🎉,Invite,Invite,Low
+test:488:2,test,not now. i need everybody's help.,🥺,Ask for help,Ask for help,Low
+test:488:3,test,"follow me, please.",⏰,Arrange,Arrange,Low
+test:492:0,test,so as i seek atonement for my foibles--  that's a little bit much.,😮‍💨,Complain,Complain,High
+test:492:1,test,"um, blah, blah,  the movie 'magnolia'?",🤨,Doubt,Doubt,Medium
+test:492:2,test,i would imagine. it's--it's an excellent film.,🌟,Praise,Praise,Low
+test:492:3,test,"actually, no. i'm not sorry.",⛔,Oppose,Oppose,High
+test:492:4,test,"and this isn't even like a  sorry, not sorry  situation.",👎,Oppose,Oppose,High
+test:492:5,test,"this is  not sorry, not sorry.  you're all garbage, so grab a cupcake, and continue your slow march to death.",🙄,Taunt,Taunt,High
+test:497:0,test,"marcus got his thumb back, so, you know, no harm no foul.",💛,Comfort,Comfort,Low
+test:497:1,test,we're never gonna have another march 14th.,📝,Inform,Inform,Low
+test:497:3,test,"thanks, glenn, but i don't think we can pull that move twice in 48 hours.",👍,Thank,Thank,Low
+test:502:0,test,all clear.,📢,Inform,Inform,Low
+test:502:2,test,"listen, tate, i would never ask you to sell something that you were not comfortable with, so if you wanna remove them from the pharmacy, i will support you.",ℹ️,Inform,Inform,Low
+test:502:3,test,are you kidding?,🤔,Doubt,Doubt,Medium
+test:502:7,test,"okay, but between us, could you just find a reason to take them off the shelf?",🚨,Ask for help,Ask for help,Low
+test:502:10,test,"tate, do you believe in god?",✅,Confirm,Confirm,Low
+test:502:13,test,"oh, brother.",🏃,Leave,Leave,Low
+test:505:0,test,can i take a look at that bolt action rifle?,🥺,Ask for help,Ask for help,Low
+test:505:1,test,"yes, you may.",✅,Agree,Agree,Low
+test:505:5,test,"yeah, i'm pretty upset about it.",😮‍💨,Complain,Complain,High
+test:505:6,test,how upset are you?,🛡️,Care,Care,Low
+test:505:7,test,"i worked there over 20 years, and then they just get rid of me like i'm trash?",😤,Complain,Complain,High
+test:505:9,test,service denied. service denied.,🤷,Refuse,Refuse,Low
+test:505:10,test,"you just said you're upset and they were gonna regret it, so nope.",📖,Explain,Explain,Low
+test:505:11,test,'cause i'm the only one who understands the payroll software.,💬,Explain,Explain,Low
+test:505:12,test,"look, i'm sorry i'm being overly cautious, but you know what?",😔,Apologise,Apologise,Low
+test:505:13,test,"why don't we try and find you a better hobby than this, you know?",💡,Advise,Advise,Low
+test:505:14,test,have you ever considered fencing?,🧠,Advise,Advise,Low
+test:505:15,test,fencing sucks.,🙄,Complain,Complain,High
+test:505:16,test,"no, it doesn't.",⛔,Oppose,Oppose,High
+test:514:0,test,i'm sorry; i just have way too many concerns about your level of anger.,🙏,Apologise,Apologise,Low
+test:514:1,test,this is discrimination.,🤨,Criticize,Criticize,High
+test:517:0,test,attention.,📢,Inform,Inform,Low
+test:517:1,test,i need everyone in the store to be completely silent as i will be making some noises that replicate the calls of the crows' natural enemies.,ℹ️,Inform,Inform,Low
+test:518:0,test,today is a great day for the second amendment.,📝,Inform,Inform,Low
+test:518:1,test,i'm proud to see so many of us came out here to protest the despicable actions of that short-haired lady over there who infringed on our rights today.,ℹ️,Inform,Inform,Low
+test:518:2,test,she can't take us away from our guns.,📝,Inform,Inform,Low
+test:518:3,test,"first of all, i'm a man, but thank you.",ℹ️,Inform,Inform,Low
+test:518:6,test,i can say whatever i want to say.,ℹ️,Inform,Inform,Low
+test:518:7,test,will everybody please just shut up!,⚠️,Prevent,Prevent,Medium
+test:518:8,test,you sound like children.,😏,Taunt,Taunt,High
+test:518:9,test,we can't all just do whatever we want whenever we want to.,📝,Inform,Inform,Low
+test:518:12,test,someone pisses you off so you have to flash a rifle to prove a point?,🤔,Criticize,Criticize,High
+test:518:13,test,just be a grown-up.,💡,Advise,Advise,Low
+test:518:15,test,i don't think so.,👎,Oppose,Oppose,High
+test:518:19,test,isn't that kind of what you're doing now?,😕,Doubt,Doubt,Medium
+test:532:0,test,"hey, cody.",👋,Greet,Greet,Low
+test:532:1,test,hey.,✨,Greet,Greet,Low
+test:532:2,test,just wanted to tell you i value you.,📝,Inform,Inform,Low
+test:532:3,test,thank you.,👍,Thank,Thank,Low
+test:532:4,test,i appreciate that.,🏆,Praise,Praise,Low
+test:532:5,test,"i'm going to go over there, okay?",👋,Leave,Leave,Low
+test:558:0,test,and i usually hate being in teams.,🙄,Complain,Complain,High
+test:558:3,test,it's why i burnt out of business school.,💬,Explain,Explain,Low
+test:558:5,test,sounds like you're making excuses.,🤡,Taunt,Taunt,High
+test:558:7,test,"anyway, the point is i got super stressed about being the best in my class, and i ended up in the hospital with dehydration for two days.",💡,Explain,Explain,Low
+test:558:10,test,"no, i was just trying to beat your story.",🙅,Oppose,Oppose,High
+test:558:11,test,"yeah, well.",✅,Acknowledge,Acknowledge,Low
+test:558:13,test,"i got more stuff than you, though.",💸,Flaunt,Flaunt,Medium
+test:558:14,test,okay.,🤝,Acknowledge,Acknowledge,Low
+test:559:1,test,"that's plenty. now, glenn.",🗓️,Arrange,Arrange,Low
+test:559:2,test,oh. thank you.,🙏,Thank,Thank,Low
+test:559:3,test,"yo, it's g-l-e-m.",🤝,Introduce,Introduce,Low
+test:559:4,test,glenn?,🤨,Doubt,Doubt,Medium
+test:559:5,test,i can't sign this.,🚫,Refuse,Refuse,Low
+test:559:7,test,"if it was just my money i wouldn't care, i swear.",💡,Explain,Explain,Low
+test:559:8,test,"but i have a family, bo.",📖,Explain,Explain,Low
+test:559:9,test,i'm sorry.,🙏,Apologise,Apologise,Low
+test:559:14,test,i just made $12.,📢,Inform,Inform,Low
+test:565:0,test,today is a high-alert day.,📢,Inform,Inform,Low
+test:565:1,test,dina's right.,✅,Agree,Agree,Low
+test:565:3,test,"yes, but james bond does.",🤣,Joke,Joke,Low
+test:565:4,test,"stop being the halloween version of scrooge, whatever that is.",🚫,Prevent,Prevent,Medium
+test:565:8,test,put on a costume.,⏰,Arrange,Arrange,Low
+test:565:10,test,"actually, i am dressed up. i'm you.",📖,Explain,Explain,Low
+test:565:11,test,"wait, you guys should stand together all day.",☝️,Advise,Advise,Low
+test:565:12,test,"yeah, i'm gonna find a costume to put on.",🚪,Leave,Leave,Low
+test:565:14,test,"so let's keep an eye out for teens, tweens, people who look inappropriately large or small...",📝,Inform,Inform,Low
+test:565:15,test,hello?,😊,Greet,Greet,Low
+test:568:1,test,"oh, my god, it's my favorite day of the year.",👏,Praise,Praise,Low
+test:568:2,test,"and later, i get to go trick-or-treating with emma, which is the best.",🌟,Praise,Praise,Low
+test:568:5,test,"ma'am, you realize that candy from strangers can contain razor blades and heroin needles, right?",⚠️,Warn,Warn,Medium
+test:568:6,test,"i'm just saying, best-case scenario: free chocolate bar.",💬,Explain,Explain,Low
+test:568:7,test,that's what i thought.,👍,Agree,Agree,Low
+test:568:8,test,i will not apologize for my commitment to our customers' safety.,🚫,Refuse,Refuse,Low
+test:568:9,test,"oh, glenn, if i was you, i would've killed myself years ago.",🤡,Taunt,Taunt,High
+test:568:10,test,"you know, i think i saw some really sketchy types headed for the stockroom.",📢,Inform,Inform,Low
+test:568:12,test,what?,😕,Doubt,Doubt,Medium
+test:568:13,test,those are exactly the things i said to look out for.,💥,Emphasize,Emphasize,Low
+test:568:14,test,it's like i just talk to myself in this store.,😮‍💨,Complain,Complain,High
+test:568:15,test,"thanks, amy.",👍,Thank,Thank,Low
+test:572:0,test,"at 8:24, a crate of irregular produce was put in the cage to be returned to fulfillment and destroyed.",📝,Inform,Inform,Low
+test:572:1,test,irregular produce? you mean rotten?,🤝,Confirm,Confirm,Low
+test:572:2,test,"no, what i'm talking about is lumps, bumps, extra appendages, apples that look like pears, pears that look like guavas.",📖,Explain,Explain,Low
+test:572:3,test,so we're just throwing away perfectly good food because it's ugly?,🤔,Doubt,Doubt,Medium
+test:572:4,test,"looks matter, jonah.",💬,Explain,Explain,Low
+test:572:6,test,"no, you can't just keep us here.",⛔,Oppose,Oppose,High
+test:572:7,test,i'm going trick-or-treating with my daughter.,📋,Plan,Plan,Low
+test:572:8,test,"yeah, i have a date... uh, with a good book.",🗺️,Plan,Plan,Low
+test:572:9,test,"i'm going to a screening of  nosferatu  at the tivoli, if anybody wants to come.",📅,Plan,Plan,Low
+test:572:10,test,justice does not stop for your plans.,ℹ️,Inform,Inform,Low
+test:572:11,test,"glenn, you're not gonna let her do this to us, right?",🤝,Confirm,Confirm,Low
+test:572:12,test,interrogations start immediately.,📝,Inform,Inform,Low
+test:577:0,test,why? what's going on?,🛡️,Care,Care,Low
+test:577:1,test,you could just not look at her...,🧠,Advise,Advise,Low
+test:577:2,test,have you seen my eye line? it's unavoidable.,👎,Oppose,Oppose,High
+test:586:1,test,really? or do those two words just sound the same?,😕,Doubt,Doubt,Medium
+test:586:3,test,what is this?,🫒,Care,Care,Low
+test:595:0,test,"listen, i've been thinking about it a lot lately, and i have decided that you are my best friend in the store.",ℹ️,Inform,Inform,Low
+test:595:1,test,"okay, well, you're nice too.",🏆,Praise,Praise,Low
+test:595:2,test,"yeah, i am nice.",🤝,Agree,Agree,Low
+test:595:3,test,"anyway, i've been thinking about it, and i feel like we should just have a good old-fashioned girlfriend gabfest.",🎉,Invite,Invite,Low
+test:595:4,test,maybe you could tell me if you've seen or heard anything suspicious recently.,☝️,Advise,Advise,Low
+test:595:5,test,mm. suspicious?,🤝,Confirm,Confirm,Low
+test:595:8,test,"mm. um, no.",👎,Oppose,Oppose,High
+test:595:9,test,really?,🤝,Confirm,Confirm,Low
+test:595:10,test,"okay, i have to go.",🚪,Leave,Leave,Low
+test:595:11,test,excuse me.,🚪,Leave,Leave,Low
+test:595:13,test,"that's what best girlfriends do, right?",✅,Confirm,Confirm,Low
+test:597:0,test,the stupid poll worker lady is guarding those stickers like it's her last tub of activia.,😤,Complain,Complain,High
+test:597:1,test,"oh, hey. mateo, did you vote?",🫒,Care,Care,Low
+test:597:2,test,"oh, my god. why is everyone obsessed with voting today?",😤,Complain,Complain,High
+test:607:0,test,"okay. don't ask me any questions, but i want to buy your sticker.",🥺,Ask for help,Ask for help,Low
+test:607:1,test,okay.,🤝,Agree,Agree,Low
+test:607:2,test,"it's just, you know, it's kind of a secret.",📖,Explain,Explain,Low
+test:607:3,test,excuse me.,🏃,Leave,Leave,Low
+test:607:4,test,okay.,🤝,Acknowledge,Acknowledge,Low
+test:611:0,test,what's go--bring her in. oop!,😂,Joke,Joke,Low
+test:611:1,test,"oh, i-i didn't meant to-i stumbled on the ladder and i fell into your hair.",🥺,Apologise,Apologise,Low
+test:611:3,test,"uh, how's your, uh, barbecue business going?",🧡,Care,Care,Low
+test:611:5,test,"hey, you know, uh, we--we might still be looking for some seasonal help if you're-you're looking for a gig, you know?",💡,Advise,Advise,Low
+test:611:6,test,wow. yeah. that's not a bad idea.,🌟,Praise,Praise,Low
+test:611:7,test,what's not a bad idea?,🧡,Care,Care,Low
+test:611:8,test,"uh, working here.",💡,Explain,Explain,Low
+test:611:10,test,"god, i'm so pissed, glenn.",😮‍💨,Complain,Complain,High
+test:611:11,test,"i mean, i've been here so long and you can't even make an exception for me?",😮‍💨,Complain,Complain,High
+test:611:12,test,i can't. i'm--i'm sorry.,🙏,Apologise,Apologise,Low
+test:611:14,test,it's just the way they do things here.,😮‍💨,Complain,Complain,High
+test:611:16,test,glad to have you.,✨,Greet,Greet,Low
+test:611:18,test,awesome! this'll be fun!,👏,Praise,Praise,Low
+test:622:1,test,"we have unibrow, unibrow 2, short guy tall hair, and booklady.",👋,Introduce,Introduce,Low
+test:622:3,test,"no, i wanted her. i hate her.",⛔,Oppose,Oppose,High
+test:622:5,test,which temp will quit next?,🛡️,Care,Care,Low
+test:630:0,test,i want this whole floor sparkling.,🗓️,Arrange,Arrange,Low
+test:630:1,test,the floor? you mean the ground?,👌,Confirm,Confirm,Low
+test:631:0,test,i just got sexually harassed.,🚨,Ask for help,Ask for help,Low
+test:631:1,test,"oh, my gosh. i'm so sorry.",🥹,Comfort,Comfort,Low
+test:631:2,test,i really hope you're okay.,🥹,Comfort,Comfort,Low
+test:635:0,test,"after careful consideration, i've decided to go with the applicant i pretty much knew i was gonna go with from the beginning.",📢,Inform,Inform,Low
+test:635:2,test,"oh, uh, what did you say this pays?",🫒,Care,Care,Low
+test:635:4,test,you're santa claus.,ℹ️,Inform,Inform,Low
+test:635:5,test,o-okay.,🤝,Acknowledge,Acknowledge,Low
+test:636:0,test,"we have a good marriage, right?",✅,Confirm,Confirm,Low
+test:636:1,test,"uh, yeah.",🤝,Agree,Agree,Low
+test:636:3,test,yeah. i think so too.,👍,Agree,Agree,Low
+test:642:0,test,"all right, everybody, get ready.",📝,Inform,Inform,Low
+test:642:1,test,store is set to open in exactly one minute.,📝,Inform,Inform,Low
+test:642:2,test,you don't have to say all the numbers.,💡,Advise,Advise,Low
+test:642:3,test,"okay, uh, one last thought before we open that if you apply-  whoa, whoa.",ℹ️,Inform,Inform,Low
+test:653:0,test,"yeah, the line in the ladies' room was really long, so--",📖,Explain,Explain,Low
+test:653:2,test,thanks.,💛,Thank,Thank,Low
+test:653:4,test,"okay, okay, cool.",🤝,Acknowledge,Acknowledge,Low
+test:659:0,test,dairy factory-farmed.,👋,Introduce,Introduce,Low
+test:659:1,test,we don't sell wigs anymore.,📝,Inform,Inform,Low
+test:659:2,test,"henry, get all the upts out of the green zone.",📅,Arrange,Arrange,Low
+test:659:3,test,"all right, break!",📅,Arrange,Arrange,Low
+test:659:4,test,didn't know i had it in me.,💸,Flaunt,Flaunt,Medium
+test:659:5,test,"i mean, none of it meant anything, but the confidence is inspiring.",💡,Explain,Explain,Low
+test:663:1,test,"dina, i can't.",🤷,Refuse,Refuse,Low
+test:663:2,test,"yeah, me too.",🤝,Agree,Agree,Low
+test:663:3,test,"find every breath mint left in the store, and meet me in the photo lab.",📅,Arrange,Arrange,Low
+test:665:0,test,"so are you just planning to avoid me until one of us quits, or--?",🤨,Doubt,Doubt,Medium
+test:665:1,test,"no, no, no, no, it's just, you know, i've been busy.",👎,Oppose,Oppose,High
+test:665:3,test,i have absolutely no interest in pursuing this.,👎,Oppose,Oppose,High
+test:665:4,test,"sky diving instructors, hand models, two of the original members of fine young cannibals.",🤝,Introduce,Introduce,Low
+test:665:5,test,"okay, i won't be weird, lady who has multiple birds.",😂,Joke,Joke,Low
+test:672:0,test,i'm the bad boy of my friend group.,💎,Flaunt,Flaunt,Medium
+test:672:1,test,i'm so sorry.,🙏,Apologise,Apologise,Low
+test:672:2,test,i was just trying to brighten your day.,💬,Explain,Explain,Low
+test:672:3,test,i forgot it was gonna do that.,📖,Explain,Explain,Low
+test:673:0,test,"i don't know, i mean, i guess i'll pay some bills...",💬,Explain,Explain,Low
+test:673:1,test,i don't need anything.,⛔,Oppose,Oppose,High
+test:673:2,test,"no, it's not about need. this is not about need.",👎,Oppose,Oppose,High
+test:673:3,test,yes! you be selfish.,🤔,Criticize,Criticize,High
+test:673:4,test,okay.,🤝,Acknowledge,Acknowledge,Low
+test:676:0,test,"in retrospect, perhaps i shouldn't have told her how much we found.",😮‍💨,Complain,Complain,High
+test:676:1,test,you should've just fixed your mom's crisper.,🧠,Advise,Advise,Low
+test:679:0,test,"ooh, a panini press! we could have hot sandwiches.",☝️,Advise,Advise,Low
+test:679:1,test,"uh, okay, yeah. put it in the cart.",⏰,Arrange,Arrange,Low
+test:679:2,test,what? i love hot sandwiches.,💬,Explain,Explain,Low
+test:679:3,test,it is because what makes me happy is seeing other people be happy.,💡,Explain,Explain,Low
+test:679:4,test,"great, that's-okay, thank you.",👍,Thank,Thank,Low
+test:679:5,test,that too.,🤝,Agree,Agree,Low
+test:688:0,test,where is the halo toilet paper?,🥺,Ask for help,Ask for help,Low
+test:688:1,test,i could only find this stuff.,📢,Inform,Inform,Low
+test:688:2,test,"yeah, this is our new product line: the supercloud, and i have been ordered to tell you how excited i am about it.",👋,Introduce,Introduce,Low
+test:688:3,test,but i like halo.,👎,Oppose,Oppose,High
+test:693:0,test,"oh, my god, this is amazing.",🏆,Praise,Praise,Low
+test:693:2,test,"oh, rex, thank you for giving us this gift.",💛,Thank,Thank,Low
+test:693:3,test,"okay, i think we've seen enough.",🚫,Prevent,Prevent,Medium
+test:698:0,test,"hey, sorry about before.",🥺,Apologise,Apologise,Low
+test:698:1,test,"oh, that's fine.",🤝,Acknowledge,Acknowledge,Low
+test:698:4,test,he does a really good impression of you.,🌟,Praise,Praise,Low
+test:698:6,test,"look, uh, i just don't want you to think that i got one foot out the door, okay?",🤝,Confirm,Confirm,Low
+test:698:14,test,"yeah, okay.",👌,Acknowledge,Acknowledge,Low
+test:698:15,test,"if you think there's honestly no difference, cancel it.",💡,Advise,Advise,Low
+test:698:16,test,"okay, great, yeah.",🤝,Agree,Agree,Low
+test:698:17,test,"i will, i'll do it-i'll do it tonight.",🗺️,Plan,Plan,Low
+test:698:18,test,no time like the present.,☝️,Advise,Advise,Low
+test:698:19,test,okay. i'll do it now.,👍,Agree,Agree,Low
+test:698:21,test,it's in an email so i gotta search for it for-just hang on one second.,📖,Explain,Explain,Low
+test:698:25,test,"hey, it's okay.",💛,Comfort,Comfort,Low
+test:698:26,test,it's--it's not me. it's the wi-fi.,📖,Explain,Explain,Low
+test:703:0,test,"well, they do now!",✅,Acknowledge,Acknowledge,Low
+test:703:1,test,"oh, hey.",👋,Greet,Greet,Low
+test:703:2,test,"i just wanted to let you know i restocked all the toothpaste that myrtle decided looked  just fine  in electronics, so-and?",ℹ️,Inform,Inform,Low
+test:703:4,test,"well, i know there's more.",🤝,Acknowledge,Acknowledge,Low
+test:703:5,test,"no, there's not. there's just--",🙅,Oppose,Oppose,High
+test:703:6,test,there's just no shame in counseling.,🥹,Comfort,Comfort,Low
+test:703:7,test,no. mental health is important and it shouldn't be stigmatized.,🙅,Oppose,Oppose,High
+test:703:8,test,"i know you're trying to help me and i really appreciate it, but i don't want to talk about it, okay?",🚫,Refuse,Refuse,Low
+test:703:9,test,i don't. i just want everybody to treat me normally.,⛔,Oppose,Oppose,High
+test:703:10,test,okay?,✅,Confirm,Confirm,Low
+test:703:11,test,it's okay.,🥹,Comfort,Comfort,Low
+test:703:12,test,you are loved.,🥹,Comfort,Comfort,Low
+test:721:0,test,"when he confronted the witches, it really grounded him.",🤝,Introduce,Introduce,Low
+test:721:1,test,"oh, i'm not seeing anyone.",🙅,Oppose,Oppose,High
+test:721:2,test,what about jeff?,🫒,Care,Care,Low
+test:721:3,test,sorry. 'scuse me.,🙏,Apologise,Apologise,Low
+test:721:4,test,hi. carol.,👋,Greet,Greet,Low
+test:721:5,test,"oh! i'm gonna get another long island iced tea, beyotches!",📋,Plan,Plan,Low
+test:733:0,test,"i'm gonna have you tackle womenswear with myrtle, and cheyenne here is gonna take your post.",⏰,Arrange,Arrange,Low
+test:733:2,test,you'll be fine. i believe in you.,🫐,Comfort,Comfort,Low
+test:733:3,test,hello. welcome to cloud 9.,😊,Greet,Greet,Low
+test:743:2,test,"no, he's not.",👎,Oppose,Oppose,High
+test:743:3,test,"and fewer lawsuits equals more revenue for cloud 9, which benefits all of us.",📝,Inform,Inform,Low
+test:743:6,test,"oh, god, kill me now.",😮‍💨,Complain,Complain,High
+test:743:9,test,"whoa, well done.",🏆,Praise,Praise,Low
+test:743:12,test,everybody write down all the employees you're attracted to.,📅,Arrange,Arrange,Low
+test:743:13,test,i will compile a spreadsheet of any matches and post it above the microwave.,🗺️,Plan,Plan,Low
+test:743:14,test,"nope, we're not doing that.",🙅,Oppose,Oppose,High
+test:743:16,test,can you ask her out again for a different night?,👌,Confirm,Confirm,Low
+test:743:19,test,i was just asking as a joke anyway.,📖,Explain,Explain,Low
+test:743:20,test,"without kids, what's the point of life?",🙄,Complain,Complain,High
+test:743:21,test,i can't believe you'd want to bring someone into this crazy world.,🤨,Criticize,Criticize,High
+test:743:27,test,i wasn't harassing her.,💡,Explain,Explain,Low
+test:743:28,test,"it was wrong to harass you, and if you want, i will quit right now.",🙏,Apologise,Apologise,Low
+test:743:29,test,"i like your sweater, and i think you're pretty.",🌟,Praise,Praise,Low
+test:743:34,test,"oh, god, what have i done?",🙄,Complain,Complain,High
+test:745:0,test,"dina, i am trying to keep a positive attitude today, so help me out, okay?",🙋,Ask for help,Ask for help,Low
+test:745:1,test,"yeah, sure. sorry.",😔,Apologise,Apologise,Low
+test:745:2,test,what? no offense.,🤨,Doubt,Doubt,Medium
+test:751:0,test,"oh, shut the door. you're letting the air out.",🗓️,Arrange,Arrange,Low
+test:751:3,test,"look, i'm just taking a break from the heat.",💬,Explain,Explain,Low
+test:751:4,test,"yeah, it is a lot cooler in here.",👍,Agree,Agree,Low
+test:764:0,test,she's got a terrible cold.,ℹ️,Inform,Inform,Low
+test:764:1,test,"you sound terrible-shrill, but in a different way.",🛡️,Care,Care,Low
+test:764:2,test,"uh-huh. hey, ames, can you hold on a sec?",💭,Asking for opinions,Asking for opinions,Low
+test:764:3,test,"hey, sweetie!",👋,Greet,Greet,Low
+test:764:4,test,"you just get well soon, okay?",💛,Comfort,Comfort,Low
+test:770:0,test,"so according to your wellness chart, you should shave that mustache.",💡,Advise,Advise,Low
+test:770:1,test,you'll thank me later.,😎,Flaunt,Flaunt,Medium
+test:770:2,test,"hey! what up, my--hm--mateo?",😊,Greet,Greet,Low
+test:770:3,test,"who you seeing? oh, god.",🛡️,Care,Care,Low
+test:770:4,test,"okay, look, i saw you at the movie theater yesterday with jeff.",📢,Inform,Inform,Low
+test:770:5,test,can we please not talk about this here?,🛑,Prevent,Prevent,Medium
+test:770:6,test,"talk about what, mateo? the fact that i saw you making out with sandra's boyfriend?",🤨,Criticize,Criticize,High
+test:770:7,test,okay.,🚫,Prevent,Prevent,Medium
+test:770:8,test,he's not her boyfriend. he's my boyfriend.,ℹ️,Inform,Inform,Low
+test:770:9,test,that's us at the pool in his hotel.,👋,Introduce,Introduce,Low
+test:770:10,test,that's us as nick nolte and barbara streisand in  prince of tides.    what about sandra?,🤝,Introduce,Introduce,Low
+test:770:11,test,she's just been saying she's dating him to get attention.,📝,Inform,Inform,Low
+test:770:13,test,sad. yes.,✅,Agree,Agree,Low
+test:770:14,test,"well, could you just please not say anything to anyone?",🥺,Ask for help,Ask for help,Low
+test:770:15,test,it wouldn't be good if this got out.,📢,Inform,Inform,Low
+test:770:16,test,"jeff's banging mateo, and sandra's insane.",📝,Inform,Inform,Low
+test:770:17,test,don't tell anyone though.,⚠️,Warn,Warn,Medium
+test:774:0,test,she's a maniac.,😤,Complain,Complain,High
+test:774:2,test,that's so gross.,🙄,Complain,Complain,High
+test:774:3,test,"wait, you guys have a wine club?",🤔,Doubt,Doubt,Medium
+test:774:4,test,"look, this really is none of your business, you know.",🙅,Oppose,Oppose,High
+test:774:6,test,"it you knew the whole story, you wouldn't think she was a maniac.",📖,Explain,Explain,Low
+test:774:8,test,the whole story is that she did date jeff.,📢,Inform,Inform,Low
+test:774:9,test,"it was very intense, and then they broke up.",ℹ️,Inform,Inform,Low
+test:774:10,test,"yup, they broke up. it happened on a tuesday.",🤝,Agree,Agree,Low
+test:774:11,test,"no.   that is a good question, and we asked her that question, and what she said made a lot of sense.",⛔,Oppose,Oppose,High
+test:774:12,test,she told us that...,📢,Inform,Inform,Low
+test:774:13,test,she's pregnant.,📢,Inform,Inform,Low
+test:774:14,test,sandra? that is wonderful.,👏,Praise,Praise,Low
+test:774:15,test,or manufacturing?,💡,Advise,Advise,Low
+test:774:16,test,"okay, no baby shower, guys.",🙅,Oppose,Oppose,High
+test:774:17,test,"you're making a big deal out of this, and she doesn't even know if she's gonna keep it.",🤔,Criticize,Criticize,High
+test:774:18,test,"no, you don't mean she's gonna--",⛔,Oppose,Oppose,High
+test:777:0,test,"oh, and childbirth is so easy.",🙄,Taunt,Taunt,High
+test:777:1,test,and that is our skit on the abortion debate.,👋,Introduce,Introduce,Low
+test:777:2,test,can we get a doctor? where's that nurse?,🙋,Ask for help,Ask for help,Low
+test:782:0,test,"wow, you're smoking now?",🤔,Doubt,Doubt,Medium
+test:782:1,test,"no, i'm just holding it.",⛔,Oppose,Oppose,High
+test:782:3,test,it's nice.,🌟,Praise,Praise,Low
+test:782:4,test,yeah?,👌,Acknowledge,Acknowledge,Low
+test:782:5,test,i'm sorry about everything earlier.,😔,Apologise,Apologise,Low
+test:782:6,test,i've been off today.,📝,Inform,Inform,Low
+test:782:7,test,going from two gallons of juice a day to nothing has been messing with my head.,🙄,Complain,Complain,High
+test:782:8,test,"yeah, i get it.",🤝,Agree,Agree,Low
+test:782:9,test,i'm sorry too.,🙏,Apologise,Apologise,Low
+test:782:10,test,"i just get sensitive, because sometimes i think you're smarter than me.",📖,Explain,Explain,Low
+test:782:12,test,i've come to deliver the fair maiden sandra to good king jeff.,📝,Inform,Inform,Low
+test:783:0,test,roach situation in the break room is getting worse.,📝,Inform,Inform,Low
+test:783:1,test,"so clean up your crumbs, and heather, stop hording yogurt lids in your locker.",🗓️,Arrange,Arrange,Low
+test:783:5,test,"i know that, because we had that oscar pool.",💡,Explain,Explain,Low
+test:783:9,test,i am talking about the new cloud 9 integrity awards.,📢,Inform,Inform,Low
+test:783:11,test,"the winner from each store gets an unframed certificate, and attends a luncheon with an all-you-can-eat buffet.",📝,Inform,Inform,Low
+test:783:12,test,"anyway, uh, the recommendation forms are here, and-which brett will be happy to help you with-in case you think of someone you work with, or maybe work for, who you think has shown integrity in the workplace.",📢,Inform,Inform,Low
+test:783:13,test,you can't push yourself for an award.,⚠️,Prevent,Prevent,Medium
+test:783:18,test,"no, you're-you're not getting it.",🙅,Oppose,Oppose,High
+test:783:20,test,"well, i'm probably not eligible, since i'm dating jeff.",💎,Flaunt,Flaunt,Medium
+test:788:1,test,"oh, jonah, so sweet, so dumb.",🤡,Taunt,Taunt,High
+test:788:2,test,they're in the new place. we're just getting boxes.,💡,Explain,Explain,Low
+test:788:3,test,"hey, princess.",✨,Greet,Greet,Low
+test:788:7,test,took me two minutes to box up everything i own.,😎,Flaunt,Flaunt,Medium
+test:788:9,test,"i don't know, maybe your heart medicine, so that your body doesn't reject your new valve?",💡,Advise,Advise,Low
+test:788:10,test,yep.,👌,Acknowledge,Acknowledge,Low
+test:788:11,test,"this is where i need to be, amelia...",💥,Emphasize,Emphasize,Low
+test:789:3,test,you probably saved his life.,🌟,Praise,Praise,Low
+test:789:4,test,"hm, who saw that coming?",😮‍💨,Complain,Complain,High
+test:789:6,test,"eh, you know, it wasn't that big a deal.",🥹,Comfort,Comfort,Low
+test:789:8,test,"how crazy would that be? garrett, integrity award winner.",😏,Taunt,Taunt,High
+test:789:9,test,"well, on the off chance that i'm right, why don't we do this?",🧠,Advise,Advise,Low
+test:789:10,test,"attention, cloud 9 employees, do not recommend me for the integrity award.",📢,Inform,Inform,Low
+test:789:11,test,"if you would like to reward me for rescuing a dog, feel free to bring baked goods by customer service, preferably homemade.",📝,Inform,Inform,Low
+test:789:12,test,thank you.,🙏,Thank,Thank,Low
+test:789:13,test,"and no lemon squares, or anything with oatmeal.",📝,Inform,Inform,Low
+test:789:14,test,save that crap for somebody who did not rescue a dog.,📢,Inform,Inform,Low
+test:794:2,test,"anyway, thanks for making jeff send him.",💛,Thank,Thank,Low
+test:794:3,test,"sure. i'm a good man to know, so let me know if you need anything else.",💎,Flaunt,Flaunt,Medium
+test:798:0,test,you really schlonged me with this whole dog scam.,🤨,Criticize,Criticize,High
+test:798:1,test,why are you doing this?,🤔,Criticize,Criticize,High
+test:809:0,test,leonard: this is it.,👋,Introduce,Introduce,Low
+test:809:1,test,tell him about our iq.,⏰,Arrange,Arrange,Low
+test:811:0,test,"well, your ex-boyfriend sends his regards and i think the rest is fairly self-explanatory.",📖,Explain,Explain,Low
+test:811:1,test,i'm so sorry.,🥺,Apologise,Apologise,Low
+test:811:2,test,i really thought if you guys went instead of me he wouldn't be such an ass.,📖,Explain,Explain,Low
+test:811:3,test,"really, thank you so much for going and trying.",🙏,Thank,Thank,Low
+test:811:4,test,you just-you're so terrific.,🌟,Praise,Praise,Low
+test:811:5,test,"why don't you put some clothes on, i'll get my purse, and dinner is on me, okay?",🎉,Invite,Invite,Low
+test:811:6,test,"you're not done with her, are you?",✅,Confirm,Confirm,Low
+test:812:1,test,"any ideas, raj?",🤔,Asking for opinions,Asking for opinions,Low
+test:812:2,test,i know a wonderful little sushi bar that has karaoke.,👋,Introduce,Introduce,Low
+test:812:3,test,"oh, that sounds like fun.",🏆,Praise,Praise,Low
+test:813:1,test,does it have peanut oil?,🧡,Care,Care,Low
+test:813:4,test,"since it's not bee season, you can have my epinephrine.",😂,Joke,Joke,Low
+test:813:5,test,thailand has had the fork since the latter half of the 1 9th century.,🤝,Introduce,Introduce,Low
+test:814:0,test,"hey, raj.",✨,Greet,Greet,Low
+test:814:1,test,"still not talking to me, huh?",👌,Confirm,Confirm,Low
+test:814:2,test,"don't take it personally, it's his pathology.",🥹,Comfort,Comfort,Low
+test:814:3,test,"if it gets here and i’m not here, could you sign for it and put it in?",🚨,Ask for help,Ask for help,Low
+test:814:5,test,you realize that scene was rife with scientific inaccuracy?,🤝,Confirm,Confirm,Low
+test:814:6,test,"yes, i know, men can't fly.",🤝,Acknowledge,Acknowledge,Low
+test:814:13,test,she's 2 feet above the ground.,❗,Emphasize,Emphasize,Low
+test:814:17,test,i'm just gonna go wash up.,🚪,Leave,Leave,Low
+test:814:18,test,i have 2600 comic books in there.,💎,Flaunt,Flaunt,Medium
+test:814:20,test,challenge accepted.,🤝,Agree,Agree,Low
+test:814:21,test,we're locked out.,😮‍💨,Complain,Complain,High
+test:815:1,test,why not?,😕,Doubt,Doubt,Medium
+test:815:3,test,archimedes would be so proud.,😜,Joke,Joke,Low
+test:815:4,test,do you have any ideas?,🤔,Asking for opinions,Asking for opinions,Low
+test:815:5,test,"yes, but they all involve a green lantern and a power ring.",🤣,Joke,Joke,Low
+test:815:8,test,"okay, yeah, no problem. just come up here, help me pull and turn.",🗓️,Arrange,Arrange,Low
+test:815:9,test,men do things for women without expecting sex.,⛔,Oppose,Oppose,High
+test:815:10,test,i'm doing this to be a good neighbor.,📖,Explain,Explain,Low
+test:815:12,test,"oh, god, my fingers!",🙄,Complain,Complain,High
+test:815:14,test,a little messy?,🤔,Doubt,Doubt,Medium
+test:815:15,test,explain to me a system where a tray of flatware on a couch is valid?,🤨,Doubt,Doubt,Medium
+test:815:16,test,i'm just inferring that this is a couch because the evidence suggests the coffee table's having a tiny garage sale.,😏,Taunt,Taunt,High
+test:815:17,test,did it occur to you that not everyone has the compulsive need to sort organize and label the entire world around them?,🤔,Asking for opinions,Asking for opinions,Low
+test:815:18,test,no.,⛔,Oppose,Oppose,High
+test:815:22,test,this is not anyone's home. this is a swirling vortex of entropy.,🙄,Taunt,Taunt,High
+test:815:24,test,because it was immaculate.,💬,Explain,Explain,Low
+test:822:0,test,"all right, just a few more feet and.... here we are, gentlemen, the gates of elzebub.",📛,Introduce,Introduce,Low
+test:822:2,test,don't panic. this is what the last 97 hours have been about.,💛,Comfort,Comfort,Low
+test:822:4,test,"warriors, unsheathe your weapons. magic wielders, raise your wands.",🗓️,Arrange,Arrange,Low
+test:822:6,test,"raj, blow the gates.",⏰,Arrange,Arrange,Low
+test:822:9,test,don't just stand there. slash and move.,⏰,Arrange,Arrange,Low
+test:822:10,test,stay in formation.,⏰,Arrange,Arrange,Low
+test:822:12,test,"oh, he's got me.",😮‍💨,Complain,Complain,High
+test:822:13,test,"sheldon, he's got raj. use your sleep spell.",📅,Arrange,Arrange,Low
+test:822:19,test,he's selling the sword of azeroth on ebay.,📢,Inform,Inform,Low
+test:822:20,test,you betrayed us for money? who are you?,🤔,Criticize,Criticize,High
+test:822:22,test,don't you people read character descriptions?,😕,Doubt,Doubt,Medium
+test:822:24,test,wanna log on to second life and go swimming?,📩,Invite,Invite,Low
+test:822:25,test,i just built a virtual pool.,📝,Inform,Inform,Low
+test:822:26,test,no. i can't look at you or your avatar right now.,👎,Oppose,Oppose,High
+test:822:28,test,excuse me.,👋,Leave,Leave,Low
+test:822:29,test,"stealing snail mail, very old school. i like it.",🌟,Praise,Praise,Low
+test:829:0,test,how do i look?,💭,Asking for opinions,Asking for opinions,Low
+test:829:1,test,no. the dark crescent-shaped patterns under your arms conceal it nicely.,🙅,Oppose,Oppose,High
+test:829:2,test,"perfect, that gives you two hours and 1 5 minutes for that dense molecular cloud of aramis to dissipate.",📝,Inform,Inform,Low
+test:829:3,test,"by the way, you didn't join us because you stuffed yourself with a chicken-carbonara sub at quizno's.",📢,Inform,Inform,Low
+test:829:4,test,why would i join you?,😕,Doubt,Doubt,Medium
+test:829:6,test,"oh, no, well, now, there's always the possibility that alcohol and poor judgment on her part might lead to a nice romantic evening.",🫐,Comfort,Comfort,Low
+test:829:7,test,"you're right. alcohol, poor judgment. it could go well.",👍,Agree,Agree,Low
+test:829:8,test,"you could have stopped at,  it could go well.  if i could have, i would have.",😮‍💨,Complain,Complain,High
+test:829:13,test,i'm having a panic attack.,📖,Explain,Explain,Low
+test:829:14,test,"oh, okay. well, then, calm down.",🫐,Comfort,Comfort,Low
+test:829:15,test,would you just sit down?,💡,Advise,Advise,Low
+test:829:16,test,"now, try to increase your alpha-wave activity.",☝️,Advise,Advise,Low
+test:829:17,test,it's relaxation through brainwave manipulation.,💡,Explain,Explain,Low
+test:829:18,test,"it was sparsely sourced, but i think the science is valid.",💬,Explain,Explain,Low
+test:829:20,test,"i can't. if i don't show up, she'll still be expecting you.",👎,Oppose,Oppose,High
+test:829:21,test,why would she be expecting me?,😕,Doubt,Doubt,Medium
+test:853:0,test,"no, robbie, robbie. you're not listening to us.",👎,Oppose,Oppose,High
+test:853:1,test,let me break this down for everyone.,📖,Explain,Explain,Low
+test:853:2,test,this is strictly sex. no one stays over and we keep an even tally in terms of orgasms.,💬,Explain,Explain,Low
+test:853:3,test,"in a relationship, you know things about the other person.",⛔,Oppose,Oppose,High
+test:853:4,test,"i don't know anything about dina, nor do i care to.",💡,Explain,Explain,Low
+test:861:2,test,that's where the power comes from.,📖,Explain,Explain,Low
+test:861:3,test,okay. how do you want to do this?,💭,Asking for opinions,Asking for opinions,Low
+test:861:6,test,i guess just start with a punch in the face?,☝️,Advise,Advise,Low
+test:861:7,test,"yeah, yeah, okay.",👍,Agree,Agree,Low
+test:861:8,test,maybe--maybe close your eyes.,☝️,Advise,Advise,Low
+test:861:9,test,"uh, on second thought, open your eyes.",🗓️,Arrange,Arrange,Low
+test:861:10,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:861:12,test,"no, see, now you're just staring at me and--and that's weird.",👎,Oppose,Oppose,High
+test:861:14,test,"well, i wasn't.",🙅,Oppose,Oppose,High
+test:861:16,test,you could just stomp on his head.,🧠,Advise,Advise,Low
+test:861:17,test,what if i just kind of go like this?,💡,Advise,Advise,Low
+test:861:20,test,i'd rather be deported.,😜,Joke,Joke,Low
+test:861:21,test,"mateo, it's not that easy to just punch somebody that you're not fighting with.",ℹ️,Inform,Inform,Low
+test:861:22,test,why isn't pacifism a straight guy thing?,🤔,Doubt,Doubt,Medium
+test:861:24,test,so... what are you gonna do now?,🤔,Asking for opinions,Asking for opinions,Low
+test:861:26,test,just--just talk to jeff.,🧠,Advise,Advise,Low
+test:861:27,test,"yeah, maybe.",🤝,Acknowledge,Acknowledge,Low
+test:861:28,test,i'm sorry i didn't come through for you.,🥺,Apologise,Apologise,Low
+test:861:29,test,"yeah, you really blew it.",✅,Agree,Agree,Low
+test:864:0,test,"okay, so, everyone wash their hands, not just for cacas, but also for wee-wees.",📢,Inform,Inform,Low
+test:864:1,test,"and if you need help wiping, well, just come see me, okay?",ℹ️,Inform,Inform,Low
+test:864:2,test,absolutely.,🤝,Agree,Agree,Low
+test:864:5,test,i'm surprising jerusha with a photo of all the kids we've ever fostered.,📅,Plan,Plan,Low
+test:864:10,test,how old's this one?,💭,Asking for opinions,Asking for opinions,Low
+test:864:12,test,cool.,🏆,Praise,Praise,Low
+test:864:14,test,what's going on with little homey over here?,🛡️,Care,Care,Low
+test:864:15,test,"uh, this is attachment therapy for timur's displacement/rage issues.",🤝,Introduce,Introduce,Low
+test:864:16,test,stop!,🛑,Prevent,Prevent,Medium
+test:864:17,test,stop it!,🛑,Prevent,Prevent,Medium
+test:864:18,test,stop! stop eating.,🚨,Warn,Warn,Medium
+test:868:0,test,"hey, kristen.",👋,Greet,Greet,Low
+test:868:2,test,"oh, sorry.",😔,Apologise,Apologise,Low
+test:868:3,test,"sorry, it's really dry.",🙏,Apologise,Apologise,Low
+test:868:7,test,"yeah, we are.",👍,Agree,Agree,Low
+test:868:9,test,"wait, why?",😕,Doubt,Doubt,Medium
+test:868:10,test,he seems nice.,👏,Praise,Praise,Low
+test:868:11,test,"like, um, he talks way too much about cheese.",📖,Explain,Explain,Low
+test:868:13,test,great. cool.,🏆,Praise,Praise,Low
+test:868:14,test,"well, i just--i just wanted to make sure that you were aware of the-the cheese and the-the films.",💬,Explain,Explain,Low
+test:868:16,test,"wait, the meth?",🤨,Doubt,Doubt,Medium
+test:868:17,test,"crystal meth, he smokes a ton of it.",⚠️,Warn,Warn,Medium
+test:868:18,test,is that-is that a deal-breaker?,🤨,Doubt,Doubt,Medium
+test:869:1,test,there is free candy in toy department.,ℹ️,Inform,Inform,Low
+test:869:3,test,"hey, baby.",👋,Greet,Greet,Low
+test:869:4,test,come get this candy.,📝,Inform,Inform,Low
+test:873:0,test,"so, bo, what makes you interested in a career at cloud 9?",❓,Asking for opinions,Asking for opinions,Low
+test:873:1,test,"oh, sure, sure--money.",🤝,Agree,Agree,Low
+test:873:2,test,"we've got the baby, and, you know, we're saving up for a wedding, and it's really expensive.",💡,Explain,Explain,Low
+test:873:4,test,and he's good with people.,🏆,Praise,Praise,Low
+test:873:6,test,"okay, uh, where do you see yourself in the future?",🫒,Care,Care,Low
+test:873:9,test,he means--where do you see yourself at cloud 9?,💬,Explain,Explain,Low
+test:873:11,test,"um, glenn is in charge of hiring.",⚠️,Warn,Warn,Medium
+test:882:1,test,"yeah, i got--i got lost and stuff, so...",📖,Explain,Explain,Low
+test:882:3,test,thank you.,👍,Thank,Thank,Low
+test:882:5,test,"you know, there's, like, a lot of dangerous people out there.",📖,Explain,Explain,Low
+test:882:9,test,"you know, people spend so much time watching the coasts.",💬,Explain,Explain,Low
+test:882:10,test,you know where they're gonna strike first?,❓,Asking for opinions,Asking for opinions,Low
+test:882:12,test,"yeah, what's up, truth?",🤔,Doubt,Doubt,Medium
+test:882:14,test,"ha, who knew? here i thought you were nothing more than a worthless dirt bag.",🤡,Taunt,Taunt,High
+test:901:0,test,"careful, leonard. liquid nitrogen, 320 degrees below zero.",⚠️,Warn,Warn,Medium
+test:901:2,test,why are you smashing a flash-frozen banana?,🤨,Doubt,Doubt,Medium
+test:901:3,test,because i got a bowl of cheerios and i couldn't find a knife.,💡,Explain,Explain,Low
+test:901:5,test,what are you doing?,🤨,Doubt,Doubt,Medium
+test:901:6,test,just extending the intimacy.,💡,Explain,Explain,Low
+test:901:7,test,"hey, do you wanna slip over to the radiation lab and share a decontamination shower?",📩,Invite,Invite,Low
+test:901:8,test,"okay, what exactly do you think's going on between us?",❓,Asking for opinions,Asking for opinions,Low
+test:901:19,test,oh.,🤝,Acknowledge,Acknowledge,Low
+test:901:20,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:901:21,test,i'm sorry. i'm sorry.,🙏,Apologise,Apologise,Low
+test:902:0,test,"hey, look. it's dr. stud.",😊,Greet,Greet,Low
+test:902:1,test,doctor what?,🤨,Doubt,Doubt,Medium
+test:902:3,test,"well, how did you know about it?",🫒,Care,Care,Low
+test:902:6,test,"well, that part's true.",👍,Agree,Agree,Low
+test:913:1,test,i'm fine.,🥹,Comfort,Comfort,Low
+test:913:2,test,i am so sorry about what happened.,😔,Apologise,Apologise,Low
+test:913:3,test,"yes, it is. that's why i broke up with him.",📖,Explain,Explain,Low
+test:913:4,test,he always does stuff like that.,😤,Complain,Complain,High
+test:913:5,test,so why was he at your party?,🛡️,Care,Care,Low
+test:913:8,test,"and i'm an idiot, because i always believe guys like that.",😤,Complain,Complain,High
+test:913:10,test,"nothing, you're perfect.",🥹,Comfort,Comfort,Low
+test:913:11,test,ecch. i'm not perfect.,👎,Oppose,Oppose,High
+test:913:12,test,"yes, you are.",🥹,Comfort,Comfort,Low
+test:913:13,test,"you really think so, don't you?",🤝,Confirm,Confirm,Low
+test:913:15,test,are you sure that your being drunk and your being angry with kurt doesn't have something to do with what's going on here?,🤝,Confirm,Confirm,Low
+test:913:17,test,"boy, you're really smart.",🌟,Praise,Praise,Low
+test:913:18,test,"yeah, i'm a freaking genius.",😏,Taunt,Taunt,High
+test:913:19,test,"leonard, you are so great.",🌟,Praise,Praise,Low
+test:913:21,test,"because if all guys were like me, the human race couldn't survive.",😂,Joke,Joke,Low
+test:913:22,test,i should probably go.,🚪,Leave,Leave,Low
+test:913:24,test,thank you.,👍,Thank,Thank,Low
+test:917:0,test,what are you doing?,🤨,Doubt,Doubt,Medium
+test:917:1,test,penny's still sleeping.,🛑,Warn,Warn,Medium
+test:917:2,test,why don't you have breakfast in bed?,☝️,Advise,Advise,Low
+test:917:3,test,because i am neither an invalid nor a woman celebrating mother's day.,💬,Explain,Explain,Low
+test:917:4,test,what time is it?,🛡️,Care,Care,Low
+test:917:6,test,i slept all day?,🤔,Doubt,Doubt,Medium
+test:917:7,test,"no, it's 6:30 in the morning.",🙅,Oppose,Oppose,High
+test:917:9,test,i now have a bowl of shredded wheat paste.,🙄,Complain,Complain,High
+test:919:2,test,hi. christy.,👋,Greet,Greet,Low
+test:919:4,test,"so, christy, what are your plans?",❓,Asking for opinions,Asking for opinions,Low
+test:919:5,test,"well, howard said he'd take me shopping in beverly hills.",📋,Plan,Plan,Low
+test:919:7,test,"not that i don't love having you, but it's a little crowded.",📖,Explain,Explain,Low
+test:919:8,test,"penny, you're always welcome to stay with us.",🎉,Invite,Invite,Low
+test:919:9,test,"oh, terrific. now we're running a cute little b & b.",😏,Taunt,Taunt,High
+test:919:13,test,"what is that, like a mexican deli?",🤝,Confirm,Confirm,Low
+test:919:14,test,"i'm sorry, i should have mentioned this earlier.",🙏,Apologise,Apologise,Low
+test:919:16,test,oh. that's so cool.,👏,Praise,Praise,Low
+test:919:17,test,my first jew.,💸,Flaunt,Flaunt,Medium
+test:919:19,test,"okay, i'll go pack my stuff.",🚪,Leave,Leave,Low
+test:919:21,test,"howard, can't you see she's using you?",😕,Doubt,Doubt,Medium
+test:925:0,test,and this is leonard and sheldon's apartment.,🤝,Introduce,Introduce,Low
+test:925:1,test,"leonard, may i present, live from new delhi, dr. and mrs. v. m. koothrappali?",📛,Introduce,Introduce,Low
+test:925:2,test,hi.,😊,Greet,Greet,Low
+test:925:3,test,"sorry, papa.",🥺,Apologise,Apologise,Low
+test:925:4,test,he lives with leonard.,👋,Introduce,Introduce,Low
+test:925:5,test,"yeah. no, we're not like haroon and tanvir.",⛔,Oppose,Oppose,High
+test:925:6,test,"papa, please don't start.",🛑,Prevent,Prevent,Medium
+test:925:7,test,"that's my life, my friends. good to see you. say bye.",👋,Leave,Leave,Low
+test:925:8,test,a spring wedding?,🤔,Doubt,Doubt,Medium
+test:925:9,test,your parents don't consider this meddling.,🫐,Comfort,Comfort,Low
+test:925:10,test,while arranged marriages are no longer the norm indian parents continue to have an involvement in their children's love lives.,💡,Explain,Explain,Low
+test:925:11,test,why are you telling me about my own culture?,😕,Doubt,Doubt,Medium
+test:925:12,test,you seemed confused.,📖,Explain,Explain,Low
+test:925:15,test,my parents are trying to marry me off to a stranger. what am i going to do?,🤔,Asking for opinions,Asking for opinions,Low
+test:925:16,test,romantic love as the basis for marriage has only existed since the 19th century.,📛,Introduce,Introduce,Low
+test:925:17,test,"up until then, arranged marriages were the norm and it served society quite well.",📛,Introduce,Introduce,Low
+test:925:20,test,"me too. of course, it speaks to me culturally.",👍,Agree,Agree,Low
+test:927:0,test,i need guinea pigs.,🥺,Ask for help,Ask for help,Low
+test:927:1,test,"okay, there's a lab animal supply company in reseda you could try.",💡,Advise,Advise,Low
+test:927:2,test,"but if your research is going to have human applications, i suggest white mice.",💡,Advise,Advise,Low
+test:927:3,test,their brain chemistry is far closer to ours.,📖,Explain,Explain,Low
+test:927:4,test,with certain obvious exceptions.,👎,Oppose,Oppose,High
+test:927:6,test,"so, leonard, how about it?",💭,Asking for opinions,Asking for opinions,Low
+test:927:7,test,um.... raj is going through some stuff right now and he'd like to take up drinking.,💬,Explain,Explain,Low
+test:927:9,test,this drink is an example of how liquids with different specific gravities interact in a cylindrical container.,👋,Introduce,Introduce,Low
+test:927:10,test,thank you.,🙏,Thank,Thank,Low
+test:927:11,test,"okay, raj, what'll it be?",🤔,Asking for opinions,Asking for opinions,Low
+test:927:13,test,how about a grasshopper? i make a mean grasshopper.,💡,Advise,Advise,Low
+test:927:14,test,"okay, can you please order a cocktail? i need to practice mixing drinks.",🙋,Ask for help,Ask for help,Low
+test:927:16,test,that's rum and coke without the rum.,📛,Introduce,Introduce,Low
+test:927:17,test,yes.,👍,Agree,Agree,Low
+test:927:19,test,yes.,👍,Agree,Agree,Low
+test:927:20,test,bartenders are supposed to have people skills.,🤡,Taunt,Taunt,High
+test:927:24,test,are you talking to me?,😕,Doubt,Doubt,Medium
+test:927:25,test,is there another penny here?,😕,Doubt,Doubt,Medium
+test:927:26,test,i was going to be the indira gandhi of particle astrophysics.,📋,Plan,Plan,Low
+test:927:27,test,it's amazing.,🏆,Praise,Praise,Low
+test:927:28,test,how can i be a gynecologist? i can barely look a woman in the eye.,😤,Complain,Complain,High
+test:927:29,test,you know what? i'm not going to let my parents control my future.,📝,Inform,Inform,Low
+test:927:30,test,it's time for a showdown.,🗺️,Plan,Plan,Low
+test:927:31,test,somebody give me a computer with a webcam.,🚨,Ask for help,Ask for help,Low
+test:927:32,test,"okay, calm down.",💛,Comfort,Comfort,Low
+test:927:33,test,no one can make you get married.,💛,Comfort,Comfort,Low
+test:927:34,test,"why don't you meet this girl, see what happens?",💡,Advise,Advise,Low
+test:927:35,test,haven't you been listening? i cannot talk to women.,😮‍💨,Complain,Complain,High
+test:927:36,test,"raj, honey you say you can't talk to women but you've been talking to me.",🥹,Comfort,Comfort,Low
+test:927:38,test,you're right. i-i am talking to you.,✅,Agree,Agree,Low
+test:927:39,test,"hello, penny. how are you?",👋,Greet,Greet,Low
+test:927:42,test,it's a sweet green miracle.,👏,Praise,Praise,Low
+test:927:43,test,happiness?,😕,Doubt,Doubt,Medium
+test:927:44,test,freedom?,🤔,Doubt,Doubt,Medium
+test:927:45,test,this warm glow inside of me that promises everything's going to be all hunky dunky?,😕,Doubt,Doubt,Medium
+test:927:46,test,"yeah, that.",👍,Agree,Agree,Low
+test:927:47,test,why don't you bring her to my restaurant so i can keep an eye on you?,☝️,Advise,Advise,Low
+test:927:48,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:927:49,test,"what's the plan? let's say he meets her, he likes her, they get married.",🤔,Asking for opinions,Asking for opinions,Low
+test:932:1,test,"maybe you should keep your eye on the ball, papa.",🧠,Advise,Advise,Low
+test:932:2,test,"oh, now you're a funnyman? this is not funny, mr. funnyman.",😑,Criticize,Criticize,High
+test:932:3,test,"dr. and mrs. koothrappali, in all fairness, it wasn't entirely raj's fault.",📝,Inform,Inform,Low
+test:932:5,test,"you, you are the one who ruined everything.",😑,Criticize,Criticize,High
+test:932:7,test,turn us. turn us.,📅,Arrange,Arrange,Low
+test:932:8,test,"go ahead, tell my parents why they won't have any grandchildren.",🗓️,Arrange,Arrange,Low
+test:932:12,test,friends don't do that to each other.,🤔,Criticize,Criticize,High
+test:932:14,test,"all right, noted.",🤝,Acknowledge,Acknowledge,Low
+test:932:16,test,i'm not an alcoholic.,🙅,Oppose,Oppose,High
+test:932:17,test,"it was just this one time, papa, i swear.",📖,Explain,Explain,Low
+test:932:18,test,don't embarrass him in front of his friends.,⚠️,Prevent,Prevent,Medium
+test:932:19,test,all right. carry us outside.,🗓️,Arrange,Arrange,Low
+test:932:20,test,we want to talk to you in private.,📢,Inform,Inform,Low
+test:932:21,test,i have to go.,🏃,Leave,Leave,Low
+test:933:0,test,"okay, well, good night.",👋,Leave,Leave,Low
+test:933:1,test,hold on.,🚫,Prevent,Prevent,Medium
+test:933:2,test,"we ate, she lectured me on the link between gum disease and heart attacks nothing i didn't already know, and i came home.",📝,Inform,Inform,Low
+test:933:3,test,so you're not gonna see her again?,😕,Doubt,Doubt,Medium
+test:933:4,test,why would i see her again?,😕,Doubt,Doubt,Medium
+test:934:0,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:934:1,test,the x tens are online.,📢,Inform,Inform,Low
+test:934:2,test,it's a little loud.,😤,Complain,Complain,High
+test:934:3,test,"san francisco, lisbon, halifax: voilà.",📛,Introduce,Introduce,Low
+test:934:4,test,"okay, thanks.",👍,Thank,Thank,Low
+test:934:6,test,no. you don't get it.,👎,Oppose,Oppose,High
+test:934:7,test,"howard, enable public access.",📅,Arrange,Arrange,Low
+test:934:8,test,public access enabled.,📢,Inform,Inform,Low
+test:934:9,test,see?,🤝,Introduce,Introduce,Low
+test:934:10,test,no.,🙅,Oppose,Oppose,High
+test:934:11,test,"someone in sichuan province, china is using his computer to turn our lights on and off.",ℹ️,Inform,Inform,Low
+test:934:12,test,"huh. well, that's handy.",🤡,Taunt,Taunt,High
+test:934:13,test,oh! they found the remote-control cars.,ℹ️,Inform,Inform,Low
+test:934:15,test,i promised my mother.,ℹ️,Inform,Inform,Low
+test:934:17,test,it's from the institute for experimental physics.,ℹ️,Inform,Inform,Low
+test:934:18,test,"okay, if i may drill down to the bedrock of my question why did you throw it out?",🤔,Asking for opinions,Asking for opinions,Low
+test:934:19,test,because i have no interest in standing in the rose room of the pasadena marriott in front of a group of judgmental strangers who wouldn't recognize genius if it were standing in front of them giving a speech.,💬,Explain,Explain,Low
+test:934:23,test,forget the parties? what a nerd.,🙄,Taunt,Taunt,High
+test:934:24,test,"leonard, don't take this the wrong way, but the day you win a nobel prize is the day i begin my research on the drag coefficient of tassels on flying carpets.",🙄,Taunt,Taunt,High
+test:934:25,test,"ha, ha, ha. the only thing missing from that insult was your mama.",😏,Taunt,Taunt,High
+test:934:27,test,you can't. i'm the lead author.,⛔,Oppose,Oppose,High
+test:934:28,test,"come on, the only reason you're the lead author is because we went alphabetically.",🙅,Oppose,Oppose,High
+test:934:31,test,"excuse me, i designed the experiment that proved the hypothesis.",😤,Complain,Complain,High
+test:934:32,test,it doesn't need proving.,👎,Oppose,Oppose,High
+test:934:33,test,so the entire scientific community is just supposed to just take your word?,😕,Doubt,Doubt,Medium
+test:934:34,test,"i'm going to the conference, presenting our findings.",📅,Plan,Plan,Low
+test:934:35,test,you forbid it?,🤔,Doubt,Doubt,Medium
+test:935:0,test,"you know, like in the classic sci-fi movie scanners?",💡,Explain,Explain,Low
+test:935:3,test,how about this one?,🧠,Advise,Advise,Low
+test:935:4,test,"it says,  i know my physics, but i'm still a fun guy.  oh.",😂,Joke,Joke,Low
+test:935:6,test,they don't. that's why i saved this one.,💬,Explain,Explain,Low
+test:935:8,test,that's the bottle city of kandor.,🤝,Introduce,Introduce,Low
+test:935:9,test,uh-huh.,🤝,Acknowledge,Acknowledge,Low
+test:935:10,test,"you see, kandor was the capital city of the planet krypton.",👋,Introduce,Introduce,Low
+test:935:11,test,it was miniaturized by brainiac before krypton exploded and then rescued by superman.,📛,Introduce,Introduce,Low
+test:935:12,test,"oh, nice.",🏆,Praise,Praise,Low
+test:935:13,test,"here, why don't you put these on while i find a shirt and sport coat?",💡,Advise,Advise,Low
+test:935:14,test,"no, no. scientists do not compromise.",⛔,Oppose,Oppose,High
+test:935:16,test,that's my original series battlestar galactica flight suit.,🤝,Introduce,Introduce,Low
+test:935:17,test,"oh, why didn't you wear it on halloween?",💡,Advise,Advise,Low
+test:935:18,test,because it's not a costume. it's a flight suit.,💡,Explain,Explain,Low
+test:935:20,test,is this your only tie?,👌,Confirm,Confirm,Low
+test:935:21,test,"ah, technically, yes.",🤝,Agree,Agree,Low
+test:935:22,test,"oh, sweetie, i don't even think it works as one.",🙅,Oppose,Oppose,High
+test:935:25,test,i said no. put it down.,🗓️,Arrange,Arrange,Low
+test:937:0,test,you should just talk to him. i'm sure you guys can work this out.,☝️,Advise,Advise,Low
+test:937:3,test,excuse me. little idea?,🤔,Doubt,Doubt,Medium
+test:937:6,test,don't you ever speak to me again.,⚠️,Prevent,Prevent,Medium
+test:938:2,test,i'm gonna ask one more time.,📢,Inform,Inform,Low
+test:938:3,test,"we did the work together, let's present the paper together.",☝️,Advise,Advise,Low
+test:938:4,test,let's go.,🚪,Leave,Leave,Low
+test:951:0,test,do you think penny will come here and take care of us?,💭,Asking for opinions,Asking for opinions,Low
+test:951:3,test,"can you go to the kitchen and get me the turkey baster labeled,  mucus?",🙋,Ask for help,Ask for help,Low
+test:951:4,test,under the sink. yellow tupperware bowl.,📝,Inform,Inform,Low
+test:960:0,test,why wouldn't the sonora desert make a perfectly good promised land?,🤨,Doubt,Doubt,Medium
+test:960:8,test,so we have a socially awkward genius in a room of attractive age-appropriate women.,💡,Explain,Explain,Low
+test:960:9,test,anyone else see the flaw in this plan?,🤔,Doubt,Doubt,Medium
+test:960:11,test,like what? we can't get 15-year-old girls drunk.,🙅,Oppose,Oppose,High
+test:960:15,test,how about that one?,❓,Asking for opinions,Asking for opinions,Low
+test:960:19,test,"okay. uh.... oh, hey, how about her?",❓,Asking for opinions,Asking for opinions,Low
+test:960:25,test,how about her?,🤔,Asking for opinions,Asking for opinions,Low
+test:960:28,test,one of us should go talk to her.,💡,Advise,Advise,Low
+test:960:29,test,i can't just go up and talk to her.,🤷,Refuse,Refuse,Low
+test:960:30,test,"howard, you talk to her.",📅,Arrange,Arrange,Low
+test:960:35,test,"why don't we do it your way, then?",☝️,Advise,Advise,Low
+test:960:36,test,"could i have everyone's attention, please?",ℹ️,Inform,Inform,Low
+test:960:37,test,what a wonderful occasion this is.,🌟,Praise,Praise,Low
+test:960:40,test,mr. kim was not only the valedictorian at stanford university he is also the youngest recipient of the prestigious stevenson award.,🤝,Introduce,Introduce,Low
+test:960:42,test,"and now, without any further ado let me introduce the man of the hour, mr. dennis kim.",👋,Introduce,Introduce,Low
+test:960:45,test,would you like to tell us about your upcoming research?,❓,Asking for opinions,Asking for opinions,Low
+test:960:46,test,"oh, no, thanks. i'm going to the mall with emma.",🚫,Refuse,Refuse,Low
+test:960:49,test,did anyone see how he did it?,🤨,Doubt,Doubt,Medium
+test:960:50,test,"don't worry, i've got this.",🥹,Comfort,Comfort,Low
+test:960:53,test,thank you.,🙏,Thank,Thank,Low
+test:960:54,test,forget the mission. how did that little yutz get a girl on his own?,🤔,Doubt,Doubt,Medium
+test:960:58,test,"so smart, it's off-putting.",🤡,Taunt,Taunt,High
+test:960:59,test,"yeah, let's go with that.",👍,Agree,Agree,Low
+test:967:1,test,why'd you set it for the day before yesterday?,🤔,Doubt,Doubt,Medium
+test:967:2,test,because i wanna go back and keep myself from getting a time machine.,💬,Explain,Explain,Low
+test:967:5,test,can i go back and prevent you from explaining that to me?,🤨,Doubt,Doubt,Medium
+test:967:10,test,are you upset about something?,🛡️,Care,Care,Low
+test:967:11,test,what was your first clue?,🤔,Asking for opinions,Asking for opinions,Low
+test:967:12,test,"well, it was a number of things. first, the late hour.",💡,Explain,Explain,Low
+test:967:16,test,good for me.,🚪,Leave,Leave,Low
+test:967:21,test,i disagree.,👎,Oppose,Oppose,High
+test:967:26,test,are you expecting an example involving a real-life time machine?,🤔,Doubt,Doubt,Medium
+test:967:27,test,that's absurd.,👋,Leave,Leave,Low
+test:969:1,test,"sorry, raj, my mind is made up.",🙏,Apologise,Apologise,Low
+test:969:2,test,no. i can't let you do this.,🛑,Prevent,Prevent,Medium
+test:969:3,test,"sheldon, get out of my way.",🚨,Warn,Warn,Medium
+test:969:6,test,if you do not get out of my way i will open it.,🛑,Warn,Warn,Medium
+test:969:7,test,"okay, man, be cool.",💛,Comfort,Comfort,Low
+test:969:9,test,what the hell's going on?,🛡️,Care,Care,Low
+test:969:15,test,"okay, okay, look, if this is about yesterday, leonard i am really sorry about what i said. i was just upset.",🙏,Apologise,Apologise,Low
+test:969:20,test,thanks.,🙏,Thank,Thank,Low
+test:969:22,test,excuse me.,👋,Greet,Greet,Low
+test:969:23,test,"bye, guys.",🚪,Leave,Leave,Low
+test:975:2,test,"come on, shelly.",🎉,Invite,Invite,Low
+test:975:3,test,i want you to know i'm very proud of you.,🌟,Praise,Praise,Low
+test:975:5,test,you tell people i'm a rocket scientist?,👌,Confirm,Confirm,Low
+test:975:6,test,"a rocket scientist, how humiliating.",🙄,Complain,Complain,High
+test:979:3,test,"well, if i had a gun there, would you have shot yourself?",🤣,Joke,Joke,Low
+test:979:4,test,"no, after my tongue has swollen to the size of a brisket.",🙅,Oppose,Oppose,High
+test:979:5,test,"oh, god, oh, god, oh, god-the laundry is out of the hamper.",📝,Inform,Inform,Low
+test:982:0,test,"okay, we don't have that in stock but i can special-order it for you.",📝,Inform,Inform,Low
+test:982:3,test,"we're late for leonard's birthday party and for another, i told him to call security.",📝,Inform,Inform,Low
+test:983:0,test,my friend is having allergic reaction to peanuts.,🥺,Ask for help,Ask for help,Low
+test:983:2,test,please help me.,🚨,Ask for help,Ask for help,Low
+test:994:0,test,he's coming. screen saver.,⏰,Arrange,Arrange,Low
+test:994:1,test,"oh, hey, leonard.",😊,Greet,Greet,Low
+test:994:2,test,"sheldon, how could you just sit there and let them spy on me?",🤨,Criticize,Criticize,High
+test:994:4,test,what are you talking about? the date went fine.,🤔,Doubt,Doubt,Medium
+test:994:10,test,where could i have gone wrong?,😕,Doubt,Doubt,Medium
+test:994:14,test,i didn't even have to refer to my impromptu conversation starters.,💸,Flaunt,Flaunt,Medium
+test:994:15,test,that woman across the hall is into me.,💸,Flaunt,Flaunt,Medium
+test:994:16,test,let's go to the tape.,☝️,Advise,Advise,Low
+test:994:19,test,"nice close-up, by the way.",👏,Praise,Praise,Low
+test:994:22,test,that's not a bad sign.,👎,Oppose,Oppose,High
+test:994:23,test,please. you might as well have been two iguana with no dewlap enlargement.,🙄,Taunt,Taunt,High
+test:994:25,test,"i'm not there, because i'm taking things slow.",💬,Explain,Explain,Low
+test:994:26,test,"which, by the way, compared to you guys, approaches warp speed.",😤,Complain,Complain,High
+test:994:27,test,and take down that camera.,🗓️,Arrange,Arrange,Low
+test:995:0,test,"yeah, fyi, the hot water is inadequate on machine 2, so colors only.",☝️,Advise,Advise,Low
+test:995:2,test,why don't you just take your clothes down to the river and beat them with a rock?,😏,Taunt,Taunt,High
+test:995:3,test,"sheldon, may i ask you a question?",❓,Asking for opinions,Asking for opinions,Low
+test:995:6,test,because i've come to learn that such inquiries are inappropriate.,📖,Explain,Explain,Low
+test:995:7,test,"oh! well, a few years ago he did go out with a woman who had a ph.d. in french literature.",📢,Inform,Inform,Low
+test:995:9,test,so.... do you think that if leonard and i keep dating he'll eventually get bored with me?,❓,Asking for opinions,Asking for opinions,Low
+test:995:10,test,no.,🙅,Oppose,Oppose,High
+test:995:11,test,no.,👎,Oppose,Oppose,High
+test:995:13,test,why would you lie about that?,💭,Asking for opinions,Asking for opinions,Low
+test:995:14,test,he was going on about this college and that grad school and i didn't want him to think i was some kind of stupid loser.,💬,Explain,Explain,Low
+test:995:15,test,you thought the opposite of  stupid loser  was  community-college graduate?,🤨,Doubt,Doubt,Medium
+test:995:17,test,"well, i'm sorry.",🥺,Apologise,Apologise,Low
+test:995:18,test,what?,🤔,Doubt,Doubt,Medium
+test:995:19,test,"secret-keeping is a complicated endeavor. one has to be concerned not only about what one says, but about facial expressions, autonomic reflexes.",📖,Explain,Explain,Low
+test:995:20,test,when i try to deceive i myself have more nervous tics than a lyme disease research facility.,💬,Explain,Explain,Low
+test:995:24,test,"okay, look, if leonard finds out that i lied, i will absolutely die of embarrassment.",ℹ️,Inform,Inform,Low
+test:995:25,test,"look, i'm asking you as a friend.",🥺,Ask for help,Ask for help,Low
+test:996:1,test,"if you're not doing anything friday night, i thought we could go see a movie.",📩,Invite,Invite,Low
+test:996:2,test,"you know, i think i have the dinner shift on friday.",🤷,Refuse,Refuse,Low
+test:996:3,test,the manager hasn't posted the schedule. how about i let you know?,💬,Explain,Explain,Low
+test:996:5,test,i have no information about your interactions with penny nor do i have any method of learning such things.,👋,Leave,Leave,Low
+test:997:0,test,"i just think you need to be careful how you phrase things, sir.",🧠,Advise,Advise,Low
+test:997:1,test,"why do you drag me into matters which have nothing to do with me but exist between you and penny, a person to whom i barely speak?",🙄,Complain,Complain,High
+test:997:2,test,what's wrong with your face?,🧡,Care,Care,Low
+test:997:3,test,there's no reason to bring my looks into this.,😑,Criticize,Criticize,High
+test:997:4,test,"i said, good day.",👋,Leave,Leave,Low
+test:997:5,test,good day?,🤨,Doubt,Doubt,Medium
+test:1004:0,test,oh.,🤝,Acknowledge,Acknowledge,Low
+test:1004:4,test,"good night, sheldon.",🏃,Leave,Leave,Low
+test:1004:5,test,"penny, hold on.",⚠️,Prevent,Prevent,Medium
+test:1004:6,test,you sure things can't work out with you and leonard?,👌,Confirm,Confirm,Low
+test:1004:15,test,"oh, sweetie, i'm sorry.",😔,Apologise,Apologise,Low
+test:1004:17,test,"oh, gee, well, thank you for that.",🙏,Thank,Thank,Low
+test:1004:19,test,no. that response is unacceptable to me.,👎,Oppose,Oppose,High
+test:1004:23,test,wait a minute. why am i doing all the giving here?,😕,Doubt,Doubt,Medium
+test:1004:25,test,because love trumps hate.,💬,Explain,Explain,Low
+test:1004:26,test,"oh, now you're just making stuff up.",🙅,Oppose,Oppose,High
+test:1004:27,test,"okay. good night, sheldon.",👋,Leave,Leave,Low
+test:1007:0,test,"penny, are you experiencing some sort of difficulty?",🧡,Care,Care,Low
+test:1007:1,test,yeah.,✅,Acknowledge,Acknowledge,Low
+test:1007:2,test,"all right, then.",👋,Leave,Leave,Low
+test:1007:3,test,would it be possible for you to do this a little more quietly?,☝️,Advise,Advise,Low
+test:1007:4,test,that baldwin lock on your door uses traditional edge-mounted cylinders whereas the key for your volkswagen uses a center-cylinder system.,💡,Explain,Explain,Low
+test:1007:5,test,"thank you, sheldon.",😏,Taunt,Taunt,High
+test:1007:7,test,point of inquiry: why did you put your car key in the door lock?,🤨,Doubt,Doubt,Medium
+test:1007:8,test,i'll tell you why. today i had an audition.,💬,Explain,Explain,Low
+test:1007:9,test,"before i could start, they told me i look too midwest for the part.",😮‍💨,Complain,Complain,High
+test:1007:10,test,too midwest. what the hell does that even mean?,😤,Complain,Complain,High
+test:1007:12,test,i haven't gotten a single acting job. i've accomplished nothing.,😤,Complain,Complain,High
+test:1007:14,test,and when i was walking up those stairs a fly flew in my mouth and i ate it.,🙄,Complain,Complain,High
+test:1007:15,test,"oh, son of a bitch.",😮‍💨,Complain,Complain,High
+test:1007:17,test,"but returning to your key conundrum, you should call a locksmith.",🧠,Advise,Advise,Low
+test:1007:20,test,would you prefer to wait in our apartment?,🎉,Invite,Invite,Low
+test:1007:21,test,"no, i'd rather sit on this freezing floor, sobbing like a 3-year-old.",🚫,Refuse,Refuse,Low
+test:1007:23,test,just when i think i've gotten the hang of sarcasm.,🤡,Taunt,Taunt,High
+test:1018:0,test,"oh, leonard, there you are.",😊,Greet,Greet,Low
+test:1018:1,test,i just got here.,📢,Inform,Inform,Low
+test:1018:2,test,good. perfect timing.,🏆,Praise,Praise,Low
+test:1018:4,test,"howard, help me out here.",🙋,Ask for help,Ask for help,Low
+test:1018:5,test,"now, how do you propose i get home?",❓,Asking for opinions,Asking for opinions,Low
+test:1018:6,test,you're just gonna have to find someone else to take you home.,ℹ️,Inform,Inform,Low
+test:1029:1,test,sorry.,🥺,Apologise,Apologise,Low
+test:1033:2,test,"well, as it turns out, it's also a klingon word.",🤝,Agree,Agree,Low
+test:1033:4,test,judge's ruling?,🤔,Doubt,Doubt,Medium
+test:1033:5,test,did you pay your cable bill?,🤔,Doubt,Doubt,Medium
+test:1033:6,test,"what do you mean,  ohh?  like she didn't know we were nerds?",🙄,Taunt,Taunt,High
+test:1033:9,test,they're gorgeous.,🏆,Praise,Praise,Low
+test:1033:12,test,"oh, look, there's the future mrs. wolowitz.",🤝,Introduce,Introduce,Low
+test:1033:13,test,"no wait, that's the future mrs. wolowitz.",📛,Introduce,Introduce,Low
+test:1033:15,test,is qochbe spelled with a  qo  or a  ko?  why is that mrs. wolowitz crying?,😕,Doubt,Doubt,Medium
+test:1033:16,test,"oh, that's anaïs. none of the other girls in the house like her.",📛,Introduce,Introduce,Low
+test:1033:17,test,house? what house?,🤨,Doubt,Doubt,Medium
+test:1033:20,test,you're telling me that i'm within driving distance of a house filled with aspiring supermodels?,🤝,Confirm,Confirm,Low
+test:1033:21,test,"yeah, i guess.",👍,Agree,Agree,Low
+test:1037:1,test,what are you gonna do?,🤔,Asking for opinions,Asking for opinions,Low
+test:1037:3,test,i'll just do my laundry another night.,🗺️,Plan,Plan,Low
+test:1037:4,test,another night?,✅,Confirm,Confirm,Low
+test:1037:6,test,"woman, you are playing with forces beyond your ken.",🚨,Warn,Warn,Medium
+test:1042:2,test,how is deep space nine better than saturn 3?,🤔,Doubt,Doubt,Medium
+test:1042:4,test,in what sense is that a compromise?,🤔,Doubt,Doubt,Medium
+test:1042:5,test,"i'll tell you what. how about we go rock, paper, scissors?",☝️,Advise,Advise,Low
+test:1042:6,test,"anecdotal evidence suggests that in a game of rock, paper, scissors players familiar with each other will tie 75 to 80 percent of the time due to the limited number of outcomes.",💬,Explain,Explain,Low
+test:1042:7,test,"i suggest rock, paper, scissors, lizard, spock.",🧠,Advise,Advise,Low
+test:1042:8,test,"noticed the eye patch, did you?",🤝,Confirm,Confirm,Low
+test:1042:12,test,i got a whole list of them. who wants to be my wingman?,🍽️,Invite,Invite,Low
+test:1042:14,test,"oh, did you get pink eye again?",🤔,Doubt,Doubt,Medium
+test:1042:15,test,"yeah, just move your stupid scooter before i pick it up and throw it in the dumpster.",📅,Arrange,Arrange,Low
+test:1042:17,test,"yeah, i'm sorry, but i'm not going to watch the clone wars tv series until i've seen the clone wars movie.",🙏,Apologise,Apologise,Low
+test:1042:22,test,what'd i do?,🤔,Doubt,Doubt,Medium
+test:1042:23,test,"hello? hey, howard.",😊,Greet,Greet,Low
+test:1042:27,test,how can five not be worse than one?,🤨,Doubt,Doubt,Medium
+test:1042:28,test,"first of all, that's a comparison of quality, not intensity.",📢,Inform,Inform,Low
+test:1042:29,test,"secondly, star trek i is orders of magnitude worse than star trek v.",ℹ️,Inform,Inform,Low
+test:1042:30,test,are you joking?,🤨,Doubt,Doubt,Medium
+test:1042:31,test,star trek v is the standard against which all badness is measured.,🔥,Emphasize,Emphasize,Low
+test:1044:2,test,you could try calling aaa.,☝️,Advise,Advise,Low
+test:1044:3,test,"but based on nasa's latest timetable, they won't get there for 35 years.",📝,Inform,Inform,Low
+test:1044:4,test,"plus, i understand you have to be next to the vehicle with your card when they arrive.",📢,Inform,Inform,Low
+test:1044:6,test,"erase the hard drives, grab the tapes, wipe our fingerprints off every surface and run.",⏰,Arrange,Arrange,Low
+test:1044:7,test,why wasn't that plan a?,😕,Doubt,Doubt,Medium
+test:1061:0,test,"well, of course, ben. i meant my first granddaughter.",💬,Explain,Explain,Low
+test:1061:2,test,"have, um, you thought any more about you and rachel?",🤔,Asking for opinions,Asking for opinions,Low
+test:1061:4,test,what? when have i ever touched myself in front of you guys?,😕,Doubt,Doubt,Medium
+test:1063:1,test,"you know, you really should see someone about that.",💡,Advise,Advise,Low
+test:1063:3,test,i wanna go talk to rachel for a minute. are you gonna be okay alone for a bit?,🤝,Confirm,Confirm,Low
+test:1067:4,test,"phoebe, there is no secret, okay? i didn't propose.",⛔,Oppose,Oppose,High
+test:1067:5,test,i am a doctor.,🔥,Emphasize,Emphasize,Low
+test:1067:6,test,you know what? i'm just gonna go and talk to rachel myself.,📅,Plan,Plan,Low
+test:1067:7,test,"oh, my god. she thinks we're engaged.",😮‍💨,Complain,Complain,High
+test:1067:8,test,perhaps because you gave her an engagement ring?,💡,Explain,Explain,Low
+test:1067:9,test,"you know, ross, doctors are supposed to be smart.",🙄,Taunt,Taunt,High
+test:1067:11,test,huh. i might be losing interest in this.,🏃,Leave,Leave,Low
+test:1067:12,test,"look. look, my mom gave me that ring because she wanted me to propose to rachel.",💬,Explain,Explain,Low
+test:1067:13,test,"but all i wanted to do was see if she maybe, kind of wanted to start things up again.",💬,Explain,Explain,Low
+test:1067:14,test,"oh, what beautiful lukewarm sentiment.",🤡,Taunt,Taunt,High
+test:1067:15,test,i didn't want to rush into anything. it seemed like she didn't want to either.,💬,Explain,Explain,Low
+test:1067:16,test,"what, did she find the ring in my jacket, assume i was gonna propose throw it on and just start telling people?",🤨,Doubt,Doubt,Medium
+test:1067:17,test,"no, no. she said you actually proposed to her.",⛔,Oppose,Oppose,High
+test:1067:18,test,"well, i didn't. i didn't propose.",🙅,Oppose,Oppose,High
+test:1067:19,test,unless... did i?,😕,Doubt,Doubt,Medium
+test:1076:0,test,"the numbers we're seeing in chicago, new york and london are solid.",📢,Inform,Inform,Low
+test:1078:0,test,it says to try holding the baby close to your body and then swing her rapidly from side to side.,📛,Introduce,Introduce,Low
+test:1078:1,test,okay.,🤝,Acknowledge,Acknowledge,Low
+test:1078:5,test,"it's been hours, and it won't stop crying.",🙄,Complain,Complain,High
+test:1080:0,test,"ma'am, uh, do you have a minute?",🤝,Confirm,Confirm,Low
+test:1080:1,test,i kind of have some bad news. i don't think i can move to tulsa.,📝,Inform,Inform,Low
+test:1080:3,test,"um, i kind of fell asleep in the meeting this morning.",📖,Explain,Explain,Low
+test:1080:4,test,"so when i said i'd move to tulsa, i didn't really know what i was saying.",📖,Explain,Explain,Low
+test:1080:5,test,you fell asleep?,✅,Confirm,Confirm,Low
+test:1080:6,test,but only because i was up all night worried about this meeting.,💡,Explain,Explain,Low
+test:1080:8,test,"see, here's the thing.",💬,Explain,Explain,Low
+test:1080:9,test,"i went home and told my wife about tulsa, and she won't go.",💬,Explain,Explain,Low
+test:1080:10,test,"look, carol. can i call you carol?",🤝,Confirm,Confirm,Low
+test:1080:11,test,why would i when your name is elaine?,😕,Doubt,Doubt,Medium
+test:1080:12,test,sorry. oh!,😔,Apologise,Apologise,Low
+test:1080:13,test,what a great picture of your son. strapping.,👏,Praise,Praise,Low
+test:1080:14,test,"that's a picture of your daughter, isn't it?",🤝,Confirm,Confirm,Low
+test:1080:15,test,"well, she's lovely. i like a girl with a strong jaw.",🌟,Praise,Praise,Low
+test:1080:16,test,i'll call you from tulsa.,👋,Leave,Leave,Low
+test:1082:0,test,"well, it looks like you guys got it under control, so i'm just gonna go.",🚪,Leave,Leave,Low
+test:1082:1,test,all right.,🤝,Acknowledge,Acknowledge,Low
+test:1082:3,test,nothing works with this child!,🙄,Complain,Complain,High
+test:1082:4,test,"oh, god, what am i gonna do, you guys? i can't even comfort my own baby.",😮‍💨,Complain,Complain,High
+test:1082:5,test,you'll get better. think about your first day at work.,🥹,Comfort,Comfort,Low
+test:1082:6,test,"that couldn't have been easy, but you figured that out.",🥹,Comfort,Comfort,Low
+test:1082:7,test,"yeah, i don't think dressing provocatively is going to help me here!",😤,Complain,Complain,High
+test:1082:12,test,you must be a fireball in bed!,🏆,Praise,Praise,Low
+test:1082:16,test,i'm kidding.,😜,Joke,Joke,Low
+test:1082:17,test,"oh, my god! you got her to stop crying!",🏆,Praise,Praise,Low
+test:1082:18,test,"that's your new job, day or night. she starts crying, i need you here.",🙋,Ask for help,Ask for help,Low
+test:1082:19,test,"so okay. hey, super aunt? see you later. ha, ha.",🚪,Leave,Leave,Low
+test:1082:22,test,"okay, so listen, i'm gonna go lay down.",🚪,Leave,Leave,Low
+test:1082:23,test,what?,😕,Doubt,Doubt,Medium
+test:1082:24,test,"the book says whenever she's sleeping, i should be sleeping.",📖,Explain,Explain,Low
+test:1082:25,test,so...   thank you.,🙏,Thank,Thank,Low
+test:1082:26,test,no.,🙅,Oppose,Oppose,High
+test:1082:27,test,we're moving to tulsa.,📝,Inform,Inform,Low
+test:1082:30,test,"oh. no, ross, this is not good.",🙄,Complain,Complain,High
+test:1082:31,test,"okay? i never really wanted to marry joey, okay?",💬,Explain,Explain,Low
+test:1082:32,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:1082:33,test,"you know what i really, really want?",💭,Asking for opinions,Asking for opinions,Low
+test:1091:1,test,"oh, that's, uh, because we had a bit of a falling out.",💡,Explain,Explain,Low
+test:1091:2,test,mike hit my mom with a car.,📖,Explain,Explain,Low
+test:1091:4,test,"well, wait. is your mom okay?",🛡️,Care,Care,Low
+test:1091:7,test,what?,😕,Doubt,Doubt,Medium
+test:1091:8,test,do you not know each other?,😕,Doubt,Doubt,Medium
+test:1091:11,test,because i forgot about our date. i'm so sorry.,🥺,Apologise,Apologise,Low
+test:1091:12,test,"i'm sorry too. and just to be clear, i didn't hit his mother with a car.",😔,Apologise,Apologise,Low
+test:1091:13,test,you are unbelievable. i spent so much time finding the perfect girl for you.,😤,Complain,Complain,High
+test:1091:14,test,mary ellen is really smart and cute and loose.,🏆,Praise,Praise,Low
+test:1091:15,test,"oh, who are you kidding?",🤨,Doubt,Doubt,Medium
+test:1091:16,test,"god, this is humiliating!",😑,Criticize,Criticize,High
+test:1091:17,test,"i'm so sorry. if you don't like this guy, i can find you a better one.",😔,Apologise,Apologise,Low
+test:1091:18,test,i'm out of here.,👋,Leave,Leave,Low
+test:1097:0,test,"oh. hey, ross.",😊,Greet,Greet,Low
+test:1097:1,test,i'm so glad someone's here. could you zip me up?,🥺,Ask for help,Ask for help,Low
+test:1097:2,test,can you believe no one between my apartment and here offered to do that for me?,😮‍💨,Complain,Complain,High
+test:1097:5,test,"oh, yeah? now, how's that going? is it getting serious?",❓,Asking for opinions,Asking for opinions,Low
+test:1097:9,test,"you know, i really admire your whole dating attitude.",🏆,Praise,Praise,Low
+test:1097:17,test,"um, there's nothing wrong with you.",🥹,Comfort,Comfort,Low
+test:1097:18,test,"i mean, you don't strike me as the type of person that wants to get married anyway.",💬,Explain,Explain,Low
+test:1097:23,test,phoebe.,👋,Greet,Greet,Low
+test:1097:24,test,how do i look?,❓,Asking for opinions,Asking for opinions,Low
+test:1097:25,test,you look great.,🌟,Praise,Praise,Low
+test:1098:0,test,i can't tell whether she's hot or not. what do you think?,❓,Asking for opinions,Asking for opinions,Low
+test:1098:1,test,"joey, i am not going to objectify women with you.",🙅,Refuse,Refuse,Low
+test:1098:4,test,"hey, why don't you fly out there and surprise him?",☝️,Advise,Advise,Low
+test:1098:5,test,yeah. we'll have a little second honeymoon at the tulsa ramada.,📅,Plan,Plan,Low
+test:1098:6,test,"oh, and you know what you should bring?",🧠,Advise,Advise,Low
+test:1098:7,test,your black see-through teddy with the attached garters.,🧠,Advise,Advise,Low
+test:1098:10,test,excuse me?,👋,Greet,Greet,Low
+test:1098:11,test,"uh, i said that i think you're hot.",🌟,Praise,Praise,Low
+test:1098:13,test,"i'll try that. hi, i'm joey.",✨,Greet,Greet,Low
+test:1098:14,test,i'm hayley.,😊,Greet,Greet,Low
+test:1098:16,test,really? great.,🏆,Praise,Praise,Low
+test:1098:20,test,"if it gets much worse, you could die.",🛑,Warn,Warn,Medium
+test:1101:0,test,are you sure that's what he was doing?,🤔,Doubt,Doubt,Medium
+test:1101:1,test,do you know how many times i've seen him jump up like that?,🤨,Doubt,Doubt,Medium
+test:1101:7,test,"ew, are you talking about my brother?",👌,Confirm,Confirm,Low
+test:1101:12,test,"what's the big deal? you forgot, she forgot.",💛,Comfort,Comfort,Low
+test:1101:13,test,i never have an off night. okay?,🔥,Emphasize,Emphasize,Low
+test:1101:15,test,"but even then, i'm better than most.",😎,Flaunt,Flaunt,Medium
+test:1101:16,test,"honey, why don't you just let it go and ask her out again?",💡,Advise,Advise,Low
+test:1101:17,test,"yeah, you're both so slutty, you don't remember who you slept with.",😑,Criticize,Criticize,High
+test:1101:18,test,you're made for each other.,🤡,Taunt,Taunt,High
+test:1101:20,test,"all right, well, i'll go out with her again and i'll try to get past it.",📅,Plan,Plan,Low
+test:1101:21,test,no salt! bloaty!,🏃,Leave,Leave,Low
+test:1101:22,test,"you don't think sharks are sexy, do you?",👌,Confirm,Confirm,Low
+test:1101:23,test,no.,⛔,Oppose,Oppose,High
+test:1101:24,test,"wait a minute. wait, what was the little mermaid?",🤔,Doubt,Doubt,Medium
+test:1103:0,test,"hi, honey, i'm home.",😊,Greet,Greet,Low
+test:1103:1,test,hi.,✨,Greet,Greet,Low
+test:1103:2,test,why don't you sit down.,🎉,Invite,Invite,Low
+test:1103:4,test,because i have a little surprise for you.,📢,Inform,Inform,Low
+test:1103:7,test,why am i watching a bunch of sharks swimming around?,🤔,Doubt,Doubt,Medium
+test:1103:12,test,do you want me to get into the tub and thrash?,🤔,Asking for opinions,Asking for opinions,Low
+test:1103:16,test,"no, they don't.",⛔,Oppose,Oppose,High
+test:1103:17,test,"oh, my god. when you came in, i switched the channel.",💬,Explain,Explain,Low
+test:1103:18,test,i was just watching regular porn.,💬,Explain,Explain,Low
+test:1103:20,test,you are an amazing wife.,🌟,Praise,Praise,Low
+test:1103:21,test,"really, you are amazing. you were actually gonna do this for me?",✅,Confirm,Confirm,Low
+test:1114:0,test,wow. hi.,😊,Greet,Greet,Low
+test:1114:1,test,"i'm here to explain to the people who gave us our grant why it's a positive thing that we've spent all their money and, uh, accomplished, uh, nothing.",📖,Explain,Explain,Low
+test:1114:3,test,damn it.,😤,Complain,Complain,High
+test:1114:4,test,"all right, i'll call the cab company.",🗺️,Plan,Plan,Low
+test:1114:6,test,thank you.,🙏,Thank,Thank,Low
+test:1114:8,test,are you kidding?,🤔,Doubt,Doubt,Medium
+test:1114:9,test,"you know, when you don't see someone for a long time and you kind of build them up in your head, you start thinking:",📖,Explain,Explain,Low
+test:1114:11,test,no.,⛔,Oppose,Oppose,High
+test:1114:14,test,"i mean, i don't know. i was looking in his eyes and i was just thinking,  oh, my god, it's david. david's here.  he's just so irresistible.",📖,Explain,Explain,Low
+test:1117:0,test,hey.,👋,Greet,Greet,Low
+test:1117:1,test,i need you to set me up for a joke.,🚨,Ask for help,Ask for help,Low
+test:1117:2,test,"ooh, i don't know, chandler. i'm not so good with remembering lines.",🙅,Refuse,Refuse,Low
+test:1117:3,test,why are we doing this?,❓,Asking for opinions,Asking for opinions,Low
+test:1122:0,test,so how many guys have your key?,🤔,Doubt,Doubt,Medium
+test:1122:1,test,"no, no, no. it's not as bad as it looks.",📖,Explain,Explain,Low
+test:1122:2,test,i was saying goodbye to an old friend.,💡,Explain,Explain,Low
+test:1122:4,test,"oh, uh, we just, uh, happen to wear the same shade.",💡,Explain,Explain,Low
+test:1122:5,test,"no, um, david and i did used to go out.",📖,Explain,Explain,Low
+test:1122:11,test,stop it. stop it. before someone gets really hurt.,🚫,Prevent,Prevent,Medium
+test:1122:13,test,all right.,👍,Agree,Agree,Low
+test:1122:14,test,"but if i ever do come back from minsk, well, you just better watch out.",🛑,Warn,Warn,Medium
+test:1122:15,test,i'm sorry. i'm so sorry.,🙏,Apologise,Apologise,Low
+test:1123:1,test,wow. you blow my mind.,👏,Praise,Praise,Low
+test:1123:2,test,it's like the cheapest college ever.,🏆,Praise,Praise,Low
+test:1125:0,test,"oh, hi, come on in. i'm catherine, the listing agent.",✨,Greet,Greet,Low
+test:1125:1,test,"hi, i'm joey. this is chandler.",👋,Greet,Greet,Low
+test:1125:2,test,so how come richard's selling the place? went bankrupt?,💭,Asking for opinions,Asking for opinions,Low
+test:1125:3,test,"uh, is there anything we should know about the place?",❓,Asking for opinions,Asking for opinions,Low
+test:1125:5,test,"no, we're not together. we're definitely not a couple.",👎,Oppose,Oppose,High
+test:1125:7,test,"what, i'm not good enough for you?",🤨,Doubt,Doubt,Medium
+test:1125:19,test,get there faster!,📅,Arrange,Arrange,Low
+test:1128:4,test,no.,👎,Oppose,Oppose,High
+test:1128:5,test,"oh, god. is that veal?",🤔,Doubt,Doubt,Medium
+test:1128:6,test,"no, that's okay. that's okay. i mean, i am a vegetarian except for veal. yeah. no. veal i love. heh.",🥹,Comfort,Comfort,Low
+test:1135:1,test,"it's easy to remember, and it doesn't invite a lot of questions.",🤝,Introduce,Introduce,Low
+test:1135:2,test,"you weren't at the parade, because you had a family emergency.",💡,Explain,Explain,Low
+test:1135:3,test,"i wasn't at the parade, because i had a family emergency.",💬,Explain,Explain,Low
+test:1135:4,test,what happened?,🧡,Care,Care,Low
+test:1135:5,test,we thought it might be nice to use the fancy china for dessert too.,🧠,Advise,Advise,Low
+test:1135:6,test,"hey, dude, you okay? sorry about before.",🥺,Apologise,Apologise,Low
+test:1135:10,test,right. remember in high school when i died and didn't give you my baby?,✅,Confirm,Confirm,Low
+test:1135:11,test,"okay, i went to the zoo yesterday, now i'm a koala bear.",😜,Joke,Joke,Low
+test:1135:12,test,you didn't come and visit me when i was in the hospital having the baby!,😤,Complain,Complain,High
+test:1135:13,test,you didn't come see me in the hospital when i was getting my lips done!,😤,Complain,Complain,High
+test:1135:17,test,because you don't want me to be happy.,💡,Explain,Explain,Low
+test:1135:18,test,of your lack of responsibility? your immaturity?,😑,Criticize,Criticize,High
+test:1135:19,test,your total disregard for other people's feelings?,🤔,Criticize,Criticize,High
+test:1135:21,test,you've always been like this.,😤,Complain,Complain,High
+test:1135:22,test,"you had to have everything, and i couldn't have anything.",😤,Complain,Complain,High
+test:1135:23,test,"like in junior high, when you stole timmy from me.",🙄,Complain,Complain,High
+test:1135:24,test,"i mean, do you even realize how much that hurt me?",✅,Confirm,Confirm,Low
+test:1135:25,test,"timmy was my boyfriend, and you made out with him!",😤,Complain,Complain,High
+test:1135:26,test,i cannot believe that i invited you here today!,🙄,Complain,Complain,High
+test:1135:27,test,"yeah, well, you know what i cannot believe? that my so-called sister gets a 30% discount from ralph lauren, and i still have to pay retail?",😤,Complain,Complain,High
+test:1135:29,test,you bitch.,🤨,Criticize,Criticize,High
+test:1135:31,test,"too far, amy. too far.",⚠️,Warn,Warn,Medium
+test:1135:32,test,put the plates in the boxes! put the plates in the boxes!,📝,Inform,Inform,Low
+test:1135:34,test,forget the bubble wrap! there isn't time!,📝,Inform,Inform,Low
+test:1135:36,test,let's throw some jell-o on them!,😂,Joke,Joke,Low
+test:1135:37,test,"all right, that is it! this is our apartment, and you cannot behave this way!",🚫,Prevent,Prevent,Medium
+test:1135:38,test,"if you can't act your age, you shouldn't be here at all.",🤔,Criticize,Criticize,High
+test:1135:40,test,"now, i want you to apologize to each other and mean it.",ℹ️,Inform,Inform,Low
+test:1135:41,test,"dude, well done.",👏,Praise,Praise,Low
+test:1135:43,test,"yeah? well, thanks.",🙏,Thank,Thank,Low
+test:1135:44,test,so... so now do i get joey?,✅,Confirm,Confirm,Low
+test:1135:47,test,thank you. it was so beautiful!,🙏,Thank,Thank,Low
+test:1135:48,test,i'm gonna go to joey's and get the pies.,👋,Leave,Leave,Low
+test:1135:49,test,"actually, not pies. it's just pie.",❗,Emphasize,Emphasize,Low
+test:1135:53,test,and i'm sorry.,🥺,Apologise,Apologise,Low
+test:1135:56,test,"well, what do you know? i guess i'll be the one who dies first.",😏,Taunt,Taunt,High
+test:1135:57,test,hey. so i'm gonna put the plates back.,📅,Plan,Plan,Low
+test:1135:58,test,i think you're right. we shouldn't use these plates for a long time.,✅,Agree,Agree,Low
+test:1135:59,test,hey. i did it.,😊,Greet,Greet,Low
+test:1135:60,test,i told my producer i had a family emergency. he totally bought it.,ℹ️,Inform,Inform,Low
+test:1135:61,test,what?! something happened with the plates?,🤔,Doubt,Doubt,Medium
+test:1137:4,test,"oh, really? well, thank you.",🙏,Thank,Thank,Low
+test:1137:5,test,"okay, stop. stop looking at me like that.",🛑,Prevent,Prevent,Medium
+test:1137:6,test,so are you excited about your first night away from emma?,🤔,Asking for opinions,Asking for opinions,Low
+test:1137:7,test,"actually, i invited mike over.",📝,Inform,Inform,Low
+test:1137:8,test,"oh, that's so cute. ross and mike's first date.",🤡,Taunt,Taunt,High
+test:1137:9,test,"i don't know. but you know, we have a lot in common, you know?",📖,Explain,Explain,Low
+test:1137:15,test,yeah.,🤝,Acknowledge,Acknowledge,Low
+test:1137:18,test,okay. heh.,🤝,Acknowledge,Acknowledge,Low
+test:1137:20,test,"yeah, yeah.",🤝,Acknowledge,Acknowledge,Low
+test:1137:21,test,"yeah, i'm sorry. i don't really like to talk about it.",🙏,Apologise,Apologise,Low
+test:1145:1,test,"fascinating, isn't it?",✅,Confirm,Confirm,Low
+test:1145:2,test,hello? ross' place. mike speaking.,✨,Greet,Greet,Low
+test:1145:3,test,it's for you.,📝,Inform,Inform,Low
+test:1145:4,test,i don't understand what just happened here.,🤨,Doubt,Doubt,Medium
+test:1148:0,test,"so, what did you guys do?",🫒,Care,Care,Low
+test:1148:3,test,"see you, guys.",🏃,Leave,Leave,Low
+test:1148:4,test,"rachel, lock the door. lock the door, seriously.",📅,Arrange,Arrange,Low
+test:1148:6,test,"wait, wait. wait, sorry. did he call? did that guy call?",👌,Confirm,Confirm,Low
+test:1148:8,test,hello?,👋,Greet,Greet,Low
+test:1148:9,test,"uh, no, she's not here right now. can i take a message?",👌,Confirm,Confirm,Low
+test:1148:10,test,bill from the bar?,👌,Confirm,Confirm,Low
+test:1148:12,test,"so, uh... so how was it?",🛡️,Care,Care,Low
+test:1148:13,test,did you guys...? you guys have a good time?,🛡️,Care,Care,Low
+test:1148:14,test,we had so much fun. it felt so good to be out.,🌟,Praise,Praise,Low
+test:1148:15,test,"uh, rach?",😊,Greet,Greet,Low
+test:1148:16,test,yeah?,🤝,Acknowledge,Acknowledge,Low
+test:1156:0,test,here's something blue and new.,🤝,Introduce,Introduce,Low
+test:1156:1,test,you are so efficient. i love you.,👏,Praise,Praise,Low
+test:1156:2,test,we need something old.,📝,Inform,Inform,Low
+test:1156:5,test,i don't think so.,⛔,Oppose,Oppose,High
+test:1156:6,test,we'll bring it back. just put it under your dress.,📅,Plan,Plan,Low
+test:1158:1,test,"hey, look, you guys. it's snowing.",📢,Inform,Inform,Low
+test:1158:2,test,wendy's a fat-girl name.,👋,Introduce,Introduce,Low
+test:1158:7,test,"yeah. it was a stupid job, and i could not stand leaving you.",😮‍💨,Complain,Complain,High
+test:1158:8,test,and why should i be the only one who doesn't get to do what he really wants to do?,😮‍💨,Complain,Complain,High
+test:1158:9,test,"no, i think that this is what you wanna do. i think it's great.",🌟,Praise,Praise,Low
+test:1158:10,test,thanks.,💛,Thank,Thank,Low
+test:1158:11,test,"chandler, your being here is the best christmas present i could ever imagine.",🏆,Praise,Praise,Low
+test:1158:12,test,aw.,✅,Acknowledge,Acknowledge,Low
+test:1158:13,test,how did you know?,🤨,Doubt,Doubt,Medium
+test:1165:0,test,"well, while you were on your baby vacation, i was doing your job.",💡,Explain,Explain,Low
+test:1165:6,test,"uh, rach, uh, we have a code brown situation.",📝,Inform,Inform,Low
+test:1165:7,test,"honey, could you please take care of it for me?",🙋,Ask for help,Ask for help,Low
+test:1165:8,test,"so i go have a baby, and they send some guy in to do my job?",😕,Doubt,Doubt,Medium
+test:1165:9,test,"well, there was talk of shutting down ralph lauren altogether.",📝,Inform,Inform,Low
+test:1165:10,test,i'm not a temp. i was transferred here from another department.,⛔,Oppose,Oppose,High
+test:1165:11,test,"oh, and what department was that? the, uh, jerk department?",🙄,Taunt,Taunt,High
+test:1165:12,test,"well, did they mention that i'm rubber and you're glue?",😏,Taunt,Taunt,High
+test:1165:13,test,"ah, rachel. i see you've met gavin.",👋,Greet,Greet,Low
+test:1165:16,test,"so now, uh, super gavin, when i come back uh, where do you plan on flying off to?",🤔,Asking for opinions,Asking for opinions,Low
+test:1165:18,test,"oh, wow. super ass-kissing power.",🤡,Taunt,Taunt,High
+test:1165:19,test,"incidentally, when, uh, are you coming back?",❓,Asking for opinions,Asking for opinions,Low
+test:1177:0,test,sure.,👍,Agree,Agree,Low
+test:1177:1,test,i wasn't staring.,⛔,Oppose,Oppose,High
+test:1177:10,test,they've elected me to talk to you about the baby talk.,ℹ️,Inform,Inform,Low
+test:1177:12,test,i think it's sweet.,👏,Praise,Praise,Low
+test:1177:13,test,why not?,🤨,Doubt,Doubt,Medium
+test:1177:14,test,because it took months to find a good nanny.,📖,Explain,Explain,Low
+test:1177:15,test,"and i wouldn't want anything to, you know, drive her away.",💬,Explain,Explain,Low
+test:1177:18,test,"now that you told me i can't have her, makes me want her even more!",💡,Explain,Explain,Low
+test:1177:19,test,"look, joey, come on now. for me, please.",🚨,Ask for help,Ask for help,Low
+test:1177:20,test,fine.,✅,Acknowledge,Acknowledge,Low
+test:1177:21,test,take me home.,🗓️,Arrange,Arrange,Low
+test:1179:0,test,"where you going, joe?",🫒,Care,Care,Low
+test:1179:2,test,"actually, uh, i'd rather be alone. you know, i really need to organize my thoughts.",🚫,Refuse,Refuse,Low
+test:1179:3,test,your thoughts?,🤔,Doubt,Doubt,Medium
+test:1179:4,test,"all right, fine. i only have one thought.",✅,Acknowledge,Acknowledge,Low
+test:1179:5,test,it's about the hot nanny. i gotta see her.,ℹ️,Inform,Inform,Low
+test:1190:0,test,"oh, she's my girlfriend. that's not just how we do it here.",🤝,Introduce,Introduce,Low
+test:1190:1,test,but you would have so much fun. and you have a really nice voice.,👏,Praise,Praise,Low
+test:1190:2,test,"yeah, i do rock that one.",🤝,Acknowledge,Acknowledge,Low
+test:1190:3,test,isn't there just a little part of you that wants to get up there?,🤝,Confirm,Confirm,Low
+test:1206:2,test,"no, no, no, i admire a man who can cry.",🙅,Oppose,Oppose,High
+test:1206:3,test,"oh. sorry, that's my phone.",😔,Apologise,Apologise,Low
+test:1206:4,test,"oh, my god, this is the worst date ever.",🙄,Complain,Complain,High
+test:1206:6,test,"oh, thank god! emma, there you are!",🙏,Thank,Thank,Low
+test:1206:7,test,"uh, we were playing peekaboo. she loves it when i'm dramatic. heh.",💬,Explain,Explain,Low
+test:1210:0,test,could we have our free crab cakes now?,🤝,Confirm,Confirm,Low
+test:1210:1,test,and we want our free crab cakes.,ℹ️,Inform,Inform,Low
+test:1210:4,test,i have such fat hands!,😤,Complain,Complain,High
+test:1219:0,test,you knew this all along and you never told me?,😤,Complain,Complain,High
+test:1219:2,test,absolutely amazing.,🏆,Praise,Praise,Low
+test:1219:3,test,"wait, wait, wait! congratulations. you did it.",⚠️,Prevent,Prevent,Medium
+test:1224:0,test,"joey, why did you tell chandler that monica was getting a boob job?",😑,Criticize,Criticize,High
+test:1225:0,test,very cool.,🏆,Praise,Praise,Low
+test:1225:1,test,"because the more i thought about it, the more i realized i don't think marriage is necessarily the right path for you.",💡,Explain,Explain,Low
+test:1225:2,test,what do you mean?,🤨,Doubt,Doubt,Medium
+test:1225:6,test,"you know, sometimes your words, they hurt.",🙄,Complain,Complain,High
+test:1225:7,test,"hey, where do you guys want this?",❓,Asking for opinions,Asking for opinions,Low
+test:1225:8,test,"i mean, not for me, because i'm only pretending to hold it, but for these guys.",📖,Explain,Explain,Low
+test:1225:9,test,"no, but you don't want to get married either, right?",👌,Confirm,Confirm,Low
+test:1225:10,test,right.,🤝,Agree,Agree,Low
+test:1225:12,test,what? you want to get married?,👌,Confirm,Confirm,Low
+test:1225:17,test,"if you wanted to get married, why didn't you say something before?",🤔,Doubt,Doubt,Medium
+test:1225:18,test,because i didn't know how much i wanted it.,💬,Explain,Explain,Low
+test:1225:19,test,"and i love you, and i wanted to live with you.",📢,Inform,Inform,Low
+test:1225:23,test,can we at least try living together? you might change your mind about marriage.,🧠,Advise,Advise,Low
+test:1225:24,test,are you gonna change yours?,🤝,Confirm,Confirm,Low
+test:1225:25,test,no.,👎,Oppose,Oppose,High
+test:1225:32,test,yeah. okay.,🤝,Acknowledge,Acknowledge,Low
+test:1225:33,test,"okay, so, uh... good bye.",👋,Leave,Leave,Low
+test:1225:34,test,"i'm so sorry, pheebs.",🙏,Apologise,Apologise,Low
+test:1225:35,test,we're all sorry.,🥺,Apologise,Apologise,Low
+test:1225:36,test,look on the bright side.,🫐,Comfort,Comfort,Low
+test:1225:37,test,"i mean, at least you won't have to live with this ugly chair.",🤣,Joke,Joke,Low
+test:1225:38,test,"that was here already, huh?",✅,Confirm,Confirm,Low
+test:1225:39,test,i love you.,💛,Comfort,Comfort,Low
+test:1227:2,test,she was just crawling around and she found him so i just let her sleep with him.,📖,Explain,Explain,Low
+test:1227:4,test,"joey, you're sure? i mean, i know how much you love him.",🤨,Doubt,Doubt,Medium
+test:1227:6,test,"yeah. well, why wouldn't she? he's a wonderful person.",👍,Agree,Agree,Low
+test:1233:0,test,hey. ross.,👋,Greet,Greet,Low
+test:1233:1,test,"look, i just wanted to apologize.",😔,Apologise,Apologise,Low
+test:1233:4,test,"actually, i don't need to, because your little  ross is dead  joke didn't work.",💡,Explain,Explain,Low
+test:1233:7,test,"nobody called, nobody wrote anything, nobody cares that i'm dead.",😮‍💨,Complain,Complain,High
+test:1233:10,test,i can't believe this. not even my geology lab partner. and i carried that guy.,🙄,Complain,Complain,High
+test:1233:11,test,"all right. look, let's think about this, okay?",💛,Comfort,Comfort,Low
+test:1233:12,test,that people are gonna post condolences on a website?,🤔,Doubt,Doubt,Medium
+test:1233:13,test,this isn't about people not caring that you're dead.,💛,Comfort,Comfort,Low
+test:1233:15,test,exactly!,✅,Agree,Agree,Low
+test:1233:16,test,"ross, what are you doing?",🤔,Doubt,Doubt,Medium
+test:1233:17,test,you're having a memorial service for yourself?,🤔,Doubt,Doubt,Medium
+test:1233:19,test,"sorry, so is that picture of you and the policeman.",😔,Apologise,Apologise,Low
+test:1272:0,test,"monet painted quickly, and usually outdoors as his elusive subject was light itself.",💡,Explain,Explain,Low
+test:1272:1,test,"now, do you have any idea what you just said?",👌,Confirm,Confirm,Low
+test:1272:3,test,"i gotta say, i'm really impressed you were able to memorize all this so quickly.",🌟,Praise,Praise,Low
+test:1272:4,test,i'm an actor. i can memorize anything.,💎,Flaunt,Flaunt,Medium
+test:1282:0,test,"oh, god, do you think she heard? it'd be so bad if she heard.",🤔,Asking for opinions,Asking for opinions,Low
+test:1282:1,test,what?,🤨,Doubt,Doubt,Medium
+test:1282:4,test,"oh, my god!",😮‍💨,Complain,Complain,High
+test:1283:0,test,i'm meeting with professor sherman about my being the keynote speaker.,📋,Plan,Plan,Low
+test:1283:1,test,"he, um... he fell asleep.",😮‍💨,Complain,Complain,High
+test:1283:2,test,you have to get that job.,💥,Emphasize,Emphasize,Low
+test:1283:3,test,what am i supposed to do? he's out cold.,🙋,Ask for help,Ask for help,Low
+test:1284:0,test,thanks.,🙏,Thank,Thank,Low
+test:1284:5,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:1284:6,test,"so, um, tell me, how'd you guys meet?",🧡,Care,Care,Low
+test:1284:8,test,do you or any of your blood relatives have diabetes?,🫒,Care,Care,Low
+test:1284:9,test,no.,👎,Oppose,Oppose,High
+test:1284:10,test,"uh, heart disease? alzheimer's? gout?",🫒,Care,Care,Low
+test:1284:11,test,we're just making conversation.,💡,Explain,Explain,Low
+test:1284:15,test,this ravioli's delicious.,👏,Praise,Praise,Low
+test:1284:16,test,i notice you're enjoying that ravioli with a beautiful set of teeth.,👏,Praise,Praise,Low
+test:1284:17,test,did you have braces as a child?,🧡,Care,Care,Low
+test:1286:0,test,i'm gonna take off now.,🚪,Leave,Leave,Low
+test:1286:1,test,"you're gonna let me go home, aren't you?",👌,Confirm,Confirm,Low
+test:1286:2,test,sure you don't want to stay a little longer?,🎉,Invite,Invite,Low
+test:1286:3,test,"no, i should get home. i'm kind of tired.",👋,Leave,Leave,Low
+test:1286:4,test,are you always tired?,🧡,Care,Care,Low
+test:1286:7,test,he does seem pretty perfect.,🏆,Praise,Praise,Low
+test:1286:8,test,no.,⛔,Oppose,Oppose,High
+test:1286:9,test,why not? just because his great-grandmother was obese?,🤨,Doubt,Doubt,Medium
+test:1286:11,test,"no, that's not it.",⛔,Oppose,Oppose,High
+test:1286:13,test,"no, he's not.",🙅,Oppose,Oppose,High
+test:1286:15,test,"thank god, because i don't wanna do this either.",💛,Thank,Thank,Low
+test:1286:20,test,how do you feel about that?,💭,Asking for opinions,Asking for opinions,Low
+test:1286:26,test,so this is it? we're really gonna adopt?,🤝,Confirm,Confirm,Low
+test:1286:27,test,yeah.,✅,Agree,Agree,Low
+test:1295:0,test,"um, we just want to give you a heads up.",ℹ️,Inform,Inform,Low
+test:1295:2,test,owen didn't know he's adopted and monica told him.,ℹ️,Inform,Inform,Low
+test:1295:4,test,how would you like it if someone told the triplets that you gave birth to them?,🤔,Asking for opinions,Asking for opinions,Low
+test:1295:5,test,i'm gonna go tell emma she was an accident.,👋,Leave,Leave,Low
+test:1296:0,test,"hey, sweetie.",✨,Greet,Greet,Low
+test:1296:2,test,"hey, stop staring at my wife's legs.",⚠️,Prevent,Prevent,Medium
+test:1296:3,test,she went to one of those spray-on tan places.,📝,Inform,Inform,Low
+test:1296:4,test,you got a spray-on tan?,🤔,Doubt,Doubt,Medium
+test:1296:6,test,"what? you do? like, with the toe separators?",🤨,Doubt,Doubt,Medium
+test:1296:7,test,why? why?,🤨,Doubt,Doubt,Medium
+test:1296:9,test,"i mean, it looks really good. i wonder if i should get one.",💬,Explain,Explain,Low
+test:1296:12,test,hey.,😊,Greet,Greet,Low
+test:1296:18,test,and she always brags about all the famous people she's met.,🤡,Taunt,Taunt,High
+test:1298:0,test,thanks for dinner.,🙏,Thank,Thank,Low
+test:1298:4,test,"i'm sorry. again, i don't know what happened. i must be nervous.",🥺,Apologise,Apologise,Low
+test:1298:6,test,okay.,✅,Acknowledge,Acknowledge,Low
+test:1302:1,test,"what? oh, my god. i'm so sorry.",😔,Apologise,Apologise,Low
+test:1302:2,test,joey? are you okay?,🛡️,Care,Care,Low
+test:1303:0,test,we are not friends with phoebe anymore.,📢,Inform,Inform,Low
+test:1303:4,test,"well, aren't you a treat.",🏆,Praise,Praise,Low
+test:1307:0,test,"honey, i got us that room at the woodford inn this weekend.",ℹ️,Inform,Inform,Low
+test:1307:1,test,that place in vermont? you can take a hint.,🤨,Doubt,Doubt,Medium
+test:1307:2,test,can't you have the party when we get back?,🤔,Doubt,Doubt,Medium
+test:1307:4,test,"well, can't you just go to vermont the next day?",🤨,Doubt,Doubt,Medium
+test:1307:7,test,"and, i mean, you know, you guys, this is a big deal.",💡,Explain,Explain,Low
+test:1310:0,test,so i'm gonna take off.,🏃,Leave,Leave,Low
+test:1310:2,test,and we paid for a room that we're supposed to be in right now!,🙄,Complain,Complain,High
+test:1310:3,test,"no, no, no. no. no.",🙅,Oppose,Oppose,High
+test:1310:5,test,"we can make them race, and whoever comes in last stays.",🧠,Advise,Advise,Low
+test:1310:6,test,"yeah, let's do that!",🤝,Agree,Agree,Low
+test:1310:7,test,that sounds more fun than the thing we were gonna do in vermont!,🌟,Praise,Praise,Low
+test:1310:8,test,"phoebe, you get the bear. joey, you get the robot.",⏰,Arrange,Arrange,Low
+test:1310:9,test,and the race is going to go from here to here.,📝,Inform,Inform,Low
+test:1310:10,test,"now, the one who comes in last stays!",📢,Inform,Inform,Low
+test:1310:11,test,"okay, ladies and gentlemen, wind your toys.",📝,Inform,Inform,Low
+test:1310:12,test,what are you barking at?,🤔,Criticize,Criticize,High
+test:1310:13,test,"well, how is that gonna help?",🤔,Criticize,Criticize,High
+test:1310:14,test,i bought you! how did i forget that that's all you do?,🤨,Criticize,Criticize,High
+test:1310:15,test,"good job, alan.",👏,Praise,Praise,Low
+test:1310:16,test,"no. no, no. wait.",🚫,Prevent,Prevent,Medium
+test:1310:17,test,the rules clearly stated that the last one to cross the finish line was the loser.,📖,Explain,Explain,Low
+test:1317:0,test,"hey, joe. how's the second draft of the letter coming?",🧡,Care,Care,Low
+test:1317:1,test,"great. i'm finished. in fact, i just dropped it off at the agency.",📝,Inform,Inform,Low
+test:1317:2,test,"no can do, amigo.",🤷,Refuse,Refuse,Low
+test:1317:3,test,"no, i didn't use the computer. it felt more personal to handwrite it.",📖,Explain,Explain,Low
+test:1317:5,test,see you later.,🏃,Leave,Leave,Low
+test:1317:6,test,"oh, my god. oh, my god. that letter is gonna go in our file.",🙄,Complain,Complain,High
+test:1317:7,test,we're never gonna get a kid.,😮‍💨,Complain,Complain,High
+test:1317:8,test,we're gonna be one of those old couples that collects orchids or has a lot of birds.,😤,Complain,Complain,High
+test:1317:9,test,it's okay. it's okay. you know what?,🥹,Comfort,Comfort,Low
+test:1317:10,test,i will just call the agency and tell them to throw out the letter.,🗺️,Plan,Plan,Low
+test:1317:11,test,"hello, this is chandler bing.",👋,Greet,Greet,Low
+test:1317:14,test,thank you. goodbye.,🙏,Thank,Thank,Low
+test:1317:15,test,"we're screwed, aren't we?",👌,Confirm,Confirm,Low
+test:1317:18,test,they thought joey was a child?,✅,Confirm,Confirm,Low
+test:1317:21,test,you pierced her ears?,😕,Doubt,Doubt,Medium
+test:1317:22,test,doesn't it make her nose look smaller?,🤔,Asking for opinions,Asking for opinions,Low
+test:1317:23,test,"if i had told you, then it wouldn't have been a surprise, now would it?",📖,Explain,Explain,Low
+test:1317:24,test,i think she looks cute.,🏆,Praise,Praise,Low
+test:1317:26,test,"hi, emma. oh. why is she wearing her hat so low?",🤨,Doubt,Doubt,Medium
+test:1317:28,test,because there are so many terrible sights in this world.,💡,Explain,Explain,Low
+test:1317:29,test,like war. or that thing in joey's refrigerator. remember?,🤝,Confirm,Confirm,Low
+test:1317:33,test,hi.,😊,Greet,Greet,Low
+test:1317:34,test,what...?,🤔,Doubt,Doubt,Medium
+test:1317:35,test,did she do this to her?,👌,Confirm,Confirm,Low
+test:1317:36,test,i told you we shouldn't have left emma with her!,🤔,Criticize,Criticize,High
+test:1317:37,test,okay? you are so irresponsible! i am never letting you babysit again!,🤔,Criticize,Criticize,High
+test:1317:38,test,okay.,👌,Acknowledge,Acknowledge,Low
+test:1317:40,test,all i wanted to do was help you try to figure out what to do with your life.,💬,Explain,Explain,Low
+test:1317:41,test,i am going to be a baby stylist.,📅,Plan,Plan,Low
+test:1317:43,test,"i'm gonna help babies learn how to accessorize what colors to wear, what clothes are slimming.",📅,Plan,Plan,Low
+test:1324:0,test,"i'm sorry, man.",😔,Apologise,Apologise,Low
+test:1324:1,test,"but, uh, my bosses didn't go for it. stupid sons of bitches.",🤨,Criticize,Criticize,High
+test:1324:2,test,"look, it's one thing not to cast me, but to lie to me?",🤔,Doubt,Doubt,Medium
+test:1328:1,test,i got her from monica. she sold it to me for a very reasonable price.,💡,Explain,Explain,Low
+test:1328:2,test,"hey, what? whoa. what?",😕,Doubt,Doubt,Medium
+test:1328:3,test,"well, legend has it, joey, that she comes alive when you're asleep.",😂,Joke,Joke,Low
+test:1328:4,test,she climbs out of the frame and then drags her half-a-body across the floor just looking for legs to steal.,😜,Joke,Joke,Low
+test:1328:5,test,and then with her one good hand she slowly reaches up and turns your doorknob.,😜,Joke,Joke,Low
+test:1328:6,test,get that legless witch out of here!,🚪,Leave,Leave,Low
+test:1332:1,test,stand up straight.,📅,Arrange,Arrange,Low
+test:1332:2,test,big smile.,📅,Arrange,Arrange,Low
+test:1332:3,test,hello. is this the creepy residence?,👋,Greet,Greet,Low
+test:1332:4,test,"we're waiting for the adoption lady. but, hey, i'm glad you're here.",📝,Inform,Inform,Low
+test:1332:5,test,"no, no, no. we're not having a big reception.",🙅,Oppose,Oppose,High
+test:1332:6,test,we took the wedding money we were gonna spend and donated it to a children's charity.,💡,Explain,Explain,Low
+test:1332:8,test,i'm sorry. i can't imagine giving up my one wedding day like that.,🙏,Apologise,Apologise,Low
+test:1333:0,test,"hi, i'm laura. i'm here for your adoption interview.",👋,Greet,Greet,Low
+test:1333:1,test,"hi, i'm monica. and this is chandler.",👋,Introduce,Introduce,Low
+test:1333:2,test,we're so glad that you're here.,✨,Greet,Greet,Low
+test:1333:5,test,"well, not actually to death. that's just a figure of speech.",📖,Explain,Explain,Low
+test:1333:8,test,are any other couples in the building adopting?,✅,Confirm,Confirm,Low
+test:1333:9,test,is that that couple on the first floor?,🤝,Confirm,Confirm,Low
+test:1333:10,test,because we should get a baby before them.,📖,Explain,Explain,Low
+test:1333:12,test,oh.,🤝,Acknowledge,Acknowledge,Low
+test:1333:13,test,i went on a date with a guy who lived in this building. it didn't end very well.,😤,Complain,Complain,High
+test:1333:14,test,"that wouldn't, by any chance, be joey tribbiani?",🤝,Confirm,Confirm,Low
+test:1333:15,test,"we had a great night. in the morning, he promised he'd call and he didn't.",😮‍💨,Complain,Complain,High
+test:1333:16,test,rat bastard!,🤨,Criticize,Criticize,High
+test:1333:17,test,"well, i'm sorry i brought it up.",🙏,Apologise,Apologise,Low
+test:1333:18,test,so are either one of you planning on staying at home?,❓,Asking for opinions,Asking for opinions,Low
+test:1333:19,test,what was that?,🤔,Doubt,Doubt,Medium
+test:1335:0,test,i must say this seems like a lovely environment to raise a child in.,🌟,Praise,Praise,Low
+test:1335:2,test,why don't i show you the baby's room.,🎉,Invite,Invite,Low
+test:1335:5,test,"from now on,  bert  will be our code word for danger.",📝,Inform,Inform,Low
+test:1335:8,test,you slept with our social worker and never called her back.,🤔,Criticize,Criticize,High
+test:1335:9,test,"okay, okay.",👋,Leave,Leave,Low
+test:1335:11,test,and we don't wanna buy your bat!,🙅,Refuse,Refuse,Low
+test:1335:12,test,what are you doing here?,🤔,Doubt,Doubt,Medium
+test:1335:14,test,all right. okay. uh... wow. yeah...,🤝,Acknowledge,Acknowledge,Low
+test:1335:15,test,you have got some nerve coming back here.,⚠️,Warn,Warn,Medium
+test:1335:19,test,i gave you my number. you never called me.,💬,Explain,Explain,Low
+test:1335:21,test,"you're a beautiful woman. smart, funny.",🏆,Praise,Praise,Low
+test:1335:23,test,"well, maybe i'm wrong. i'm sorry.",🥺,Apologise,Apologise,Low
+test:1335:24,test,i waited a long time! i can't wait anymore.,👋,Leave,Leave,Low
+test:1335:25,test,i'm sorry that you had to see that. i'm so embarrassed.,😔,Apologise,Apologise,Low
+test:1335:26,test,and i've got to say i think you're going to make excellent parents.,👏,Praise,Praise,Low
