@@ -15,3 +15,8 @@ export const analyzeChatLog = async (file) => {
     });
     return response.data;
 };
+
+export const getSystemInfo = async () => {
+    const response = await api.get('/info');
+    return response.data;
+};

@@ -17,8 +17,8 @@ export function AnalyzeView({ file, onFileChange, onUpload, loading, error, resu
     const filteredResults = useMemo(() => {
         if (!results) return null;
         return results.filter(r => {
-            const matchesSearch = r.message.toLowerCase().includes(filters.search.toLowerCase()) || 
-                                 r.sender.toLowerCase().includes(filters.search.toLowerCase());
+            const matchesSearch = (r.message || "").toLowerCase().includes(filters.search.toLowerCase()) || 
+                                 (r.sender || "").toLowerCase().includes(filters.search.toLowerCase());
             const matchesIntent = !filters.selectedIntent || r.dialogue_act === filters.selectedIntent;
             return matchesSearch && matchesIntent;
         });
@@ -54,7 +54,6 @@ export function AnalyzeView({ file, onFileChange, onUpload, loading, error, resu
                         <h2 style={{ fontSize: '1.25rem', fontWeight: 600 }}>Analysis Dashboard</h2>
                     </div>
                     
-                    {/* Stats update based on filters if we want, but usually better to show overall stats for the whole file */}
                     <DashboardStats results={filteredResults || results} />
                     
                     <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
@@ -67,7 +66,7 @@ export function AnalyzeView({ file, onFileChange, onUpload, loading, error, resu
                     <div style={{ margin: '3rem auto 1rem', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                         <h2 style={{ fontSize: '1.25rem', fontWeight: 600, margin: 0 }}>Message Feed</h2>
                         <span style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>
-                            Showing {filteredResults.length} / {results.length} messages
+                            Showing {filteredResults ? filteredResults.length : 0} / {results.length} messages
                         </span>
                     </div>
 
@@ -85,6 +84,5 @@ export function AnalyzeView({ file, onFileChange, onUpload, loading, error, resu
                 </div>
             )}
         </>
-
     );
 }

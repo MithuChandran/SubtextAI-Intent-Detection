@@ -61,7 +61,7 @@ function App() {
       
       <main style={{ 
         flex: 1, 
-        marginLeft: '280px', // Allow space for sidebar
+        marginLeft: '280px', 
         paddingBottom: '4rem',
         minHeight: '100vh',
         overflowY: 'auto'

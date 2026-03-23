@@ -36,7 +36,7 @@ export function MethodologyView() {
                 {concepts.map((c, i) => (
                     <div key={i} className="card" style={{ padding: '2rem' }}>
                         <div style={{ 
-                            background: c.color + '22', 
+                            background: 'rgba(59, 130, 246, 0.1)', 
                             width: '48px', 
                             height: '48px', 
                             borderRadius: '12px', 
