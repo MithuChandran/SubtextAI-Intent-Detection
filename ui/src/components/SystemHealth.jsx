@@ -1,19 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Activity, Server, Cpu, Database } from 'lucide-react';
+import { getSystemInfo } from '../services/api';
 
 export function SystemHealth() {
     const [info, setInfo] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('/api/v1/info')
-            .then(res => res.json())
-
+        getSystemInfo()
             .then(data => {
                 setInfo(data);
                 setLoading(false);
             })
-            .catch(() => setLoading(false));
+            .catch((err) => {
+                console.error("Health check failed:", err);
+                setLoading(false);
+            });
     }, []);
 
     const metrics = [
