@@ -1,4 +1,4 @@
-# Antigravity Skills for Subtext AI
+# Subtext AI
 
 This directory contains "skills" - standalone scripts that encapsulate key capabilities of the Subtext AI project.
 
