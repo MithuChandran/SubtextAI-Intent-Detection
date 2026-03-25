@@ -217,7 +217,14 @@ body {
   .sidebar.open {
     transform: translateX(0);
   }
+}
 
+.main-content {
+  margin-left: 280px;
+  transition: margin-left 0.3s ease;
+}
+
+@media (max-width: 1024px) {
   .main-content {
     margin-left: 0 !important;
     padding-top: 70px !important; 
