@@ -4,7 +4,7 @@ import { Search, Tags, X } from 'lucide-react';
 export function FilterBar({ filters, onFilterChange, availableIntents }) {
     return (
         <div className="card animate-in" style={{ padding: '1rem', marginBottom: '1.5rem' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: 'minmax(200px, 1fr) 200px', gap: '1.5rem', alignItems: 'flex-end' }}>
+            <div className="responsive-grid-filter">
                 {/* Search */}
                 <div style={{ position: 'relative' }}>
                     <div style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)', color: 'var(--color-text-muted)' }}>

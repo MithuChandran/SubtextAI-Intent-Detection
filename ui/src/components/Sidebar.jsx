@@ -1,7 +1,7 @@
 import React from 'react';
-import { LayoutDashboard, BookOpen, Activity, Settings, Info } from 'lucide-react';
+import { LayoutDashboard, BookOpen, Activity, X } from 'lucide-react';
 
-export function Sidebar({ activeView, onViewChange }) {
+export function Sidebar({ activeView, onViewChange, isOpen, onClose }) {
     const menuItems = [
         { id: 'analyze', label: 'Analyze', icon: LayoutDashboard },
         { id: 'methodology', label: 'Methodology', icon: BookOpen },
@@ -10,7 +10,7 @@ export function Sidebar({ activeView, onViewChange }) {
 
     return (
         <aside 
-            className="card" 
+            className={`card sidebar ${isOpen ? 'open' : ''}`} 
             style={{ 
                 width: '260px', 
                 height: 'calc(100vh - 2rem)', 
@@ -18,16 +18,25 @@ export function Sidebar({ activeView, onViewChange }) {
                 display: 'flex', 
                 flexDirection: 'column',
                 position: 'fixed',
-                zIndex: 100
+                zIndex: 1000
             }}
         >
-            <div style={{ padding: '1.5rem', borderBottom: '1px solid var(--color-border)' }}>
+            <div style={{ padding: '1.5rem', borderBottom: '1px solid var(--color-border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                     <div style={{ padding: '6px', borderRadius: '8px', background: 'var(--color-accent-primary)' }}>
                         <Activity size={18} color="white" />
                     </div>
                     <span style={{ fontWeight: 700, fontSize: '1.1rem', letterSpacing: '-0.02em' }}>Subtext AI</span>
                 </div>
+                
+                {/* Mobile Close Button */}
+                <button 
+                    className="mobile-only"
+                    onClick={onClose}
+                    style={{ background: 'transparent', border: 'none', color: 'var(--color-text-muted)', cursor: 'pointer' }}
+                >
+                    <X size={20} />
+                </button>
             </div>
 
             <nav style={{ flex: 1, padding: '1rem' }}>
@@ -53,12 +62,6 @@ export function Sidebar({ activeView, onViewChange }) {
                                         fontWeight: isActive ? 600 : 500,
                                         transition: 'all 0.2s ease',
                                         textAlign: 'left'
-                                    }}
-                                    onMouseEnter={(e) => {
-                                        if (!isActive) e.currentTarget.style.background = 'rgba(255,255,255,0.05)';
-                                    }}
-                                    onMouseLeave={(e) => {
-                                        if (!isActive) e.currentTarget.style.background = 'transparent';
                                     }}
                                 >
                                     <Icon size={18} />

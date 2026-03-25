@@ -55,7 +55,7 @@ export function DashboardStats({ results }) {
             {/* Intent Analytics Zone */}
             <div style={{ marginBottom: '2rem' }}>
                 <h4 style={{ color: 'var(--color-text-muted)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>Chat Intelligence Breakdown</h4>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.5rem' }}>
                     {cards.map((item, idx) => (
                         <StatCard key={idx} item={item} />
                     ))}

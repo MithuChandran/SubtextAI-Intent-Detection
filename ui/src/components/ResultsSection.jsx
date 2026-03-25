@@ -38,14 +38,10 @@ export function ResultsSection({ results, scrollToIndex, onScrollComplete }) {
                         <div
                             key={idx}
                             ref={el => itemRefs.current[idx] = el}
+                            className="responsive-grid-results"
                             style={{
-                                padding: '1.5rem',
                                 borderBottom: idx < results.length - 1 ? '1px solid var(--color-border)' : 'none',
-                                backgroundColor: 'transparent',
-                                display: 'grid',
-                                gridTemplateColumns: '120px 1fr',
-                                gap: '1rem',
-                                alignItems: 'baseline'
+                                backgroundColor: 'transparent'
                             }}
                         >
                             {/* Meta Column */}
