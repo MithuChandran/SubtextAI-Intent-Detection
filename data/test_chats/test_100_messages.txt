@@ -1,0 +1,111 @@
+25/03/26, 08:00 - Mithu: Good morning everyone! 😊
+25/03/26, 08:01 - John: Hey! Good morning Mithu! 👋
+25/03/26, 08:02 - Sarah: Oh wow, look who finally decided to show up on time 🙄
+25/03/26, 08:03 - John: I see, got it
+25/03/26, 08:04 - Mithu: Okay understood, thanks for letting me know 👍
+25/03/26, 08:05 - Sarah: This wifi is so terrible, I cannot even load a simple page 😡
+25/03/26, 08:06 - John: You should try restarting the server first before anything else
+25/03/26, 08:07 - Mithu: Oh sure, restart the server, what a brilliant original idea 🙄
+25/03/26, 08:08 - Sarah: My advice is to always test before deploying to production
+25/03/26, 08:09 - John: Yes I totally agree with that approach 👍
+25/03/26, 08:10 - Mithu: Your last commit broke the entire build, nice going 😒
+25/03/26, 08:11 - Sarah: That is exactly right, I agree 💯
+25/03/26, 08:12 - John: I am so sorry for the mistake I made yesterday 😔
+25/03/26, 08:13 - Mithu: Sorry about that, it was completely my fault 🙏
+25/03/26, 08:14 - Sarah: Yeah you should be sorry, we all had to stay late because of that 😤
+25/03/26, 08:15 - John: Let us schedule the meeting for tomorrow at 3 PM 📅
+25/03/26, 08:16 - Mithu: Can we arrange a call for Friday afternoon?
+25/03/26, 08:17 - Sarah: Oh great, another useless meeting that could have been an email 🙄
+25/03/26, 08:18 - John: Can someone help me with this bug? I am stuck 🙏
+25/03/26, 08:19 - Mithu: I need help with the database connection issue please
+25/03/26, 08:20 - Sarah: Wow you cannot even fix a simple bug by yourself? Really? 😏
+25/03/26, 08:21 - John: What do you guys think about the new design? 🤔
+25/03/26, 08:22 - Mithu: The new design looks absolutely horrible and unprofessional 😡
+25/03/26, 08:23 - Sarah: What is your opinion on the current architecture?
+25/03/26, 08:24 - John: Are you okay? You seem a bit tired today ❤️
+25/03/26, 08:25 - Mithu: Take care of yourself and get some rest 💕
+25/03/26, 08:26 - Sarah: Your code has so many bugs I do not even know where to start 😒
+25/03/26, 08:27 - John: Do not worry, everything will be fine. You got this! 🤗
+25/03/26, 08:28 - Mithu: It is going to be okay, we are here for you
+25/03/26, 08:29 - Sarah: Relax, we will figure this out together. I believe in you 💪
+25/03/26, 08:30 - John: This code is absolutely terrible and full of bugs 😡
+25/03/26, 08:31 - Mithu: I am so frustrated with this slow internet connection again 😤
+25/03/26, 08:32 - Sarah: The deadline is way too tight, this is completely unfair 😠
+25/03/26, 08:33 - John: Oh congratulations on finally finishing something on time for once 🙄
+25/03/26, 08:34 - Mithu: I am tired of repeating myself, nobody ever listens here 😤
+25/03/26, 08:35 - Sarah: Yes that is correct, the meeting is at 3 PM ✅
+25/03/26, 08:36 - Mithu: I can confirm the payment was received successfully
+25/03/26, 08:37 - Sarah: Confirmed, the server is back online now
+25/03/26, 08:38 - John: Your solution is poorly designed and it does not work at all 😒
+25/03/26, 08:39 - Mithu: That presentation was badly prepared and very confusing
+25/03/26, 08:40 - Sarah: Sure keep telling yourself that your solution actually works 😏
+25/03/26, 08:41 - John: You clearly have no idea what you are doing with this project 😒
+25/03/26, 08:42 - Mithu: Maybe you should learn basic programming before giving advice 🙄
+25/03/26, 08:43 - Sarah: I am not sure if that will actually work though 🤨
+25/03/26, 08:44 - John: I doubt the client will accept such a weak proposal
+25/03/26, 08:45 - Mithu: Are we really sure about this approach? It seems very risky 🤔
+25/03/26, 08:46 - Sarah: I seriously doubt anyone tested this properly before release
+25/03/26, 08:47 - John: This is really really important, we cannot mess this up! ⚠️
+25/03/26, 08:48 - Mithu: Listen carefully, the deadline is absolutely critical
+25/03/26, 08:49 - Sarah: Oh wow, you actually remembered the deadline this time, impressive 🙄
+25/03/26, 08:50 - John: So basically the API sends a request to the server and then processes it
+25/03/26, 08:51 - Mithu: Let me explain how the authentication system works step by step
+25/03/26, 08:52 - Sarah: No I completely disagree, that approach is totally wrong 🚫
+25/03/26, 08:53 - John: I scored the highest marks in the entire class 😎
+25/03/26, 08:54 - Mithu: My project got selected as the best in the whole competition 💅
+25/03/26, 08:55 - Sarah: I already finished all my work three days early while you all struggle 😎
+25/03/26, 08:56 - John: Nice work genius, you managed to delete the production database 😒👏
+25/03/26, 08:57 - Mithu: The new software version was released this morning 📢
+25/03/26, 08:58 - Sarah: The office will be closed on Monday for maintenance
+25/03/26, 08:59 - John: Hi, my name is John and I am the new team lead 👋
+25/03/26, 09:00 - Mithu: Let me introduce you to our new team member Sarah
+25/03/26, 09:01 - Sarah: Hello everyone, I am Sarah and I just joined the team
+25/03/26, 09:02 - John: Would you like to come to the party this weekend? 🎉
+25/03/26, 09:03 - Mithu: Oh how kind, an invitation from the person who never shows up 🙄
+25/03/26, 09:04 - Sarah: You are all welcome to attend the team dinner tonight 🍕
+25/03/26, 09:05 - John: Why did the developer go broke? Because he used up all his cache! 😂
+25/03/26, 09:06 - Mithu: Haha a programmer walks into a bar and orders 1.0 beers 🤣
+25/03/26, 09:07 - Sarah: Your code is a joke, except jokes are actually funny 😏
+25/03/26, 09:08 - John: Alright guys, I have to go now. Goodbye! 👋
+25/03/26, 09:09 - Mithu: I am leaving for the day. See you all tomorrow! ✌️
+25/03/26, 09:10 - Sarah: Bye everyone, take care and have a good evening
+25/03/26, 09:11 - John: No I completely disagree with that idea, it makes no sense 🚫
+25/03/26, 09:12 - Mithu: I am totally against this approach, I think it is wrong 😤
+25/03/26, 09:13 - Sarah: That is not going to work and I oppose this decision completely
+25/03/26, 09:14 - John: This plan makes absolutely no sense, I will never support it 🚫
+25/03/26, 09:15 - Mithu: We should create a detailed plan for the next sprint 📋
+25/03/26, 09:16 - Sarah: Oh you want to plan? That is funny coming from you who has no plan ever 🙄
+25/03/26, 09:17 - John: I think we need to plan ahead for the migration
+25/03/26, 09:18 - Mithu: You did an amazing job on that presentation! 👏
+25/03/26, 09:19 - Sarah: John, your code is absolutely brilliant and clean 🌟
+25/03/26, 09:20 - John: Yeah right, brilliant code that crashes every five minutes 😒
+25/03/26, 09:21 - Mithu: Stop! Do not click that link, it looks very suspicious 🛑
+25/03/26, 09:22 - Sarah: Do not deploy that code yet, there are still many bugs in it ⚠️
+25/03/26, 09:23 - John: Wow amazing, you managed to find a bug, only took you three days 😏
+25/03/26, 09:24 - Mithu: No thanks, I do not want to participate in that event
+25/03/26, 09:25 - Sarah: I will have to decline that offer, thank you though
+25/03/26, 09:26 - John: No I refuse to work overtime without proper compensation 🚫
+25/03/26, 09:27 - Mithu: Oh sure, because your code is always sooo perfect right 🙄
+25/03/26, 09:28 - Sarah: Wow great job breaking the entire build again, well done 👏😒
+25/03/26, 09:29 - John: Yeah right, like you could have done any better yourself 😏
+25/03/26, 09:30 - Mithu: Thank you so much for helping me with that issue! 🙏
+25/03/26, 09:31 - Sarah: Thanks a lot John, I really appreciate your support ❤️
+25/03/26, 09:32 - John: Thank you everyone for the wonderful teamwork today
+25/03/26, 09:33 - Mithu: Be very careful when merging that branch, it might break things ⚠️
+25/03/26, 09:34 - Sarah: Warning, the server is running dangerously low on memory
+25/03/26, 09:35 - John: If you push without testing I warn you there will be consequences ⚠️
+25/03/26, 09:36 - Mithu: I would advise checking the logs before restarting 💡
+25/03/26, 09:37 - Sarah: Why is this thing so slow? It takes forever to load! 😡
+25/03/26, 09:38 - John: Oh you are complaining about speed? Your code runs even slower 🙄
+25/03/26, 09:39 - Mithu: I agree, we need a proper solution not a quick fix 👍
+25/03/26, 09:40 - Sarah: Your work on the dashboard was really impressive, well done! 🌟
+25/03/26, 09:41 - John: Let us arrange a code review session for Thursday 📅
+25/03/26, 09:42 - Mithu: Haha yeah a code review, because your code definitely needs one 😂😏
+25/03/26, 09:43 - Sarah: I just want to inform everyone that the build passed successfully 🎉
+25/03/26, 09:44 - John: I can confirm all tests are green now ✅
+25/03/26, 09:45 - Mithu: Would you all like to come to the team celebration tonight? 🍕
+25/03/26, 09:46 - Sarah: Can someone please help me understand this error message? 🙏
+25/03/26, 09:47 - John: Do not worry about it, we will fix it together 🤗
+25/03/26, 09:48 - Mithu: I seriously doubt this fix will work in production 🤨
+25/03/26, 09:49 - Sarah: Nobody asked for your opinion on this matter honestly 😒
+25/03/26, 09:50 - John: Alright that is enough, goodbye for now everyone! 👋✌️
